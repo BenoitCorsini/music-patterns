@@ -36,7 +36,7 @@ class Scroller(object):
 
     def __init__(self,
                  songs=[],
-                 tab_dir='data/tablatures',
+                 tab_dir='tablatures',
                  time_limit=20,
                  ids={}):
         self.songs = songs
@@ -97,6 +97,7 @@ class Scroller(object):
         for c in download_link.split('/')[-1].split('-')[:-3]:
             link_song += ' ' + c.capitalize()
         link_file = link_artist + '-' + link_song
+        actual_file = link_file.lower()
 
         download_dir = os.listdir(self.tab_dir)
         not_downloaded = all([link_file.lower() not in file.lower() for file in download_dir])
@@ -107,6 +108,10 @@ class Scroller(object):
             chrome_options.add_experimental_option('prefs', prefs)
             download_driver = Chrome(options=chrome_options)
             download_driver.get(download_link)
+
+            header = download_driver.find_element_by_class_name('_2Glbj').text.lower()
+            actual_file = header.split(' guitar pro tab by ')
+            actual_file = actual_file[1] + ' - ' + actual_file[0]
 
             file_type = download_driver.find_elements_by_class_name('_2EcLF')
             right_type = False
@@ -122,7 +127,7 @@ class Scroller(object):
                 start_time = time()
                 while not_downloaded & (time() < start_time + self.time_limit):
                     download_dir = os.listdir(self.tab_dir)
-                    not_downloaded = all([((link_file.lower() not in file.lower()) or (file.endswith('.crdownload'))) for file in download_dir])
+                    not_downloaded = all([(((link_file.lower() not in file.lower()) & (actual_file not in file.lower())) or (file.endswith('.crdownload'))) for file in download_dir])
 
             download_driver.close()
 
@@ -130,7 +135,7 @@ class Scroller(object):
             download_dir = os.listdir(self.tab_dir)
             download_dir.sort(key=lambda file : osp.getmtime(osp.join(self.tab_dir, file)), reverse=True)
             last_tab = download_dir[0]
-            if (link_file.lower() in last_tab.lower()) & ('(id=' not in last_tab):
+            if ((link_file.lower() in last_tab.lower()) or (actual_file in last_tab.lower())) & ('(id=' not in last_tab):
             	tab_type = last_tab[-4:]
             	os.rename(osp.join(self.tab_dir, last_tab), osp.join(self.tab_dir, link_file + song_id + tab_type))
             else:
@@ -143,6 +148,7 @@ class Scroller(object):
 
     def download_and_close(self):
     	errors = []
+    	
     	for (artist, song) in self.songs:
     		try:
     			download_links = self.get_download_links(artist, song)
@@ -164,5 +170,5 @@ class Scroller(object):
 
 if __name__ == '__main__':
     TAB_DIR = 'tablatures'
-    scroll = Scroller(songs=[('Nirvana', 'Smells like teen spirit')], tab_dir=TAB_DIR)
-    print(scroll.download_and_close())
+    scroll = Scroller(songs=[('Beyonce', 'Halo')], tab_dir=TAB_DIR)
+    scroll.download_and_close()
