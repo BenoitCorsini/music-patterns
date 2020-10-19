@@ -24,6 +24,14 @@ FILE_TYPE_DIV = '_2EcLF'
 BUTTON_PATH = '//form/div/button'
 
 
+def time_to_string(time):
+    minutes = int(time/60)
+    seconds = int(time - 60*minutes)
+    if minutes:
+        return '{}m{}s'.format(minutes, seconds)
+    else:
+        return '{}s'.format(seconds)
+
 def link_sorter(artist_to_download, title_to_download, link_info):
     '''
     This function takes the info of a link for a tab and returns a number of information used to rank this tab.
@@ -223,7 +231,11 @@ class TabScroller(object):
         It will go over the list of songs and apply the previous function to download the tabs.
         When the algorithm is over, it closes the driver and saves the state of the downloading process for each song in 'download_output.json'.
         '''
+        start_time = time()
+        print('Tab Scroller starting')
         for (artist, title) in self.songs:
+            time_spent = time_to_string(time() - start_time)
+            print('Downloading {} - {}... ({})'.format(artist.upper(), title, time_spent))
             dict_entry = artist + ' - ' + title
             try:
                 download_links = self.get_download_links(artist, title)
@@ -264,16 +276,19 @@ class TabScroller(object):
                 else:
                     self.outputs[dict_entry] += '\tSuccess!'
 
+        print('Tab Scroller done, saving results...')
         self.driver.close()
         with open(osp.join(self.res_dir, 'download_output.json'), 'w') as song_output:
             json.dump(self.outputs, song_output, indent=2)
             song_output.close()
+        time_algorithm = time_to_string(time() - start_time)
+        print('Tab Scroller executed in {}'.format(time_algorithm))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--song_file', type=str, default='songs.txt')
-    parser.add_argument('--tab_dir', type=str, default='tablatures')
+    parser.add_argument('--tab_dir', type=str, default='data/tablatures')
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--time_limit', type=float, default=20)
     parser.add_argument('--ids_file', type=str, default='songs_id.json')
