@@ -1,22 +1,26 @@
+import argparse
 import numpy as np
 import os
 import os.path as osp
 from time import time
 
-from pattern_matrix import process
+from utils import process
+
 
 class DistanceMatrix(object):
 
     def __init__(self, cmd):
         self.mat_dir = cmd['mat_dir']
         self.res_dir = cmd['res_dir']
+
         if not osp.exists(self.res_dir):
             os.makedirs(self.res_dir)
+
+        self.initialize_distances = cmd['initialize_distances']
 
         self.normalized_size = cmd['normalized_size']
         self.batch_size = cmd['batch_size']
         self.n_iterations = cmd['n_iterations']
-        self.initialize_distances = cmd['initialize_distances']
 
         self.__initialize__()
 
@@ -32,10 +36,11 @@ class DistanceMatrix(object):
 
         else:
             self.mat_list_indexed = []
-            for line in open(osp.join(self.res_dir, 'song_list.txt'), 'r'):
-                index_mat, mat = line.split('\n')[0].split('\t')
-                index_mat = int(index_mat)
-                self.mat_list_indexed.append((index_mat, mat))
+            with open(osp.join(self.res_dir, 'song_list.txt'), 'r') as songs:
+                for line in songs:
+                    index_mat, mat = line.split('\n')[0].split('\t')
+                    index_mat = int(index_mat)
+                    self.mat_list_indexed.append((index_mat, mat))
             self.n_songs = len(self.mat_list_indexed)
 
             if osp.exists(osp.join(self.res_dir, 'dists.txt')):
@@ -44,10 +49,11 @@ class DistanceMatrix(object):
                 self.dists = np.zeros((self.n_songs, self.n_songs))
 
     def distance(self, pat_mat1, pat_mat2):
-        return 100*np.mean(np.abs(pat_mat1 - pat_mat2))
+        return np.mean(np.abs(pat_mat1 - pat_mat2))
 
     def compute_batch(self):
         uncomputed_columns = np.all(self.dists == 0, axis=0)
+
         if np.any(uncomputed_columns):
             start_index = np.where(uncomputed_columns)[0][0]
             indices = np.arange(0, self.normalized_size, dtype=int)
@@ -91,12 +97,13 @@ class DistanceMatrix(object):
 
 
 if __name__ == '__main__':
-    cmd = {}
-    cmd['mat_dir'] = 'data/matrices'
-    cmd['res_dir'] = 'data/results'
-    cmd['normalized_size'] = 500
-    cmd['batch_size'] = 200
-    cmd['n_iterations'] = 5
-    cmd['initialize_distances'] = True
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--mat_dir', type=str, default='data/matrices')
+    parser.add_argument('--res_dir', type=str, default='results')
+    parser.add_argument('--initialize_distances', type=int, default=1)
+    parser.add_argument('--normalized_size', type=int, default=500)
+    parser.add_argument('--batch_size', type=int, default=200)
+    parser.add_argument('--n_iterations', type=int, default=10)
+    cmd = vars(parser.parse_args())
     dm = DistanceMatrix(cmd)
     dm.compute()
