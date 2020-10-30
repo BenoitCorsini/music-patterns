@@ -191,10 +191,13 @@ class TabScroller(object):
         When the algorithm is over, it closes the driver and saves the state of the downloading process for each song in 'download_output.json'.
         '''
         start_time = time()
+        n_songs = len(self.songs)
         print('Tab Scroller starting')
-        for (artist, title) in self.songs:
+        for count, (artist, title) in enumerate(self.songs):
             time_spent = time_to_string(time() - start_time)
-            print('Downloading {} - {}... ({})'.format(artist.upper(), title, time_spent))
+            perc = int((100.*count)/n_songs)
+            print('{}% of the tabs downloaded ({})'.format(perc, time_spent))
+            print('Downloading {} - {}...'.format(artist.upper(), title))
             dict_entry = artist + ' - ' + title
             try:
                 download_links = self.get_download_links(artist, title)
@@ -235,6 +238,8 @@ class TabScroller(object):
                 else:
                     self.outputs[dict_entry] += '\tSuccess!'
 
+            sys.stdout.write('\033[F')
+            sys.stdout.write('\033[K')
             sys.stdout.write('\033[F')
             sys.stdout.write('\033[K')
 
