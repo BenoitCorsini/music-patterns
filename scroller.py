@@ -7,6 +7,9 @@ import os.path as osp
 import shutil
 import json
 from time import time
+import sys
+
+from utils import link_sorter, time_to_string
 
 
 # Main webpage properties
@@ -24,65 +27,21 @@ FILE_TYPE_DIV = '_2EcLF'
 BUTTON_PATH = '//form/div/button'
 
 
-def time_to_string(time):
-    minutes = int(time/60)
-    seconds = int(time - 60*minutes)
-    if minutes:
-        return '{}m{}s'.format(minutes, seconds)
-    else:
-        return '{}s'.format(seconds)
-
-def link_sorter(artist_to_download, title_to_download, link_info):
-    '''
-    This function takes the info of a link for a tab and returns a number of information used to rank this tab.
-    The tabs are going to be sorted as such:
-    - First the tab with the right artist.
-    - Then the tabs with the right title.
-    - Then the tabs not corresponding to a full album.
-    - Then the tabs not being only the solo of the song.
-    - Then the tabs not being only the intro of the song.
-    - Then the tabs not being a live version of the song.
-    - Then the tabs not being an acoustic version of the song.
-    Once the tabs are ordered according to these conditions, we order the tabs according to their rating and number of ratings.
-    The last output is just the link of the tab that we need to keep.
-    '''
-    (artist, title, rating, nb_rating, hlink) = link_info
-    is_good_artist = artist_to_download.lower() in artist.lower()
-    is_good_title = title_to_download.lower() in title.lower()
-    is_not_album = 'Album' not in title
-    is_not_solo = 'Solo' not in title
-    is_not_intro = 'Intro' not in title
-    is_not_live = 'Live' not in title
-    is_not_acoustic = 'Acoustic' not in title
-    if nb_rating == '':
-        nb_rate = 0
-    else:
-        nb_rate = int(nb_rating)
-    return(is_good_artist,
-           is_good_title,
-           is_not_album,
-           is_not_solo,
-           is_not_intro,
-           is_not_live,
-           is_not_acoustic,
-           rating,
-           nb_rate,
-           hlink)
-
-
 class TabScroller(object):
 
     def __init__(self,
                  songs=[],
                  tab_dir='tablatures',
                  res_dir='results',
+                 chromedriver='chromedriver',
                  time_limit=20,
                  ids={}):
         self.songs = songs #songs should be a list of pairs (artist, title)
         self.tab_dir = tab_dir
         self.res_dir = res_dir
+        self.chromedriver = chromedriver
         self.download_dir = osp.join(os.getcwd(), tab_dir)
-        self.driver = Chrome()
+        self.driver = Chrome(osp.join(os.getcwd(), self.chromedriver))
         self.driver.maximize_window()
         self.time_limit = time_limit
         self.ids = ids
@@ -95,8 +54,8 @@ class TabScroller(object):
 
     def get_download_links(self, artist, title):
         '''
-        This function finds the links for the tabs related to the song made by 'artist' and named 'title'.
-        It will go to the website 'ultimate-guitar' and will search for corresponding songs.
+        This function finds the links for the tabs related to the song defined by 'artist' and 'title'.
+        It will go to the website 'ultimate-guitar' and will search for corresponding tabs.
         The links found on this website are then ordered using the function 'link_sorter'.
         '''
         search_song = artist.lower().replace(' ','+') + '+' + title.lower().replace(' ','+')
@@ -151,7 +110,7 @@ class TabScroller(object):
         chrome_options = ChromeOptions()
         prefs = {'download.default_directory' : self.download_dir}
         chrome_options.add_experimental_option('prefs', prefs)
-        download_driver = Chrome(options=chrome_options)
+        download_driver = Chrome(osp.join(os.getcwd(), self.chromedriver), options=chrome_options)
         download_driver.get(download_link)
 
         # The 'alternative_file' is useful when the artist has a non-standard character in their name.
@@ -276,11 +235,15 @@ class TabScroller(object):
                 else:
                     self.outputs[dict_entry] += '\tSuccess!'
 
+            sys.stdout.write('\033[F')
+            sys.stdout.write('\033[K')
+
         print('Tab Scroller done, saving results...')
         self.driver.close()
         with open(osp.join(self.res_dir, 'download_output.json'), 'w') as song_output:
             json.dump(self.outputs, song_output, indent=2)
             song_output.close()
+
         time_algorithm = time_to_string(time() - start_time)
         print('Tab Scroller executed in {}'.format(time_algorithm))
 
@@ -290,6 +253,7 @@ if __name__ == '__main__':
     parser.add_argument('--song_file', type=str, default='songs.txt')
     parser.add_argument('--tab_dir', type=str, default='data/tablatures')
     parser.add_argument('--res_dir', type=str, default='results')
+    parser.add_argument('--chromedriver', type=str, default='chromedriver')
     parser.add_argument('--time_limit', type=float, default=20)
     parser.add_argument('--ids_file', type=str, default='songs_id.json')
     cmd = vars(parser.parse_args())
@@ -309,6 +273,7 @@ if __name__ == '__main__':
         songs=songs,
         tab_dir=cmd['tab_dir'],
         res_dir=cmd['res_dir'],
+        chromedriver=cmd['chromedriver'],
         time_limit=cmd['time_limit'],
         ids=ids
     )
