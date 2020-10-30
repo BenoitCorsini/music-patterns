@@ -7,6 +7,7 @@ from random import sample, random
 from sklearn.cluster import AgglomerativeClustering as AC
 import argparse
 import json
+import matplotlib.pyplot as plt
 
 
 class ClusteringParams(object):
@@ -14,8 +15,6 @@ class ClusteringParams(object):
     def __init__(self, cmd):
         self.im_dir = cmd['im_dir']
         self.res_dir = cmd['res_dir']
-        if not osp.exists(self.res_dir):
-            os.makedirs(self.res_dir)
 
         self.order_by = cmd['order_by']
         self.n_folders = cmd['n_folders']
@@ -33,7 +32,46 @@ class ClusteringParams(object):
         if self.n_folders is None:
             self.n_folders = self.n_songs
 
-        self.groups = {}
+    def save_results(self, grouping_dict, name, title, plot_size):
+        with open(osp.join(self.res_dir, name + '.json'), 'w') as grouping:
+            json.dump(grouping_dict, grouping, indent=2)
+            grouping.close()
+
+        y = []
+        std = []
+        size = []
+        for group_info in sorted(grouping_dict.values(), key=lambda x:x['number']):
+            if group_info.get('size', 2) > 1:
+                y.append(group_info['dist'])
+                std.append(group_info['std_dist'])
+                size.append(group_info.get('size', 1))
+
+        if y:
+            x = 1 + np.arange(len(y))
+            y = np.array(y)
+            std = np.array(std)
+            size = np.array(size)
+            size = size*np.max(std)/np.max(size)
+
+            xmin = 0
+            xmax = np.size(x) + 1
+            ymin = np.min(y) - .55*np.max(std)
+            ymax = np.max(y) + .55*np.max(std)
+
+            plt.figure(figsize=(16,9))
+            plt.axis(ymin=ymin, ymax=ymax, xmin=xmin, xmax=xmax)
+            plt.plot(x, y, color='navy', marker='.', markersize=20, linewidth=0, label='mean')
+            plt.errorbar(x, y, .5*std, color='royalblue', label='std', linewidth=5, ls='', alpha=.5)
+            if plot_size:
+                plt.bar(x, ymin+size, color='red', alpha=.2, width=.7, label='size')
+            else:
+                plt.bar(x, ymin+std, color='red', alpha=.2, width=.7, label='std')
+            plt.plot(x, y, color='navy', marker='.', markersize=20, linewidth=0)
+            plt.legend()
+            plt.xlabel(name.capitalize())
+            plt.title(title)
+            plt.savefig(osp.join(self.res_dir, name + '.png'), dpi=250)
+            plt.close()
 
 
 class SongClustering(ClusteringParams):
@@ -101,10 +139,8 @@ class SongClustering(ClusteringParams):
     def run(self):
         self.get_clusters()
         self.move_images()
+        self.save_results(self.clusters, 'clusters', 'Properties of the ordered clusters', True)
 
-        with open(osp.join(self.res_dir, 'clusters.json'), 'w') as clusters:
-            json.dump(self.clusters, clusters, indent=2)
-            clusters.close()
 
 
 class SongNeighbouring(ClusteringParams):
@@ -169,10 +205,7 @@ class SongNeighbouring(ClusteringParams):
     def run(self):
         self.get_neighbours()
         self.move_images()
-
-        with open(osp.join(self.res_dir, 'neighbours.json'), 'w') as neighbours:
-            json.dump(self.neighbours, neighbours, indent=2)
-            neighbours.close()
+        self.save_results(self.neighbours, 'neighbours', 'Properties of the songs ordered according to their neighbourhood', False)
 
 
 if __name__ == '__main__':
