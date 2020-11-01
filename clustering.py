@@ -32,7 +32,7 @@ class ClusteringParams(object):
         if self.n_folders is None:
             self.n_folders = self.n_songs
 
-    def save_results(self, grouping_dict, name, title, plot_size):
+    def save_results(self, grouping_dict, name, title, xlabel, plot_size):
         with open(osp.join(self.res_dir, name + '.json'), 'w') as grouping:
             json.dump(grouping_dict, grouping, indent=2)
             grouping.close()
@@ -68,7 +68,7 @@ class ClusteringParams(object):
                 plt.bar(x, ymin+std, color='red', alpha=.2, width=.7, label='std')
             plt.plot(x, y, color='navy', marker='.', markersize=20, linewidth=0)
             plt.legend()
-            plt.xlabel(name.capitalize())
+            plt.xlabel(xlabel)
             plt.title(title)
             plt.savefig(osp.join(self.res_dir, name + '.png'), dpi=250)
             plt.close()
@@ -139,7 +139,7 @@ class SongClustering(ClusteringParams):
     def run(self):
         self.get_clusters()
         self.move_images()
-        self.save_results(self.clusters, 'clusters', 'Properties of the ordered clusters', True)
+        self.save_results(self.clusters, 'clusters', 'Properties of the ordered clusters', 'Clusters', True)
 
 
 
@@ -205,7 +205,7 @@ class SongNeighbouring(ClusteringParams):
     def run(self):
         self.get_neighbours()
         self.move_images()
-        self.save_results(self.neighbours, 'neighbours', 'Properties of the songs ordered according to their neighbourhood', False)
+        self.save_results(self.neighbours, 'neighbours', 'Properties of the songs ordered according to their neighbourhood', 'Songs', False)
 
 
 if __name__ == '__main__':
