@@ -1,0 +1,910 @@
+{
+  "acid": [
+    "acid jazz",
+    "acid rock"
+  ],
+  "acoustic": [
+    "acoustic",
+    "acoustic hip hop",
+    "acoustic pop",
+    "acoustic rock"
+  ],
+  "adult": [
+    "adult contemporary",
+    "adult pop"
+  ],
+  "alternative": [
+    "alternative",
+    "alternative christian",
+    "alternative country",
+    "alternative dance",
+    "alternative hip hop",
+    "alternative mariachi",
+    "alternative metal",
+    "alternative pop",
+    "alternative r&b",
+    "alternative rap",
+    "alternative rock",
+    "christian alternative rock"
+  ],
+  "americana": [
+    "americana",
+    "rock americana"
+  ],
+  "art": [
+    "art pop",
+    "art punk",
+    "art rock"
+  ],
+  "avant": [
+    "avant funk",
+    "avant pop"
+  ],
+  "ballad": [
+    "murder ballad",
+    "power ballad"
+  ],
+  "baroque": [
+    "baroque pop",
+    "baroque rock"
+  ],
+  "bass": [
+    "brazilian bass",
+    "future bass"
+  ],
+  "beat": [
+    "afrobeat",
+    "beat",
+    "big beat",
+    "breakbeat",
+    "breakbeat hardcore",
+    "freakbeat",
+    "merseybeat",
+    "nederbeat",
+    "pop beat",
+    "worldbeat"
+  ],
+  "bluegrass": [
+    "bluegrass",
+    "bluegrass country"
+  ],
+  "blues": [
+    "blues",
+    "blues rock",
+    "british rhythm and blues",
+    "chicago blues",
+    "country blues",
+    "country rhythm and blues",
+    "country talking blues comedy",
+    "folk blues",
+    "punk blues",
+    "rhythm and blues",
+    "soul blues",
+    "talking blues",
+    "texas blues"
+  ],
+  "boogie": [
+    "boogie",
+    "boogie rock",
+    "boogie woogie",
+    "disco boogie"
+  ],
+  "bossa nova": [
+    "bossa nova",
+    "bossa nova jazz"
+  ],
+  "breakbeat": [
+    "breakbeat",
+    "breakbeat hardcore"
+  ],
+  "british": [
+    "brit pop",
+    "british rhythm and blues",
+    "post brit pop"
+  ],
+  "cello": [
+    "cello metal",
+    "cello rock"
+  ],
+  "celtic": [
+    "celtic",
+    "celtic folk",
+    "celtic rock"
+  ],
+  "chicago": [
+    "chicago blues",
+    "chicago soul"
+  ],
+  "chicano": [
+    "chicano rap",
+    "chicano rock"
+  ],
+  "christian": [
+    "alternative christian",
+    "christian",
+    "christian alternative rock",
+    "christian country",
+    "christian hymn",
+    "christian metal",
+    "christian rock",
+    "contemporary christian music"
+  ],
+  "christmas": [
+    "christmas",
+    "christmas synth pop"
+  ],
+  "classical": [
+    "classical",
+    "classical crossover",
+    "classical music"
+  ],
+  "coast": [
+    "east coast hip hop",
+    "west coast cool jazz",
+    "west coast hip hop"
+  ],
+  "comedy": [
+    "comedy",
+    "comedy hip hop",
+    "comedy metal",
+    "comedy rap",
+    "comedy rock",
+    "country talking blues comedy"
+  ],
+  "contemporary": [
+    "adult contemporary",
+    "contemporary christian music",
+    "contemporary country",
+    "contemporary folk",
+    "contemporary pop",
+    "urban contemporary"
+  ],
+  "country": [
+    "alternative country",
+    "bluegrass country",
+    "christian country",
+    "contemporary country",
+    "country",
+    "country blues",
+    "country folk",
+    "country pop",
+    "country rap",
+    "country rhythm and blues",
+    "country rock",
+    "country soul",
+    "country talking blues comedy",
+    "outlaw country",
+    "progressive country",
+    "tex mex country"
+  ],
+  "crossover": [
+    "classical crossover",
+    "crossover jazz"
+  ],
+  "crunk": [
+    "crunk",
+    "crunkcore"
+  ],
+  "dance": [
+    "alternative dance",
+    "dance",
+    "dance pop",
+    "dance punk",
+    "dance rock",
+    "dancehall",
+    "dancetropical",
+    "electro dance",
+    "electronic dance",
+    "euro dance",
+    "italo dance",
+    "jive dance",
+    "latin dance",
+    "pop dance"
+  ],
+  "disco": [
+    "disco",
+    "disco boogie",
+    "disco funk",
+    "disco pop",
+    "disco rock",
+    "disco tropical",
+    "euro disco",
+    "italo disco",
+    "nu disco",
+    "pop disco",
+    "post disco",
+    "proto disco"
+  ],
+  "doo wop": [
+    "doo wop",
+    "pop doo wop"
+  ],
+  "dream": [
+    "dream pop",
+    "dream trance"
+  ],
+  "electro": [
+    "electro",
+    "electro dance",
+    "electro funk",
+    "electro hop",
+    "electro house",
+    "electro pop",
+    "electro r&b",
+    "electro rock",
+    "electro swing",
+    "electronic",
+    "electronic dance",
+    "electronic pop",
+    "electronic rock",
+    "electronica",
+    "indie electronic"
+  ],
+  "emo": [
+    "emo",
+    "emo hip hop",
+    "emo pop",
+    "emo rap"
+  ],
+  "euro": [
+    "euro dance",
+    "euro disco",
+    "euro house",
+    "euro pop",
+    "euro reggae"
+  ],
+  "experimental": [
+    "experimental pop",
+    "experimental rock"
+  ],
+  "film": [
+    "film music",
+    "film score"
+  ],
+  "folk": [
+    "celtic folk",
+    "contemporary folk",
+    "country folk",
+    "folk",
+    "folk blues",
+    "folk jazz",
+    "folk pop",
+    "folk rock",
+    "folktronica",
+    "indie folk",
+    "irish folk",
+    "progressive folk",
+    "psychedelic folk",
+    "rap folk"
+  ],
+  "funk": [
+    "avant funk",
+    "disco funk",
+    "electro funk",
+    "funk",
+    "funk metal",
+    "funk pop",
+    "funk rock",
+    "funky house",
+    "g funk",
+    "jazz funk",
+    "latin funk",
+    "pop funk",
+    "psychedelic funk",
+    "punk funk",
+    "synth funk"
+  ],
+  "fusion": [
+    "jazz fusion",
+    "reggae fusion"
+  ],
+  "future": [
+    "future bass",
+    "future house"
+  ],
+  "garage": [
+    "garage punk",
+    "garage rock",
+    "garage surf"
+  ],
+  "glam": [
+    "glam metal",
+    "glam rock"
+  ],
+  "gothic": [
+    "gothic metal",
+    "gothic rock"
+  ],
+  "grunge": [
+    "grunge",
+    "grunge rock",
+    "post grunge",
+    "proto grunge"
+  ],
+  "hard": [
+    "breakbeat hardcore",
+    "happy hardcore",
+    "hard rock",
+    "hardcore hip hop",
+    "hardcore punk",
+    "melodic hardcore",
+    "post hardcore"
+  ],
+  "hip hop": [
+    "acoustic hip hop",
+    "alternative hip hop",
+    "comedy hip hop",
+    "conscious hip hop",
+    "east coast hip hop",
+    "emo hip hop",
+    "hardcore hip hop",
+    "hip hop",
+    "hip hop soul",
+    "latin hip hop",
+    "old school hip hop",
+    "political hip hop",
+    "r&b hip hop",
+    "southern hip hop",
+    "west coast hip hop"
+  ],
+  "house": [
+    "big room house",
+    "deep house",
+    "diva house",
+    "electro house",
+    "euro house",
+    "french house",
+    "funky house",
+    "future house",
+    "hip house",
+    "house",
+    "latin house",
+    "pop house",
+    "progressive house",
+    "tech house",
+    "tropical house"
+  ],
+  "indie": [
+    "indie",
+    "indie electronic",
+    "indie folk",
+    "indie pop",
+    "indie r&b",
+    "indie rock",
+    "indietronica"
+  ],
+  "industrial": [
+    "industrial",
+    "industrial metal",
+    "industrial rock"
+  ],
+  "instrumental": [
+    "instrumental",
+    "instrumental rock"
+  ],
+  "italo": [
+    "italo dance",
+    "italo disco"
+  ],
+  "jam": [
+    "jam",
+    "jam rock"
+  ],
+  "jazz": [
+    "acid jazz",
+    "bossa nova jazz",
+    "crossover jazz",
+    "folk jazz",
+    "jazz",
+    "jazz funk",
+    "jazz fusion",
+    "jazz pop",
+    "jazz rap",
+    "jazz rock",
+    "smooth jazz",
+    "soul jazz",
+    "vocal jazz",
+    "west coast cool jazz"
+  ],
+  "latin": [
+    "latin",
+    "latin dance",
+    "latin funk",
+    "latin hip hop",
+    "latin house",
+    "latin pop",
+    "latin rock"
+  ],
+  "lo fi": [
+    "lo fi",
+    "power pop lo fi"
+  ],
+  "mariachi": [
+    "alternative mariachi",
+    "mariachi"
+  ],
+  "metal": [
+    "alternative metal",
+    "cello metal",
+    "christian metal",
+    "comedy metal",
+    "doom metal",
+    "funk metal",
+    "glam metal",
+    "gothic metal",
+    "groove metal",
+    "hair metal",
+    "heavy metal",
+    "industrial metal",
+    "metalcore",
+    "nu metal",
+    "pop metal",
+    "power metal",
+    "progressive metal",
+    "proto metal",
+    "rap metal",
+    "sludge metal",
+    "speed metal",
+    "symphonic metal",
+    "thrash metal",
+    "viking metal"
+  ],
+  "mex": [
+    "tex mex",
+    "tex mex country"
+  ],
+  "neo": [
+    "neo progressive rock",
+    "neo psychedelia",
+    "neo soul",
+    "neon pop"
+  ],
+  "new": [
+    "new age",
+    "new jack swing",
+    "new orleans r&b",
+    "new prog",
+    "new wave",
+    "new wave rock"
+  ],
+  "new wave": [
+    "new wave",
+    "new wave rock"
+  ],
+  "novelty": [
+    "novelty",
+    "novelty rock"
+  ],
+  "nu": [
+    "nu disco",
+    "nu gaze",
+    "nu metal"
+  ],
+  "piano": [
+    "piano pop",
+    "piano rock"
+  ],
+  "pop": [
+    "acoustic pop",
+    "adult pop",
+    "alternative pop",
+    "art pop",
+    "avant pop",
+    "baroque pop",
+    "bitpop",
+    "brit pop",
+    "chamber pop",
+    "christmas synth pop",
+    "contemporary pop",
+    "country pop",
+    "dance pop",
+    "disco pop",
+    "dream pop",
+    "electro pop",
+    "electronic pop",
+    "emo pop",
+    "euro pop",
+    "experimental pop",
+    "folk pop",
+    "funk pop",
+    "indie pop",
+    "j pop",
+    "jangle pop",
+    "jazz pop",
+    "k pop",
+    "latin pop",
+    "mod pop",
+    "neon pop",
+    "operatic pop",
+    "orchestral pop",
+    "piano pop",
+    "pop",
+    "pop beat",
+    "pop dance",
+    "pop disco",
+    "pop doo wop",
+    "pop funk",
+    "pop house",
+    "pop metal",
+    "pop punk",
+    "pop r&b",
+    "pop rap",
+    "pop reggae",
+    "pop rock",
+    "pop soul",
+    "pop trap",
+    "post brit pop",
+    "power pop",
+    "power pop lo fi",
+    "progressive pop",
+    "psychedelic pop",
+    "punk pop",
+    "r&b pop",
+    "rave pop",
+    "reggae pop",
+    "sophisti pop",
+    "soul pop",
+    "space age pop",
+    "sunshine pop",
+    "surf pop",
+    "swamp pop",
+    "symphonic pop",
+    "synth pop",
+    "techno pop",
+    "teen pop",
+    "traditional pop",
+    "trap pop",
+    "twee pop"
+  ],
+  "post": [
+    "post brit pop",
+    "post disco",
+    "post grunge",
+    "post hardcore",
+    "post punk"
+  ],
+  "power": [
+    "power ballad",
+    "power metal",
+    "power pop",
+    "power pop lo fi",
+    "power rock"
+  ],
+  "power pop": [
+    "power pop",
+    "power pop lo fi"
+  ],
+  "progressive": [
+    "neo progressive rock",
+    "new prog",
+    "prog rap",
+    "progressive country",
+    "progressive folk",
+    "progressive house",
+    "progressive metal",
+    "progressive pop",
+    "progressive punk",
+    "progressive rock",
+    "progressive trance",
+    "proto prog",
+    "proto progressive"
+  ],
+  "proto": [
+    "proto disco",
+    "proto grunge",
+    "proto metal",
+    "proto prog",
+    "proto progressive",
+    "proto punk"
+  ],
+  "psychedelia": [
+    "neo psychedelia",
+    "psychedelia"
+  ],
+  "psychedelic": [
+    "psychedelic",
+    "psychedelic folk",
+    "psychedelic funk",
+    "psychedelic pop",
+    "psychedelic rock",
+    "psychedelic soul"
+  ],
+  "punk": [
+    "art punk",
+    "dance punk",
+    "garage punk",
+    "hardcore punk",
+    "pop punk",
+    "post punk",
+    "progressive punk",
+    "proto punk",
+    "punk",
+    "punk blues",
+    "punk funk",
+    "punk pop",
+    "punk rap",
+    "punk rock",
+    "ska punk",
+    "skate punk",
+    "surf punk"
+  ],
+  "r&b": [
+    "alternative r&b",
+    "electro r&b",
+    "indie r&b",
+    "new orleans r&b",
+    "pop r&b",
+    "r&b",
+    "r&b hip hop",
+    "r&b pop",
+    "r&b soul",
+    "soul r&b"
+  ],
+  "rap": [
+    "alternative rap",
+    "chicano rap",
+    "cloud rap",
+    "comedy rap",
+    "country rap",
+    "dirty rap",
+    "emo rap",
+    "gangsta rap",
+    "jazz rap",
+    "pop rap",
+    "pop trap",
+    "prog rap",
+    "punk rap",
+    "rap",
+    "rap folk",
+    "rap metal",
+    "rap rock",
+    "soundcloud rap"
+  ],
+  "rave": [
+    "rave",
+    "rave pop"
+  ],
+  "reggae": [
+    "cod reggae",
+    "euro reggae",
+    "pop reggae",
+    "reggae",
+    "reggae fusion",
+    "reggae pop",
+    "reggae rock",
+    "reggaeton"
+  ],
+  "rhythm and blues": [
+    "british rhythm and blues",
+    "country rhythm and blues",
+    "rhythm and blues"
+  ],
+  "rock": [
+    "acid rock",
+    "acoustic rock",
+    "alternative rock",
+    "arena rock",
+    "art rock",
+    "baroque rock",
+    "blues rock",
+    "boogie rock",
+    "cello rock",
+    "celtic rock",
+    "chicano rock",
+    "christian alternative rock",
+    "christian rock",
+    "college rock",
+    "comedy rock",
+    "country rock",
+    "dance rock",
+    "disco rock",
+    "electro rock",
+    "electronic rock",
+    "experimental rock",
+    "folk rock",
+    "funk rock",
+    "garage rock",
+    "glam rock",
+    "gothic rock",
+    "grunge rock",
+    "hard rock",
+    "heartland rock",
+    "hot rod rock",
+    "indie rock",
+    "industrial rock",
+    "instrumental rock",
+    "jam rock",
+    "jazz rock",
+    "latin rock",
+    "neo progressive rock",
+    "new wave rock",
+    "noise rock",
+    "novelty rock",
+    "occult rock",
+    "piano rock",
+    "pop rock",
+    "power rock",
+    "progressive rock",
+    "psychedelic rock",
+    "pub rock",
+    "punk rock",
+    "raga rock",
+    "rap rock",
+    "reggae rock",
+    "rock",
+    "rock americana",
+    "rock and roll",
+    "rockabilly",
+    "rocksteady",
+    "roots rock",
+    "samba rock",
+    "shock rock",
+    "soft rock",
+    "soul rock",
+    "southern rock",
+    "space rock",
+    "stadium rock",
+    "stoner rock",
+    "surf rock",
+    "swamp rock",
+    "symphonic rock",
+    "synth rock",
+    "teen rock",
+    "texican rock and roll",
+    "western rockabilly",
+    "yacht rock"
+  ],
+  "rock and roll": [
+    "rock and roll",
+    "texican rock and roll"
+  ],
+  "rockabilly": [
+    "rockabilly",
+    "western rockabilly"
+  ],
+  "samba": [
+    "samba",
+    "samba rock"
+  ],
+  "ska": [
+    "ska",
+    "ska punk",
+    "ska two tone",
+    "skate punk"
+  ],
+  "soul": [
+    "blue eyed soul",
+    "chicago soul",
+    "country soul",
+    "hip hop soul",
+    "memphis soul",
+    "neo soul",
+    "northern soul",
+    "philadelphia soul",
+    "pop soul",
+    "psychedelic soul",
+    "r&b soul",
+    "soul",
+    "soul blues",
+    "soul jazz",
+    "soul pop",
+    "soul r&b",
+    "soul rock",
+    "southern soul"
+  ],
+  "sound": [
+    "california sound",
+    "minneapolis sound"
+  ],
+  "southern": [
+    "southern hip hop",
+    "southern rock",
+    "southern soul"
+  ],
+  "space": [
+    "space age pop",
+    "space rock"
+  ],
+  "steady": [
+    "rocksteady",
+    "steady"
+  ],
+  "surf": [
+    "garage surf",
+    "surf",
+    "surf pop",
+    "surf punk",
+    "surf rock",
+    "surf vocal"
+  ],
+  "swamp": [
+    "swamp pop",
+    "swamp rock"
+  ],
+  "swing": [
+    "electro swing",
+    "new jack swing",
+    "swing",
+    "western swing"
+  ],
+  "symphonic": [
+    "symphonic metal",
+    "symphonic music",
+    "symphonic pop",
+    "symphonic rock"
+  ],
+  "synth": [
+    "christmas synth pop",
+    "synth funk",
+    "synth pop",
+    "synth rock",
+    "synthwave"
+  ],
+  "talking blues": [
+    "country talking blues comedy",
+    "talking blues"
+  ],
+  "techno": [
+    "tech house",
+    "techno",
+    "techno pop"
+  ],
+  "teen": [
+    "teen pop",
+    "teen rock"
+  ],
+  "texan": [
+    "tex mex",
+    "tex mex country",
+    "texas blues",
+    "texican rock and roll"
+  ],
+  "trance": [
+    "dream trance",
+    "progressive trance",
+    "trance"
+  ],
+  "trap": [
+    "pop trap",
+    "trap",
+    "trap pop"
+  ],
+  "tropical": [
+    "dancetropical",
+    "disco tropical",
+    "tropical house"
+  ],
+  "urban": [
+    "urban",
+    "urban contemporary"
+  ],
+  "vocal": [
+    "surf vocal",
+    "vocal",
+    "vocal jazz"
+  ],
+  "wave": [
+    "chillwave",
+    "dark wave",
+    "new wave",
+    "new wave rock",
+    "no wave",
+    "synthwave"
+  ],
+  "west": [
+    "gulf and western",
+    "west coast cool jazz",
+    "west coast hip hop",
+    "western",
+    "western rockabilly",
+    "western swing"
+  ],
+  "west coast": [
+    "west coast cool jazz",
+    "west coast hip hop"
+  ],
+  "world": [
+    "world",
+    "worldbeat"
+  ]
+}
