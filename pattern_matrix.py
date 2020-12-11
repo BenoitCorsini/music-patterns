@@ -5,8 +5,8 @@ import sys
 import random
 from time import time
 import numpy as np
-
 import matplotlib.pyplot as plt
+
 import guitarpro
 
 from utils import process, time_to_string
@@ -96,7 +96,8 @@ class PatternMatrix(object):
         '''
         start_time = time()
         n_tabs = len(self.tab_list)
-        print('Pattern Matrices starting')
+        n_exceptions = 0
+        print('Pattern Matrix starting...')
         for count, tab in enumerate(self.tab_list):
             if not tab[:-1].endswith('.gp'):
                 print('\033[1;31;43mERROR!\033[0;38;40m There is a non guitarpro file: {}'.format(tab))
@@ -120,9 +121,15 @@ class PatternMatrix(object):
                 except Exception as exc:
                     sys.stdout.write('\033[F\033[K\033[F\033[K')
                     print('\033[1;31;43mERROR!\033[0;38;40m There is an issue with file {}: {}'.format(tab, exc))
+                    n_exceptions += 1
 
         time_algorithm = time_to_string(time() - start_time)
-        print('Pattern Matrices executed in {}'.format(time_algorithm))
+        print('Pattern Matrix executed in {}'.format(time_algorithm))
+        print('{} tablatures processed'.format(n_tabs - n_exceptions))
+        if self.save_im:
+            print('Matrices computed in \'{}\' and images available in \'{}\''.format(self.mat_dir, self.im_dir))
+        else:
+            print('Matrices computed in \'{}\''.format(self.mat_dir))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
