@@ -1,35 +1,46 @@
-import os.path as osp
-import os
-import json
 import argparse
+import os
+import os.path as osp
+import json
+import random
+from time import time
 import numpy as np
-from random import random
 import matplotlib.pyplot as plt
+
 from collections import Counter
 
 
-COLOUR = 'royalblue'
-COLOUR_DOT = 'navy'
-SCALE = .05
+MEAN_COLOUR = 'navy'
+STD_COLOUR = 'royalblue'
 LABEL_LIMIT_SIZE = 20
 NULL_CENTER_VALUE = -1e6
 BASIC_STATS = {
     'feature' : [
         ('artist', 'mean', False, 'size'),
         ('year', 'mean', False, 'size'),
-        ('decade', 'mean', False, 'size')
+        ('decade', 'mean', False, 'size'),
+        ('genre', 'mean', False, 'size'),
+        ('types', 'mean', False, 'size')
     ],
     'cluster' : [
         ('artist', 'mean', True, 'size'),
         ('artist', 'std', True, 'size'),
         ('year', 'std', False, 'size'),
-        ('decade', 'std', False, 'size')
+        ('decade', 'std', False, 'size'),
+        ('genre', 'mean', True, 'size'),
+        ('genre', 'std', True, 'size'),
+        ('types', 'mean', True, 'size'),
+        ('types', 'std', True, 'size')
     ],
     'neighbour' : [
         ('artist', 'mean', True, 'std'),
         ('artist', 'std', True, 'std'),
         ('year', 'std', False, 'std'),
-        ('decade', 'std', False, 'std')
+        ('decade', 'std', False, 'std'),
+        ('genre', 'mean', True, 'std'),
+        ('genre', 'std', True, 'std'),
+        ('types', 'mean', True, 'std'),
+        ('types', 'std', True, 'std')
     ]
 }
 
@@ -47,14 +58,28 @@ class Statistics(object):
         self.__initialize__()
 
     def __initialize__(self):
-        with open(osp.join(self.res_dir, 'songs_info.json')) as songs_info:
-            self.songs_info = json.load(songs_info)
-            songs_info.close()
-        self.feat_is_number = {}
+        self.songs_info = json.load(open('songs.json', 'r'))
+        self.feat_infos = {}
         for song_feats in self.songs_info.values():
             for song_feat, feat_value in song_feats.items():
-                if self.feat_is_number.get(song_feat, True):
-                    self.feat_is_number[song_feat] = isinstance(feat_value, int) or isinstance(feat_value, float)
+                if song_feat not in self.feat_infos:
+                    self.feat_infos[song_feat] = {
+                        'feat_values' : [],
+                        'is_list' : isinstance(feat_value, list)
+                    }
+                if isinstance(feat_value, list):
+                    if not self.feat_infos[song_feat].get('is_list', True):
+                        raise Exception('Feature {} is and is not a list...'.format(song_feat))
+                    for sub_feat_value in feat_value:
+                        self.feat_infos[song_feat]['feat_values'].append(sub_feat_value)
+                else:
+                    if self.feat_infos[song_feat].get('is_list', False):
+                        raise Exception('Feature {} is and is not a list...'.format(song_feat))
+                    self.feat_infos[song_feat]['feat_values'].append(feat_value)
+
+        for feat_info in self.feat_infos.values():
+            feat_info['feat_values'] = sorted(list(set(feat_info['feat_values'])))
+            feat_info['is_number'] = all([(isinstance(feat_value, int) or isinstance(feat_value, float)) for feat_value in feat_info['feat_values']])
 
     def plot_stats(self, plot_infos):
         stats, name, title, bars_name, make_smaller, plot_center = plot_infos
@@ -118,10 +143,10 @@ class Statistics(object):
 
             plt.figure(figsize=(16,9))
             plt.axis(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax)
-            plt.plot(x, y, color=COLOUR_DOT, marker='.', markersize=20, linewidth=0, label='mean')
-            plt.errorbar(x, y, .5*std, color=COLOUR, label='std', linewidth=5, ls='', alpha=.5)
+            plt.plot(x, y, color=MEAN_COLOUR, marker='.', markersize=20, linewidth=0, label='mean')
+            plt.errorbar(x, y, .5*std, color=STD_COLOUR, label='std', linewidth=5, ls='', alpha=.5)
             plt.bar(x, bars, color='red', alpha=.2, width=.7, label=bars_name, bottom=ymin)
-            plt.plot(x, y, color=COLOUR_DOT, marker='.', markersize=20, linewidth=0)
+            plt.plot(x, y, color=MEAN_COLOUR, marker='.', markersize=20, linewidth=0)
             if make_smaller:
                 plt.xticks(x, labels, rotation=75, fontsize=5)
             else:
@@ -135,7 +160,7 @@ class Statistics(object):
 
     def plot(self, basic_stats=None):
         if basic_stats is None:
-            for feat, is_number in self.feat_is_number.items():
+            for feat, is_number in self.feat_infos.items():
                 for ordering in ['mean', 'std']:
                     for reverse in [True, False]:
                         self.plot_stats(self.get_stats(feat, ordering, reverse, 'size'))
@@ -167,14 +192,20 @@ class FeatureStatistics(Statistics):
 
         list_by_feat = {}
         for song, info in self.songs_info.items():
-            for feat in self.feat_is_number:
+            for feat, feat_info in self.feat_infos.items():
                 if feat in info:
-                    feat_value = info[feat]
                     if feat not in list_by_feat:
                         list_by_feat[feat] = {}
-                    if feat_value not in list_by_feat[feat]:
-                        list_by_feat[feat][feat_value] = []
-                    list_by_feat[feat][info[feat]].append(self.song_dict[song])
+                    if feat_info['is_list']:
+                        for feat_value in info[feat]:
+                            if feat_value not in list_by_feat[feat]:
+                                list_by_feat[feat][feat_value] = []
+                            list_by_feat[feat][feat_value].append(self.song_dict[song])
+                    else:
+                        feat_value = info[feat]
+                        if feat_value not in list_by_feat[feat]:
+                            list_by_feat[feat][feat_value] = []
+                        list_by_feat[feat][feat_value].append(self.song_dict[song])
 
         self.dist_by_feat = {}
         for feat, feat_values in list_by_feat.items():
@@ -203,7 +234,7 @@ class FeatureStatistics(Statistics):
 
         stats = {}
         bars_name = bars
-        for feat_value, feat_info in sorted(self.dist_by_feat.get(feat, {}).items(), key=lambda x:x[1].get(ordering, mult*random() + add), reverse=reverse):
+        for feat_value, feat_info in sorted(self.dist_by_feat.get(feat, {}).items(), key=lambda x:x[1].get(ordering, mult*random.random() + add), reverse=reverse):
             if feat_info['size'] >= self.min_feat_size:
                 if bars not in feat_info:
                     bars_name = 'std'
@@ -213,7 +244,7 @@ class FeatureStatistics(Statistics):
                     bars : feat_info.get(bars, feat_info['std'])
                 }
 
-        return stats, name, title, bars_name, not self.feat_is_number.get(feat, False), False
+        return stats, name, title, bars_name, not self.feat_infos.get(feat, {}).get('is_number', False), False
 
 
 class ClusterStatistics(Statistics):
@@ -243,13 +274,16 @@ class ClusterStatistics(Statistics):
                 'size' : cluster_info['size'],
                 'name' : cluster_info['name']
             }
-            for feat, is_number in self.feat_is_number.items():
+            for feat, feat_info in self.feat_infos.items():
                 feat_stats = []
                 for song in cluster_info['songs']:
                     if feat in self.songs_info[song]:
-                        feat_stats.append(self.songs_info[song][feat])
+                        if feat_info['is_list']:
+                            feat_stats += self.songs_info[song][feat]
+                        else:
+                            feat_stats.append(self.songs_info[song][feat])
                 if feat_stats:
-                    if is_number:
+                    if feat_info['is_number']:
                         feat_stats = np.array(feat_stats)
                     else:
                         feat_stats = dict(Counter(feat_stats))
@@ -274,7 +308,7 @@ class ClusterStatistics(Statistics):
 
         stats = {}
         bars_name = bars
-        for cluster_id, cluster_info in sorted(self.feat_by_cluster.items(), key=lambda x:x[1].get(feat, {}).get(ordering, mult*random() + add), reverse=reverse):
+        for cluster_id, cluster_info in sorted(self.feat_by_cluster.items(), key=lambda x:x[1].get(feat, {}).get(ordering, mult*random.random() + add), reverse=reverse):
             if (cluster_info['size'] >= self.min_clus_size) & (feat in cluster_info):
                 if bars not in cluster_info:
                     bars_name = 'std'
@@ -317,13 +351,16 @@ class NeighbourStatistics(Statistics):
                 },
                 'name' : name
             }
-            for feat, is_number in self.feat_is_number.items():
+            for feat, feat_info in self.feat_infos.items():
                 feat_stats = []
                 for neigh in song_info['neighbours']:
                     if feat in self.songs_info[neigh]:
-                        feat_stats.append(self.songs_info[neigh][feat])
+                        if feat_info['is_list']:
+                            feat_stats += self.songs_info[neigh][feat]
+                        else:
+                            feat_stats.append(self.songs_info[neigh][feat])
                 if feat_stats:
-                    if is_number:
+                    if feat_info['is_number']:
                         feat_stats = np.array(feat_stats)
                     else:
                         feat_stats = dict(Counter(feat_stats))
@@ -349,11 +386,11 @@ class NeighbourStatistics(Statistics):
 
         stats = {}
         bars_name = bars
-        for song, song_info in sorted(self.feat_by_neighbour.items(), key=lambda x:x[1].get(feat, {}).get(ordering, mult*random() + add), reverse=reverse):
+        for song, song_info in sorted(self.feat_by_neighbour.items(), key=lambda x:x[1].get(feat, {}).get(ordering, mult*random.random() + add), reverse=reverse):
             if feat in song_info:
                 if bars not in song_info:
                     bars_name = 'std'
-                if self.feat_is_number.get(feat, False):
+                if (self.feat_infos.get(feat, {}).get('is_number', False)) & (not self.feat_infos.get(feat, {}).get('is_list', True)):
                     center = self.songs_info[song].get(feat, NULL_CENTER_VALUE)
                 else:
                     center = NULL_CENTER_VALUE
@@ -373,8 +410,8 @@ if __name__ == '__main__':
     parser.add_argument('--stats_dir', type=str, default='results/statistics')
     parser.add_argument('--write_info', type=int, default=0)
     parser.add_argument('--max_plot', type=int, default=50)
-    parser.add_argument('--min_feat_size', type=int, default=None)
-    parser.add_argument('--min_clus_size', type=int, default=None)
+    parser.add_argument('--min_feat_size', type=int, default=10)
+    parser.add_argument('--min_clus_size', type=int, default=5)
     cmd = vars(parser.parse_args())
     fs = FeatureStatistics(cmd)
     fs.plot(BASIC_STATS)
