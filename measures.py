@@ -159,7 +159,7 @@ class DistanceMatrix(object):
         In this situation, the algorithm can be started from the previous stopping time by setting 'intialize_distances' to False
         '''
         start_time = time()
-        print('Distance Matrix starting')
+        print('Distance Matrix starting...')
         print(self.output)
         for i in range(self.n_batch):
             time_spent = time_to_string(time() - start_time)
@@ -169,6 +169,7 @@ class DistanceMatrix(object):
             print('Batch {} of {} done ({})'.format(i+1,self.n_batch,batch_time))
         time_algorithm = time_to_string(time() - start_time)
         print('Distance Matrix executed in {}'.format(time_algorithm))
+        print('Matrix available at \'{}\''.format(osp.join(self.res_dir, 'dists.txt')))
 
         self.check()
 
