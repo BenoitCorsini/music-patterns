@@ -4,7 +4,6 @@ import os.path as osp
 import json
 import shutil
 import sys
-
 from time import time
 
 from selenium.webdriver import Chrome
