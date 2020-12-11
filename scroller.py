@@ -194,7 +194,8 @@ class TabScroller(object):
         '''
         start_time = time()
         n_songs = len(self.songs)
-        print('Tab Scroller starting')
+        n_tabs = 0
+        print('Tab Scroller starting...')
         for count, (artist, title) in enumerate(self.songs):
             time_spent = time_to_string(time() - start_time)
             perc = int((100.*count)/n_songs)
@@ -232,6 +233,7 @@ class TabScroller(object):
                     self.outputs[dict_entry] = 'Tablature not downloaded'
                 else:
                     self.outputs[dict_entry] = 'Success!'
+                    n_tabs += 1
             elif 'DONWLOAD EXCEPTION' in self.outputs[dict_entry]:
                 if not download_links:
                     self.outputs[dict_entry] += '\tNo tablature to download'
@@ -239,10 +241,10 @@ class TabScroller(object):
                     self.outputs[dict_entry] += '\tTablature not downloaded'
                 else:
                     self.outputs[dict_entry] += '\tSuccess!'
+                    n_tabs += 1
 
             sys.stdout.write('\033[F\033[K\033[F\033[K')
 
-        print('Tab Scroller done, saving results...')
         self.driver.close()
         with open(osp.join(self.res_dir, 'download_output.json'), 'w') as song_output:
             json.dump(self.outputs, song_output, indent=2)
@@ -250,6 +252,8 @@ class TabScroller(object):
 
         time_algorithm = time_to_string(time() - start_time)
         print('Tab Scroller executed in {}'.format(time_algorithm))
+        print('{} tablatures downloaded'.format(n_tabs))
+        print('Tablatures available in \'{}\' and results saved in \'{}\''.format(self.tab_dir, osp.join(self.res_dir, 'download_output.json')))
 
 
 if __name__ == '__main__':
