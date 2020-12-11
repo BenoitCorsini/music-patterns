@@ -1,9 +1,9 @@
 import argparse
-import numpy as np
 import os
 import os.path as osp
-from time import time
 import sys
+from time import time
+import numpy as np
 
 from utils import process, time_to_string
 
@@ -150,6 +150,8 @@ class DistanceMatrix(object):
 
         np.savetxt(osp.join(self.res_dir, 'dists.txt'), self.dists, delimiter='\t')
 
+        return time_to_string(time() - start_time)
+
     def compute(self):
         '''
         This function computes the distance matrix one batch a time.
@@ -162,7 +164,9 @@ class DistanceMatrix(object):
         for i in range(self.n_batch):
             time_spent = time_to_string(time() - start_time)
             print('Batch {} of {} starting... ({})'.format(i+1,self.n_batch,time_spent))
-            self.compute_batch()
+            batch_time = self.compute_batch()
+            sys.stdout.write('\033[F\033[K')
+            print('Batch {} of {} done ({})'.format(i+1,self.n_batch,batch_time))
         time_algorithm = time_to_string(time() - start_time)
         print('Distance Matrix executed in {}'.format(time_algorithm))
 
@@ -224,7 +228,7 @@ if __name__ == '__main__':
     parser.add_argument('--initialize_distances', type=int, default=1)
     parser.add_argument('--normalized_size', type=int, default=500)
     parser.add_argument('--batch_size', type=int, default=5)
-    parser.add_argument('--n_batch', type=int, default=3)
+    parser.add_argument('--n_batch', type=int, default=4)
     cmd = vars(parser.parse_args())
     dm = DistanceMatrix(cmd)
     dm.compute()
