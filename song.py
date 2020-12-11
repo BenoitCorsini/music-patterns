@@ -66,6 +66,7 @@ class Track(object):
             note_time = 0
             ts = measure.timeSignature
             measure_duration = ts.numerator*self.max_note_denominator/ts.denominator.value
+            note_was_played = False
             for voice in measure.voices:
                 for beat in voice.beats:
                     bd = beat.duration
@@ -83,10 +84,19 @@ class Track(object):
                             for note in ordered_notes:
                                 note_value = note_value*self.upper_note + (note+1)
 
+
                         # If this is not a drum track, the string is used to exactly define 'note_value'.
                         else:
                             for note in beat.notes:
                                 note_value += (note.value+1)*self.upper_note**note.string
+
+                        # If the measure is empty, silence are ignored
+                        if not note_value:
+                            if note_was_played:
+                                note_value = 1 # This is a silence
+                        else:
+                            note_value += 1
+                            note_was_played = True
 
                         numpy_track[note_time,measure_index] = note_value
                         note_time += int(note_duration)
