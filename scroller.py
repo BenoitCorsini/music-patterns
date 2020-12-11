@@ -1,13 +1,14 @@
-from selenium.webdriver import Chrome
-from selenium.webdriver import ChromeOptions
-
 import argparse
 import os
 import os.path as osp
-import shutil
 import json
-from time import time
+import shutil
 import sys
+
+from time import time
+
+from selenium.webdriver import Chrome
+from selenium.webdriver import ChromeOptions
 
 from utils import link_sorter, time_to_string
 
@@ -44,7 +45,7 @@ class TabScroller(object):
         self.driver = Chrome(osp.join(os.getcwd(), self.chromedriver))
         self.driver.maximize_window()
         self.time_limit = time_limit
-        self.ids = ids
+        self.ids = ids #ids should be a dictionary with keys of the form (artist, title)
         self.outputs = {}
 
         if not osp.exists(self.tab_dir):
@@ -165,6 +166,8 @@ class TabScroller(object):
 
         if not_downloaded:
             alternative_file, not_downloaded = self.download(download_link, link_file)
+        else:
+            alternative_file = link_file.lower()
 
         if not not_downloaded: # To be read as: 'if downloaded:'
             download_dir = os.listdir(self.tab_dir)
@@ -197,7 +200,7 @@ class TabScroller(object):
             time_spent = time_to_string(time() - start_time)
             perc = int((100.*count)/n_songs)
             print('{}% of the tabs downloaded ({})'.format(perc, time_spent))
-            print('Downloading {} - {}...'.format(artist.upper(), title))
+            print('Downloading tab {} of {}: {} - {}'.format(count+1, n_songs, artist, title))
             dict_entry = artist + ' - ' + title
             try:
                 download_links = self.get_download_links(artist, title)
@@ -238,10 +241,7 @@ class TabScroller(object):
                 else:
                     self.outputs[dict_entry] += '\tSuccess!'
 
-            sys.stdout.write('\033[F')
-            sys.stdout.write('\033[K')
-            sys.stdout.write('\033[F')
-            sys.stdout.write('\033[K')
+            sys.stdout.write('\033[F\033[K\033[F\033[K')
 
         print('Tab Scroller done, saving results...')
         self.driver.close()
@@ -255,24 +255,22 @@ class TabScroller(object):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--song_file', type=str, default='songs.txt')
+    parser.add_argument('--song_file', type=str, default='songs.json')
     parser.add_argument('--tab_dir', type=str, default='data/tablatures')
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--chromedriver', type=str, default='chromedriver')
     parser.add_argument('--time_limit', type=float, default=20)
-    parser.add_argument('--ids_file', type=str, default='songs_id.json')
     cmd = vars(parser.parse_args())
 
+    songs_dict = json.load(open(cmd['song_file'], 'r'))
     songs = []
-    with open(cmd['song_file'], 'r') as song_file:
-        for line in song_file:
-            artist, title = line.split('\n')[0].split('\t')
-            songs.append((artist, title))
-
-    if osp.exists(cmd['ids_file']):
-        ids = json.load(open(cmd['ids_file']))
-    else:
-        ids = {}
+    ids = {}
+    for song_info in songs_dict.values():
+        artist = song_info.get('artist', '').lower()
+        title = song_info.get('title', '').lower()
+        songs.append((artist, title))
+        if 'id' in song_info:
+            ids[artist + ' - ' + title] = song_info['id']
 
     ts = TabScroller(
         songs=songs,
