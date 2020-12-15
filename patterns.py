@@ -127,9 +127,9 @@ class PatternMatrix(object):
         print('Pattern Matrix executed in {}'.format(time_algorithm))
         print('{} tablatures processed'.format(n_tabs - n_exceptions))
         if self.save_im:
-            print('Matrices computed in \'{}\' and images available in \'{}\''.format(self.mat_dir, self.im_dir))
+            print('Matrices computed at \'{}\' and images available at \'{}\''.format(self.mat_dir, self.im_dir))
         else:
-            print('Matrices computed in \'{}\''.format(self.mat_dir))
+            print('Matrices computed at \'{}\''.format(self.mat_dir))
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
