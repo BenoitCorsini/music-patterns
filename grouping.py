@@ -20,15 +20,15 @@ STD_COLOUR = 'royalblue'
 SIZE_COLOUR = 'red'
 
 
-class GroupingParams(object):
+class Grouping(object):
 
     def __init__(self, cmd):
         self.im_dir = cmd['im_dir']
         self.res_dir = cmd['res_dir']
 
         self.order_by = cmd['order_by']
-        self.n_folders = cmd['n_folders'] #The number of groups saved
-        self.write_info = cmd['write_info']
+        self.n_folders = cmd['n_folders'] # The number of groups saved
+        self.write_group_info = cmd['write_group_info']
 
         self.song_dict = {}
         for line in open(osp.join(self.res_dir, 'song_list.txt'), 'r'):
@@ -96,7 +96,7 @@ class GroupingParams(object):
             plt.close()
 
 
-class SongClustering(GroupingParams):
+class SongClustering(Grouping):
 
     def __init__(self, cmd):
         super().__init__(cmd)
@@ -135,11 +135,11 @@ class SongClustering(GroupingParams):
                 cluster_songs.append(self.song_dict[index_song])
 
             self.clusters[cluster_id[1:-1]] = {
-                  'dist' : np.mean(cluster_dists),
-                  'std_dist' : np.std(cluster_dists),
-                  'songs' : cluster_songs,
-                  'size' : int(cluster_size),
-                  'iter' : cluster_iter
+                'dist' : np.mean(cluster_dists),
+                'std_dist' : np.std(cluster_dists),
+                'songs' : cluster_songs,
+                'size' : int(cluster_size),
+                'iter' : cluster_iter
             }
 
             self.total_clusters += 1
@@ -184,14 +184,17 @@ class SongClustering(GroupingParams):
         if osp.exists(self.clusters_dir):
             shutil.rmtree(self.clusters_dir) #remove previously computed clustering if exists
         os.makedirs(self.clusters_dir)
+
         for cluster_info in self.clusters.values():
             if cluster_info['number'] <= self.n_folders:
-                if self.write_info:
+                if self.write_group_info:
                     cluster_path = osp.join(self.clusters_dir, cluster_info['name'] + cluster_info['info'])
                 else:
                     cluster_path = osp.join(self.clusters_dir, cluster_info['name'])
+
                 if not osp.exists(cluster_path):
                     os.makedirs(cluster_path)
+
                 for song in cluster_info['songs']:
                     im = song + '.png'
                     shutil.copyfile(osp.join(self.im_dir, im), osp.join(cluster_path, im))
@@ -210,12 +213,12 @@ class SongClustering(GroupingParams):
         sys.stdout.write('\033[F\033[K')
         print('Song Clustering executed in {}'.format(time_to_string(time() - start_time)))
         print('{} non-trivial clusters found, {} in total'.format(non_singletons, self.total_clusters))
-        print('Clusters saved at \'{}\' and images copied to \'{}\''.format(osp.join(self.res_dir, 'clusters.json'), self.clusters_dir))
+        print('Clusters saved in \'{}\' and images copied to \'{}\''.format(osp.join(self.res_dir, 'clusters.json'), self.clusters_dir))
         print('The cluster properties are represented in \'{}\''.format(osp.join(self.res_dir, 'clusters.png')))
 
 
 
-class SongNeighbouring(GroupingParams):
+class SongNeighbouring(Grouping):
 
     def __init__(self, cmd):
         super().__init__(cmd)
@@ -229,30 +232,26 @@ class SongNeighbouring(GroupingParams):
         '''
         This function computes the nearest neighbours for each song.
         '''
-        neighbours = {}
         for index_song, song in self.song_dict.items():
-            self.neighbours[song] = {}
+            self.total_neighbours += 1
             neighbours = {}
             neighbours_dists = self.dists[index_song, :]
-            neighs = neighbours_dists <= np.percentile(neighbours_dists, (100.*(self.n_neighbours + 1))/self.n_songs)
-            neighbour_songs = {}
-            for index_n in np.where(neighs)[0]:
-                if index_n != index_song:
-                    neighbour_songs[self.song_dict[index_n]] = {
-                          'dist' : self.dists[index_song, index_n],
-                    }
-            for index_song, song_info in enumerate(sorted(neighbour_songs.values(), key=lambda x:x['dist'])):
-                song_info['number'] = index_song + 1
+            indices = np.argsort(neighbours_dists)[1:1+self.n_neighbours]
 
-            neighbours_dists = neighbours_dists[neighs]
+            for (number_n, index_n) in enumerate(indices):
+                neighbours[self.song_dict[index_n]] = {
+                    'dist' : neighbours_dists[index_n],
+                    'number' : number_n + 1,
+                }
+            neighbours_dists = neighbours_dists[indices]
+
             self.neighbours[song] = {
                   'dist' : np.mean(neighbours_dists),
                   'std_dist' : np.std(neighbours_dists),
                   'center' : song,
-                  'neighbours' : neighbour_songs
+                  'neighbours' : neighbours
             }
 
-            self.total_neighbours += 1
             sys.stdout.write('\033[F\033[K')
             print('{} neighbourhoods done'.format(self.total_neighbours))
 
@@ -272,14 +271,17 @@ class SongNeighbouring(GroupingParams):
         if osp.exists(self.neighbours_dir):
             shutil.rmtree(self.neighbours_dir)
         os.makedirs(self.neighbours_dir)
+
         for song_info in self.neighbours.values():
             if song_info['number'] <= self.n_folders:
-                if self.write_info:
+                if self.write_group_info:
                     song_path = osp.join(self.neighbours_dir, song_info['name'] + song_info['info'])
                 else:
                     song_path = osp.join(self.neighbours_dir, song_info['name'])
+
                 if not osp.exists(song_path):
                     os.makedirs(song_path)
+
                 im = song_info['center'] + '.png'
                 im_copy = 'Center: ' + im
                 shutil.copyfile(osp.join(self.im_dir, im), osp.join(song_path, im_copy))
@@ -301,7 +303,7 @@ class SongNeighbouring(GroupingParams):
         self.save_results(self.neighbours, 'neighbours', 'Properties of the songs ordered according to their neighbourhood', 'Songs', False)
         sys.stdout.write('\033[F\033[K')
         print('Song Neighbouring executed in {}'.format(time_to_string(time() - start_time)))
-        print('Neighbourhoods saved at \'{}\' and images copied to \'{}\''.format(osp.join(self.res_dir, 'neighbours.json'), self.neighbours_dir))
+        print('Neighbourhoods saved in \'{}\' and images copied to \'{}\''.format(osp.join(self.res_dir, 'neighbours.json'), self.neighbours_dir))
         print('The neighbourhood properties are represented in \'{}\''.format(osp.join(self.res_dir, 'neighbours.png')))
 
 
@@ -311,7 +313,7 @@ if __name__ == '__main__':
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--order_by', type=str, default='dist')
     parser.add_argument('--n_folders', type=int, default=None)
-    parser.add_argument('--write_info', type=int, default=1)
+    parser.add_argument('--write_group_info', type=int, default=1)
 
     parser.add_argument('--clusters_dir', type=str, default='results/clusters')
     parser.add_argument('--n_clusters', type=int, default=2)
