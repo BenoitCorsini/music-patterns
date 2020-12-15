@@ -1,4 +1,25 @@
-import numpy as numpy
+import json
+import random
+import numpy as np
+
+
+def file_to_songs(file_name):
+    '''
+    This function takes a file and outputs a list of songs and a dictionary of ids.
+    The list of songs should be of the form (artist, title).
+    The dictionary should be of the form 'artist - title' : id.
+    '''
+    songs_dict = json.load(open(file_name, 'r'))
+    songs = []
+    ids = {}
+    for song_info in songs_dict.values():
+        artist = song_info.get('artist', '').lower()
+        title = song_info.get('title', '').lower()
+        songs.append((artist, title))
+        if 'id' in song_info:
+            ids[artist + ' - ' + title] = song_info['id']
+
+    return songs, ids
 
 def time_to_string(time):
     '''
@@ -17,7 +38,6 @@ def time_to_string(time):
 def process(pat_mat):
     '''
     This function processes a pattern matrix.
-    It is defined as such to have clearer representation of songs and better results.
     '''
     processed = 0*pat_mat.copy()
 
@@ -29,39 +49,95 @@ def process(pat_mat):
 
     return processed
 
-def link_sorter(artist_to_download, title_to_download, link_info):
+def basic_stats():
     '''
-    This function takes the info of a link for a tab and returns a number of information used to rank this tab.
-    The tabs are going to be sorted as such:
-    - First the tab with the right artist.
-    - Then the tabs with the right title.
-    - Then the tabs not corresponding to a full album.
-    - Then the tabs not being only the solo of the song.
-    - Then the tabs not being only the intro of the song.
-    - Then the tabs not being a live version of the song.
-    - Then the tabs not being an acoustic version of the song.
-    Once the tabs are ordered according to these conditions, we order the tabs according to their rating and number of ratings.
-    The last output is just the link of the tab that we need to keep.
+    This function defines the basic statistics to be computed.
+    For each type (feature, cluster, neighbour), it contains a list of stats to be plotted.
+    The quadruplets in the list correspond to (feature, ordering, reverse, bars)
     '''
-    (artist, title, rating, nb_rating, hlink) = link_info
-    is_good_artist = artist_to_download.lower() in artist.lower()
-    is_good_title = title_to_download.lower() in title.lower()
-    is_not_album = 'Album' not in title
-    is_not_solo = 'Solo' not in title
-    is_not_intro = 'Intro' not in title
-    is_not_live = 'Live' not in title
-    is_not_acoustic = 'Acoustic' not in title
-    if nb_rating == '':
-        nb_rate = 0
+    basic_stats = {
+        'feature' : [
+            ('artist', 'mean', False, 'size'),
+            ('year', 'mean', False, 'size'),
+            ('decade', 'mean', False, 'size'),
+            ('genre', 'mean', False, 'size'),
+            ('types', 'mean', False, 'size')
+        ],
+        'cluster' : [
+            ('artist', 'mean', False, 'size'),
+            ('artist', 'std', False, 'size'),
+            ('year', 'std', False, 'size'),
+            ('decade', 'std', False, 'size'),
+            ('genre', 'mean', False, 'size'),
+            ('genre', 'std', False, 'size'),
+            ('types', 'mean', False, 'size'),
+            ('types', 'std', False, 'size')
+        ],
+        'neighbour' : [
+            ('artist', 'mean', False, 'dist_mean'),
+            ('artist', 'std', False, 'dist_mean'),
+            ('year', 'std', False, 'dist_mean'),
+            ('decade', 'std', False, 'dist_mean'),
+            ('genre', 'mean', False, 'dist_mean'),
+            ('genre', 'std', False, 'dist_mean'),
+            ('types', 'mean', False, 'dist_mean'),
+            ('types', 'std', False, 'dist_mean')
+        ]
+    }
+
+    return basic_stats
+
+
+MOT1 = '\033[1;37;44m#\033[0;38;40m'
+MOT2 = '\033[1;37;43m#\033[0;38;40m'
+MOT3 = '\033[1;37;41m#\033[0;38;40m'
+MOT4 = '\033[1;37;42m#\033[0;38;40m'
+PAT1 = '\033[1;37;44m#\033[1;37;43m#\033[1;37;41m#\033[1;37;42m#\033[0;38;40m'
+PAT2 = '\033[1;37;43m#\033[1;37;41m#\033[1;37;42m#\033[1;37;44m#\033[0;38;40m'
+PAT3 = '\033[1;37;41m#\033[1;37;42m#\033[1;37;44m#\033[1;37;43m#\033[0;38;40m'
+PAT4 = '\033[1;37;42m#\033[1;37;44m#\033[1;37;43m#\033[1;37;41m#\033[0;38;40m'
+REP = 21
+
+def intro():
+    '''
+    This function simply prints the headline of the algorithm
+    '''
+    print()
+    print(PAT1*REP + MOT1)
+    print(PAT2*REP + MOT2)
+    print(PAT3 + MOT3 + '\033[1;38;40m                        _                    _   _                         ' + PAT3 + MOT3)
+    print(PAT4 + MOT4 + '\033[1;38;40m    _ __ ___  _   _ ___(_) ___   _ __   __ _| |_| |_ ___ _ __ _ __  ___    ' + PAT4 + MOT4)
+    print(PAT1 + MOT1 + '\033[1;38;40m   | \'_ ` _ \\| | | / __| |/ __| | \'_ \\ / _` | __| __/ _ \\ \'__| \'_ \\/ __|   ' + PAT1 + MOT1)
+    print(PAT2 + MOT2 + '\033[1;38;40m   | | | | | | |_| \\__ \\ | (__  | |_) | (_| | |_| ||  __/ |  | | | \\__ \\   ' + PAT2 + MOT2)
+    print(PAT3 + MOT3 + '\033[1;38;40m   |_| |_| |_|\\__,_|___/_|\\___| | .__/ \\__,_|\\__|\\__\\___|_|  |_| |_|___/   ' + PAT3 + MOT3)
+    print(PAT4 + MOT4 + '\033[1;38;40m                                |_|                                        ' + PAT4 + MOT4)
+    print(PAT1 + MOT1 + '\033[1;38;40m                                                                           ' + PAT1 + MOT1)
+    print(PAT2*REP + MOT2)
+    print(PAT3*REP + MOT3)
+    print()
+
+def chorus():
+    r = random.random()
+    if r < .25:
+        print()
+        print(PAT1*REP + MOT1)
+        print()
+    elif r < .5:
+        print()
+        print(PAT2*REP + MOT2)
+        print()
+    elif r < .75:
+        print()
+        print(PAT3*REP + MOT3)
+        print()
     else:
-        nb_rate = int(nb_rating)
-    return(is_good_artist,
-           is_good_title,
-           is_not_album,
-           is_not_solo,
-           is_not_intro,
-           is_not_live,
-           is_not_acoustic,
-           rating,
-           nb_rate,
-           hlink)
+        print()
+        print(PAT4*REP + MOT4)
+        print()
+
+def outro(time):
+    print('MUSIC PATTERNS EXECUTED IN {}'.format(time_to_string(time)))
+    print()
+    print(PAT4*REP + MOT4)
+    print(PAT1*REP + MOT1)
+    print()
