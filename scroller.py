@@ -9,7 +9,7 @@ from time import time
 from selenium.webdriver import Chrome
 from selenium.webdriver import ChromeOptions
 
-from utils import link_sorter, time_to_string
+from utils import file_to_songs, time_to_string
 
 
 # Main webpage properties
@@ -51,6 +51,46 @@ class TabScroller(object):
             os.makedirs(self.tab_dir)
         if not osp.exists(self.res_dir):
             os.makedirs(self.res_dir)
+
+    def link_sorter(self, artist_to_download, title_to_download, link_info):
+        '''
+        This function takes the info of a link for a tab and returns a number of information used to rank this tab.
+        The tabs are going to be sorted as such:
+        - First the tab with the right artist.
+        - Then the tabs with the right title.
+        - Then the tabs not corresponding to a full album.
+        - Then the tabs not being only the solo of the song.
+        - Then the tabs not being only the intro of the song.
+        - Then the tabs not being a live version of the song.
+        - Then the tabs not being an acoustic version of the song.
+        Once the tabs are ordered according to these conditions, we order the tabs according to their rating and number of ratings.
+        The last output is just the link of the tab that we need to keep.
+        '''
+        (artist, title, rating, nb_rating, hlink) = link_info
+        is_good_artist = artist_to_download.lower() in artist.lower()
+        is_good_title = title_to_download.lower() in title.lower()
+        is_not_album = 'Album' not in title
+        is_not_solo = 'Solo' not in title
+        is_not_intro = 'Intro' not in title
+        is_not_live = 'Live' not in title
+        is_not_acoustic = 'Acoustic' not in title
+        if nb_rating == '':
+            nb_rate = 0
+        else:
+            nb_rate = int(nb_rating)
+
+        return (
+            is_good_artist,
+            is_good_title,
+            is_not_album,
+            is_not_solo,
+            is_not_intro,
+            is_not_live,
+            is_not_acoustic,
+            rating,
+            nb_rate,
+            hlink
+        )
 
     def get_download_links(self, artist, title):
         '''
@@ -97,7 +137,7 @@ class TabScroller(object):
                         download_links.append((current_artist, sub_title, sub_rating, sub_nb_rating, download_link))
 
         # Now that 'download_links' contains all the links and the corresponding information, we sort them using 'link_sorter'
-        download_links = [link_sorter(artist, title, link_info) for link_info in download_links]
+        download_links = [self.link_sorter(artist, title, link_info) for link_info in download_links]
         download_links = [link_info[-1] for link_info in sorted(download_links, reverse=True)]
 
         return download_links
@@ -138,10 +178,19 @@ class TabScroller(object):
             download_button = download_button[0]
             download_button.click()
 
+            # After clicking the link, we check that we indeed download the file for at most 'time_limit' seconds
             start_time = time()
             while not_downloaded & (time() < start_time + self.time_limit):
                 download_dir = os.listdir(self.tab_dir)
-                not_downloaded = all([(((link_file.lower() not in file.lower()) & (alternative_file not in file.lower())) or (file.endswith('.crdownload'))) for file in download_dir])
+                not_downloaded = all(
+                    (
+                        (
+                            (link_file.lower() not in file.lower()) & (alternative_file not in file.lower())
+                        ) or (
+                            file.endswith('.crdownload')
+                        )
+                    ) for file in download_dir
+                )
 
         download_driver.close()
 
@@ -168,15 +217,18 @@ class TabScroller(object):
         else:
             alternative_file = link_file.lower()
 
-        if not not_downloaded: # To be read as: 'if downloaded:'
+        # Now that the file should be downloaded, we try to find it and rename it
+        if not not_downloaded:
             download_dir = os.listdir(self.tab_dir)
             download_dir.sort(key=lambda file : osp.getmtime(osp.join(self.tab_dir, file)), reverse=True)
             last_tab = download_dir[0]
-            if ((link_file.lower() in last_tab.lower()) or (alternative_file in last_tab.lower())) & ('(id=' not in last_tab):
+
+            if ((link_file.lower() in last_tab.lower()) or (alternative_file in last_tab.lower())) & (' (id=' not in last_tab):
                 tab_type = last_tab[-4:]
                 os.rename(osp.join(self.tab_dir, last_tab), osp.join(self.tab_dir, link_file + song_id + tab_type))
+
             else:
-                last_good_tab = [file for file in download_dir if link_file.lower() in file.lower()]
+                last_good_tab = [file for file in download_dir if (link_file.lower() in file.lower()) or (alternative_file.lower() in file.lower())]
                 if not last_good_tab:
                     raise Exception ('Unable to find tab in directory', download_link)
                 last_good_tab = last_good_tab[0]
@@ -196,12 +248,14 @@ class TabScroller(object):
         n_songs = len(self.songs)
         n_tabs = 0
         print('Tab Scroller starting...')
+
         for count, (artist, title) in enumerate(self.songs):
             time_spent = time_to_string(time() - start_time)
             perc = int((100.*count)/n_songs)
             print('{}% of the tabs downloaded ({})'.format(perc, time_spent))
             print('Downloading tab {} of {}: {} - {}'.format(count+1, n_songs, artist, title))
             dict_entry = artist + ' - ' + title
+
             try:
                 download_links = self.get_download_links(artist, title)
             except Exception as exception:
@@ -210,7 +264,7 @@ class TabScroller(object):
             not_downloaded = True
 
             if dict_entry in self.ids:
-                song_id = ' (id=' + self.ids[dict_entry] + ')'
+                song_id = ' (id={})'.format(self.ids[dict_entry])
             else:
                 song_id = ''
 
@@ -234,6 +288,7 @@ class TabScroller(object):
                 else:
                     self.outputs[dict_entry] = 'Success!'
                     n_tabs += 1
+
             elif 'DONWLOAD EXCEPTION' in self.outputs[dict_entry]:
                 if not download_links:
                     self.outputs[dict_entry] += '\tNo tablature to download'
@@ -265,16 +320,7 @@ if __name__ == '__main__':
     parser.add_argument('--time_limit', type=float, default=20)
     cmd = vars(parser.parse_args())
 
-    songs_dict = json.load(open(cmd['song_file'], 'r'))
-    songs = []
-    ids = {}
-    for song_info in songs_dict.values():
-        artist = song_info.get('artist', '').lower()
-        title = song_info.get('title', '').lower()
-        songs.append((artist, title))
-        if 'id' in song_info:
-            ids[artist + ' - ' + title] = song_info['id']
-
+    songs, ids = file_to_songs(cmd['song_file'])
     ts = TabScroller(
         songs=songs,
         tab_dir=cmd['tab_dir'],
