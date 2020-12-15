@@ -54,6 +54,27 @@ class Track(object):
 
         self.max_signature_ratio = math.ceil(self.max_signature_ratio)
 
+    def notes_to_int(self, notes):
+        '''
+        This function transforms a sequence of notes into an integer value.
+        If the track corresponds to a drum, the value corresponds to the sets being played.
+        OPtherwise, the value corresponds to the position at which notes are being played on a guitar.
+        '''
+        note_value = 0
+        if self.is_drum_track:
+            ordered_notes = []
+            for note in notes:
+                ordered_notes.append(note.value)
+            ordered_notes.sort()
+            for note in ordered_notes:
+                note_value = note_value*self.upper_note + (note+1)
+
+        else:
+            for note in notes:
+                note_value += (note.value+1)*self.upper_note**note.string
+
+        return note_value
+
     def to_numpy(self):
         '''
         This functions transforms a track into a numpy array.
@@ -67,28 +88,14 @@ class Track(object):
             ts = measure.timeSignature
             measure_duration = ts.numerator*self.max_note_denominator/ts.denominator.value
             note_was_played = False
+
             for voice in measure.voices:
                 for beat in voice.beats:
                     bd = beat.duration
                     note_duration = self.max_note_denominator/(bd.value)*(1+0.5*bd.isDotted)*bd.tuplet.times/bd.tuplet.enters
-                    note_value = 0
 
                     if note_time < measure_duration:
-
-                        # If this is a drum track, 'note_value' directly relates to the note value.
-                        if self.is_drum_track:
-                            ordered_notes = []
-                            for note in beat.notes:
-                                ordered_notes.append(note.value)
-                            ordered_notes.sort()
-                            for note in ordered_notes:
-                                note_value = note_value*self.upper_note + (note+1)
-
-
-                        # If this is not a drum track, the string is used to exactly define 'note_value'.
-                        else:
-                            for note in beat.notes:
-                                note_value += (note.value+1)*self.upper_note**note.string
+                        note_value = self.notes_to_int(beat.notes)
 
                         # If the measure is empty, silence are ignored
                         if not note_value:
@@ -152,18 +159,18 @@ class Song(object):
                 reshaped_1 = np.repeat(reshaped_1, n_measures, axis=2)
                 reshaped_2 = np.reshape(numpy_track, (n_notes, 1, n_measures))
                 reshaped_2 = np.repeat(reshaped_2, n_measures, axis=1)
-                are_different = 1*(reshaped_1 != reshaped_2)
-                non_zero_1 = 1*(reshaped_1 > 0)
-                non_zero_2 = 1*(reshaped_2 > 0)
+                are_different = (reshaped_1 != reshaped_2).astype(int)
+                non_zero_1 = (reshaped_1 > 0).astype(int)
+                non_zero_2 = (reshaped_2 > 0).astype(int)
                 diff = np.sum(are_different*(non_zero_1 + non_zero_2), axis=0)
 
             else:
                 diff = np.zeros((n_measures, n_measures), dtype=int)
                 for i in range(n_measures):
                     for j in range(n_measures):
-                        are_different = 1*(numpy_track[:,i] != numpy_track[:,j])
-                        non_zero_1 = 1*(numpy_track[:,i] > 0)
-                        non_zero_2 = 1*(numpy_track[:,j] > 0)
+                        are_different = (numpy_track[:,i] != numpy_track[:,j]).astype(int)
+                        non_zero_1 = (numpy_track[:,i] > 0).astype(int)
+                        non_zero_2 = (numpy_track[:,j] > 0).astype(int)
                         diff[i,j] = np.sum(are_different*(non_zero_1 + non_zero_2))
 
             if is_first:
