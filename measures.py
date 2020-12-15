@@ -13,15 +13,14 @@ class DistanceMatrix(object):
     def __init__(self, cmd):
         self.mat_dir = cmd['mat_dir']
         self.res_dir = cmd['res_dir']
-
         if not osp.exists(self.res_dir):
             os.makedirs(self.res_dir)
 
         self.initialize_distances = cmd['initialize_distances']
-
         self.normalized_size = cmd['normalized_size'] # The normalized matrix size used to compare pattern matrices
         self.batch_size = cmd['batch_size'] # The number of distances to be computed in a batch
         self.n_batch = cmd['n_batch'] # The number of batch to be computed
+        self.k_norm = cmd['k_norm']
 
         self.__initialize__()
 
@@ -30,7 +29,7 @@ class DistanceMatrix(object):
         This function initializes the distance matrix and uploads some of the relevant information.
         It adds 4 new parameters to the class:
         - self.output: a text to print when running the algorithm.
-        - self.song_list_indexed: a list of pairs '(index_song, song)' where 'song' is the name of the file and 'index_song' is its index in the distance matrix.
+        - self.song_list_indexed: a list of pairs '(index_song, song)' where 'song' is the name of the file and 'index_song' is its index.
         - self.n_songs: the number of songs.
         - self.dists: an array of size (n_songs x n_songs) corresponding to the distance between two songs. 
         '''
@@ -65,7 +64,7 @@ class DistanceMatrix(object):
         '''
         This function defines the distance we use between two pattern matrices.
         '''
-        return np.mean(np.abs(pat_mat1 - pat_mat2))
+        return np.mean(np.abs(pat_mat1 - pat_mat2)**self.k_norm)
 
     def compute_batch(self):
         '''
@@ -169,7 +168,7 @@ class DistanceMatrix(object):
             print('Batch {} of {} done ({})'.format(i+1,self.n_batch,batch_time))
         time_algorithm = time_to_string(time() - start_time)
         print('Distance Matrix executed in {}'.format(time_algorithm))
-        print('Matrix available at \'{}\''.format(osp.join(self.res_dir, 'dists.txt')))
+        print('Matrix available as \'{}\''.format(osp.join(self.res_dir, 'dists.txt')))
 
         self.check()
 
@@ -197,7 +196,11 @@ class DistanceMatrix(object):
                 for index_song2, song2 in self.song_list_indexed:
                     if index_song1 <= index_song2:
                         if not check_values[index_song1, index_song2]:
-                            print('\033[1;31;43mERROR!\033[0;38;40m The distance between \'{}\' and \'{}\' is {}'.format(song1, song2, self.dists[index_song1, index_song2]))
+                            print(
+                                '\033[1;31;43mERROR!\033[0;38;40m The distance between \'{}\' and \'{}\' is {}'.format(
+                                    song1, song2, self.dists[index_song1, index_song2]
+                                )
+                            )
 
     def check_symmetry(self):
         '''
@@ -211,7 +214,11 @@ class DistanceMatrix(object):
                 for index_song2, song2 in self.song_list_indexed:
                     if index_song1 <= index_song2:
                         if not check_symmetry[index_song1, index_song2]:
-                            print('\033[1;31;43mERROR!\033[0;38;40m There is an asymetry between \'{}\' and \'{}\' : {} and {}'.format(song1, song2, self.dists[index_song1, index_song2], self.dists[index_song2, index_song1]))
+                            print(
+                                '\033[1;31;43mERROR!\033[0;38;40m There is an asymetry between \'{}\' and \'{}\' : {} and {}'.format(
+                                    song1, song2, self.dists[index_song1, index_song2], self.dists[index_song2, index_song1]
+                                )
+                            )
 
     def check(self):
         '''
@@ -230,6 +237,7 @@ if __name__ == '__main__':
     parser.add_argument('--normalized_size', type=int, default=500)
     parser.add_argument('--batch_size', type=int, default=5)
     parser.add_argument('--n_batch', type=int, default=4)
+    parser.add_argument('--k_norm', type=int, default=1)
     cmd = vars(parser.parse_args())
     dm = DistanceMatrix(cmd)
     dm.compute()
