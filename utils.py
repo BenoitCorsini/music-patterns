@@ -53,7 +53,7 @@ def basic_stats():
     '''
     This function defines the basic statistics to be computed.
     For each type (feature, cluster, neighbour), it contains a list of stats to be plotted.
-    The quadruplets in the list correspond to (feature, ordering, reverse, bars)
+    The quadruplets in the list correspond to (feature, ordering, reverse, bars).
     '''
     basic_stats = {
         'feature' : [
@@ -88,6 +88,7 @@ def basic_stats():
     return basic_stats
 
 
+#Some motifs and patterns, for esthetic purposes.
 MOT1 = '\033[1;37;44m#\033[0;38;40m'
 MOT2 = '\033[1;37;43m#\033[0;38;40m'
 MOT3 = '\033[1;37;41m#\033[0;38;40m'
@@ -117,6 +118,9 @@ def intro():
     print()
 
 def chorus():
+    '''
+    This function prints a line between different algorithms.
+    '''
     r = random.random()
     if r < .25:
         print()
@@ -136,6 +140,9 @@ def chorus():
         print()
 
 def outro(time):
+    '''
+    This function prints the final state of the algorithm.
+    '''
     print('MUSIC PATTERNS EXECUTED IN {}'.format(time_to_string(time)))
     print()
     print(PAT4*REP + MOT4)
