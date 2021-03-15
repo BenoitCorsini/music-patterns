@@ -20,7 +20,7 @@ class DistanceMatrix(object):
         self.normalized_size = cmd['normalized_size'] # The normalized matrix size used to compare pattern matrices
         self.batch_size = cmd['batch_size'] # The number of distances to be computed in a batch
         self.n_batch = cmd['n_batch'] # The number of batch to be computed
-        self.k_norm = cmd['k_norm']
+        self.p_norm = cmd['p_norm']
 
         self.__initialize__()
 
@@ -64,7 +64,7 @@ class DistanceMatrix(object):
         '''
         This function defines the distance we use between two pattern matrices.
         '''
-        return np.mean(np.abs(pat_mat1 - pat_mat2)**self.k_norm)
+        return np.mean(np.abs(pat_mat1 - pat_mat2)**self.p_norm)**(1/self.p_norm)
 
     def compute_batch(self):
         '''
@@ -235,9 +235,9 @@ if __name__ == '__main__':
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--initialize_distances', type=int, default=1)
     parser.add_argument('--normalized_size', type=int, default=500)
-    parser.add_argument('--batch_size', type=int, default=5)
+    parser.add_argument('--batch_size', type=int, default=2)
     parser.add_argument('--n_batch', type=int, default=4)
-    parser.add_argument('--k_norm', type=int, default=1)
+    parser.add_argument('--p_norm', type=int, default=2)
     cmd = vars(parser.parse_args())
     dm = DistanceMatrix(cmd)
     dm.compute()
