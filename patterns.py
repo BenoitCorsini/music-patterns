@@ -143,4 +143,4 @@ if __name__ == '__main__':
     parser.add_argument('--min_song_length', type=int, default=2)
     cmd = vars(parser.parse_args())
     pm = PatternMatrix(cmd)
-    pm.compute()  
+    pm.compute()
