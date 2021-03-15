@@ -10,7 +10,6 @@ from grouping import SongClustering, SongNeighbouring
 from statistics import FeatureStatistics, ClusterStatistics, NeighbourStatistics
 
 
-
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
@@ -18,19 +17,19 @@ if __name__ == '__main__':
     # General parameters
     parser.add_argument('--run_tab_scroller', type=int, default=0,
     	help='run the TabScroller algorithm, which downloads the tablatures of the given list of songs')
-    parser.add_argument('--run_pattern_matrix', type=int, default=0,
+    parser.add_argument('--run_pattern_matrix', type=int, default=1,
     	help='run the PatternMatrix algorithm, which transforms tablatures into matrices and images')
-    parser.add_argument('--run_distance_matrix', type=int, default=0,
+    parser.add_argument('--run_distance_matrix', type=int, default=1,
     	help='run the DistanceMatrix algorithm, which computes the distance between the songs')
-    parser.add_argument('--run_song_clustering', type=int, default=0,
+    parser.add_argument('--run_song_clustering', type=int, default=1,
     	help='run the SongClustering algorithm, which cluster songs according to similarity of pattern matrix')
-    parser.add_argument('--run_song_neighbouring', type=int, default=0,
+    parser.add_argument('--run_song_neighbouring', type=int, default=1,
     	help='run the SongNeighbouring algorithm, which groups songs according to their neighbourhoods')
-    parser.add_argument('--run_feature_statistics', type=int, default=0,
+    parser.add_argument('--run_feature_statistics', type=int, default=1,
     	help='run the FeatureStatistics algorithm, which plots the statistics of the different given features')
-    parser.add_argument('--run_cluster_statistics', type=int, default=0,
+    parser.add_argument('--run_cluster_statistics', type=int, default=1,
     	help='run the ClusterStatistics algorithm, which plots the statistics of the clusters')
-    parser.add_argument('--run_neighbour_statistics', type=int, default=0,
+    parser.add_argument('--run_neighbour_statistics', type=int, default=1,
     	help='run the NeighbourStatistics algorithm, which plots the statistics of the neighbourhoods')
 
     parser.add_argument('--res_dir', type=str, default='results',
@@ -47,16 +46,14 @@ if __name__ == '__main__':
     	help='the directory where the neighbourhood folders will be saved')
     parser.add_argument('--stats_dir', type=str, default='results/statistics',
     	help='the directory where the plotted statistics will be saved')
-
+    parser.add_argument('--song_file', type=str, default='data/songs.json',
+        help='the file containing the songs to be downloaded and their features')
 
     # TabScroller parameters
-    parser.add_argument('--song_file', type=str, default='songs.json',
-    	help='the file used to search and download the tablatures')
     parser.add_argument('--chromedriver', type=str, default='chromedriver',
     	help='the path to the chromedriver')
     parser.add_argument('--time_limit', type=float, default=20,
     	help='the time limit before a download is cancelled and considered failed')
-
 
     # PatternMatrix parameters
     parser.add_argument('--save_im', type=int, default=1,
@@ -71,7 +68,6 @@ if __name__ == '__main__':
     parser.add_argument('--min_song_length', type=int, default=2,
     	help='the minimal length in measures for a tablature to be considered')
 
-
     # DistanceMatrix parameters
     parser.add_argument('--initialize_distances', type=int, default=1,
     	help='boolean stating if the distance matrix and the song indices should be re-initialized')
@@ -83,9 +79,8 @@ if __name__ == '__main__':
     parser.add_argument('--n_batch', type=int, default=4,
     	help='the number of batch to be computed \
     	      the product of "batch_size" and "n_batch" should ideally be larger than the number of matrices')
-    parser.add_argument('--k_norm', type=int, default=1,
+    parser.add_argument('--p_norm', type=int, default=2,
     	help='the power used in the norm to compare song matrices')
-
 
     # Grouping parameters
     parser.add_argument('--order_by', type=str, default='dist',
@@ -110,7 +105,6 @@ if __name__ == '__main__':
     parser.add_argument('--n_neighbours', type=int, default=3,
     	help='the number of neighbours computed for each song')
 
-
     # Statistics parameters
     parser.add_argument('--write_stats_info', type=int, default=0,
     	help='boolean stating if the parameters used in the statistics should be written on the file name')
@@ -121,11 +115,9 @@ if __name__ == '__main__':
     parser.add_argument('--min_clus_size', type=int, default=2,
     	help='the minimual number of songs in a cluster for it to be considered in the statistics')
 
-
     # Collecting the parameters
     cmd = vars(parser.parse_args())
 
-    
 
     # Running the algorithm
     start_time = time()
