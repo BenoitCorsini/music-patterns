@@ -313,7 +313,7 @@ class TabScroller(object):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--song_file', type=str, default='songs.json')
+    parser.add_argument('--song_file', type=str, default='data/songs.json')
     parser.add_argument('--tab_dir', type=str, default='data/tablatures')
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--chromedriver', type=str, default='chromedriver')
