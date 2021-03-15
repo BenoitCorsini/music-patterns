@@ -4,8 +4,6 @@ This project is able to download songs online, transform them into similarity ma
 
 The code present here was used in the article [Similarity of structure in popular music](https://arxiv.org/abs/2007.13728).
 
-If you are using this code, please cite this paper: ...
-
 ## Getting started
 
 ### Running the code
@@ -35,9 +33,9 @@ On top of these files, `utils.py` contains a few useful functions used in differ
 
 On top of `main.py` which combines all algorithms together, each file ending with `.py` (apart from `utils.py` and `song.py`) can be run independently. For example, if you are only interested in transforming your favorite tablatures into their corresponding images, you can place them in a new folder `my_tablatures/` and then run the following command line:
 ```sh
-python patterns.py --tab_dir my_tablatures --im_dir my_images --colour my_colour
+python patterns.py --tab_dir my_tablatures --im_dir my_images --colour blue
 ```
-This will transforms the songs in `my_tablatures/` into images and save these images in `my_images/`. The parameter `my_colour` can be used to choose the colour of the images and the set of choices can be found in `patterns.py`.
+This will transforms the songs in `my_tablatures/` into images and save these images in `my_images/`. The parameter `--colour` can be used to choose the colour of the images and the set of choices can be found in `patterns.py`.
 
 ### Website scroller
 
@@ -60,3 +58,6 @@ Using the previously represented matrices, this project then studies statistical
 ## Contact and information
 
 If you have any questions regarding the code, feel free to contact me at <benoitcorsini@gmail.com>.
+
+If you found this code useful or used it for your own study, please cite the following paper:
+...
