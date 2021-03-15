@@ -16,21 +16,21 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
     # General parameters
-    parser.add_argument('--run_tab_scroller', type=int, default=1,
+    parser.add_argument('--run_tab_scroller', type=int, default=0,
     	help='run the TabScroller algorithm, which downloads the tablatures of the given list of songs')
-    parser.add_argument('--run_pattern_matrix', type=int, default=1,
+    parser.add_argument('--run_pattern_matrix', type=int, default=0,
     	help='run the PatternMatrix algorithm, which transforms tablatures into matrices and images')
-    parser.add_argument('--run_distance_matrix', type=int, default=1,
+    parser.add_argument('--run_distance_matrix', type=int, default=0,
     	help='run the DistanceMatrix algorithm, which computes the distance between the songs')
-    parser.add_argument('--run_song_clustering', type=int, default=1,
+    parser.add_argument('--run_song_clustering', type=int, default=0,
     	help='run the SongClustering algorithm, which cluster songs according to similarity of pattern matrix')
-    parser.add_argument('--run_song_neighbouring', type=int, default=1,
+    parser.add_argument('--run_song_neighbouring', type=int, default=0,
     	help='run the SongNeighbouring algorithm, which groups songs according to their neighbourhoods')
-    parser.add_argument('--run_feature_statistics', type=int, default=1,
+    parser.add_argument('--run_feature_statistics', type=int, default=0,
     	help='run the FeatureStatistics algorithm, which plots the statistics of the different given features')
-    parser.add_argument('--run_cluster_statistics', type=int, default=1,
+    parser.add_argument('--run_cluster_statistics', type=int, default=0,
     	help='run the ClusterStatistics algorithm, which plots the statistics of the clusters')
-    parser.add_argument('--run_neighbour_statistics', type=int, default=1,
+    parser.add_argument('--run_neighbour_statistics', type=int, default=0,
     	help='run the NeighbourStatistics algorithm, which plots the statistics of the neighbourhoods')
 
     parser.add_argument('--res_dir', type=str, default='results',
