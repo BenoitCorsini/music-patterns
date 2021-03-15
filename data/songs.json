@@ -1,203 +1,85 @@
 {
-  "GEORGE HARRISON - Isnt It A Pity": {
-    "artist": "GEORGE HARRISON",
-    "title": "Isnt It A Pity",
-    "year": 1970,
-    "decade": 1970,
-    "genre": [
-      "folk rock"
-    ],
-    "types": [
-      "folk",
-      "rock"
-    ],
-    "id": "lame"
-  },
-  "FOREIGNER - Juke Box Hero": {
-    "artist": "FOREIGNER",
-    "title": "Juke Box Hero",
-    "year": 1982,
-    "decade": 1980,
-    "genre": [
-      "hard rock"
-    ],
-    "types": [
-      "hard",
-      "rock"
-    ],
-    "id": "lame"
-  },
-  "MICHAEL JACKSON - Wanna Be Startin Somethin": {
+  "MICHAEL JACKSON - Beat It": {
     "artist": "MICHAEL JACKSON",
-    "title": "Wanna Be Startin Somethin",
+    "title": "Beat It",
     "year": 1983,
     "decade": 1980,
     "genre": [
-      "funk",
-      "post disco"
-    ],
-    "types": [
-      "disco",
-      "funk",
-      "post"
-    ],
-    "id": "cool"
-  },
-  "THE POLICE - Message In A Bottle": {
-    "artist": "THE POLICE",
-    "title": "Message In A Bottle",
-    "year": 1979,
-    "decade": 1970,
-    "genre": [
-      "new wave",
-      "post punk",
-      "reggae rock"
-    ],
-    "types": [
-      "new",
-      "new wave",
-      "post",
-      "punk",
-      "reggae",
-      "rock",
-      "wave"
-    ],
-    "id": "cool"
-  },
-  "MR BIG - To Be With You": {
-    "artist": "MR BIG",
-    "title": "To Be With You",
-    "year": 1991,
-    "decade": 1990,
-    "genre": [
-      "soft rock"
-    ],
-    "types": [
-      "rock"
-    ],
-    "id": "lame"
-  },
-  "DISTURBED - Indestructible": {
-    "artist": "DISTURBED",
-    "title": "Indestructible",
-    "year": 2008,
-    "decade": 2000,
-    "genre": [
-      "alternative metal",
-      "hard rock",
-      "heavy metal"
-    ],
-    "types": [
-      "alternative",
-      "hard",
-      "metal",
-      "rock"
-    ],
-    "id": "badass"
-  },
-  "PRINCE - 1999": {
-    "artist": "PRINCE",
-    "title": "1999",
-    "year": 1982,
-    "decade": 1980,
-    "genre": [
-      "art pop",
-      "funk",
-      "minneapolis sound",
-      "r&b",
-      "synth pop"
-    ],
-    "types": [
-      "art",
-      "funk",
-      "pop",
-      "r&b",
-      "sound",
-      "synth"
-    ],
-    "id": "lame"
-  },
-  "MEGADETH - Symphony Of Destruction": {
-    "artist": "MEGADETH",
-    "title": "Symphony Of Destruction",
-    "year": 1992,
-    "decade": 1990,
-    "genre": [
-      "heavy metal"
-    ],
-    "types": [
-      "metal"
-    ],
-    "id": "yeah"
-  },
-  "RED HOT CHILI PEPPERS - Otherside": {
-    "artist": "RED HOT CHILI PEPPERS",
-    "title": "Otherside",
-    "year": 2000,
-    "decade": 2000,
-    "genre": [
-      "alternative rock"
-    ],
-    "types": [
-      "alternative",
-      "rock"
-    ],
-    "id": "cool"
-  },
-  "STAIND - Fade": {
-    "artist": "STAIND",
-    "title": "Fade",
-    "year": 2001,
-    "decade": 2000,
-    "genre": [
+      "dance rock",
       "hard rock"
     ],
     "types": [
+      "dance",
       "hard",
       "rock"
-    ],
-    "id": "lame"
+    ]
   },
-  "PNK - Please Dont Leave Me": {
-    "artist": "P!NK",
-    "title": "Please Dont Leave Me",
-    "year": 2009,
+  "JONAS BROTHERS - Lovebug": {
+    "artist": "JONAS BROTHERS",
+    "title": "Lovebug",
+    "year": 2008,
     "decade": 2000,
     "genre": [
-      "folk",
-      "pop"
+      "pop rock"
     ],
     "types": [
-      "folk",
-      "pop"
-    ],
-    "id": "lame"
-  },
-  "JET - Are You Gonna Be My Girl": {
-    "artist": "JET",
-    "title": "Are You Gonna Be My Girl",
-    "year": 2003,
-    "decade": 2000,
-    "genre": [
-      "garage rock"
-    ],
-    "types": [
-      "garage",
+      "pop",
       "rock"
-    ],
-    "id": "nice"
+    ]
   },
-  "THE BEATLES - Yesterday": {
-    "artist": "THE BEATLES",
-    "title": "Yesterday",
-    "year": 1965,
-    "decade": 1960,
+  "METALLICA - One": {
+    "artist": "METALLICA",
+    "title": "One",
+    "year": 1989,
+    "decade": 1980,
     "genre": [
-      "chamber pop"
+      "thrash metal"
     ],
     "types": [
-      "pop"
+      "metal"
+    ]
+  },
+  "GUNS N ROSES - Sweet Child O Mine": {
+    "artist": "GUNS N ROSES",
+    "title": "Sweet Child O Mine",
+    "year": 1988,
+    "decade": 1980,
+    "genre": [
+      "glam metal",
+      "hard rock"
     ],
-    "id": "ok"
-  }
+    "types": [
+      "glam",
+      "hard",
+      "metal",
+      "rock"
+    ]
+  },
+  "DIRE STRAITS - Sultans Of Swing": {
+    "artist": "DIRE STRAITS",
+    "title": "Sultans Of Swing",
+    "year": 1979,
+    "decade": 1970,
+    "genre": [
+      "pub rock",
+      "roots rock"
+    ],
+    "types": [
+      "rock"
+    ]
+  },
+  "MICHAEL JACKSON - Smooth Criminal": {
+    "artist": "MICHAEL JACKSON",
+    "title": "Smooth Criminal",
+    "year": 1988,
+    "decade": 1980,
+    "genre": [
+      "pop",
+      "r&b"
+    ],
+    "types": [
+      "pop",
+      "r&b"
+    ]
+  },
 }
