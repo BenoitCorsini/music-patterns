@@ -28,6 +28,7 @@ class Statistics(object):
         self.stats_dir = cmd['stats_dir']
         if not osp.exists(self.stats_dir):
             os.makedirs(self.stats_dir)
+        self.song_file = cmd['song_file']
         self.write_stats_info = cmd['write_stats_info']
         self.max_plot = cmd['max_plot']
 
@@ -43,7 +44,7 @@ class Statistics(object):
         - songs_info: a dictionary containing the songs and their features.
         - feat_infos: a dictionary containing information on the features (such as the values of the features)
         '''
-        self.songs_info = json.load(open('songs.json', 'r'))
+        self.songs_info = json.load(open(self.song_file, 'r'))
         self.feat_infos = {}
         for song_feats in self.songs_info.values():
             for song_feat, feat_value in song_feats.items():
@@ -524,6 +525,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--stats_dir', type=str, default='results/statistics')
+    parser.add_argument('--song_file', type=str, default='data/songs.json')
     parser.add_argument('--write_stats_info', type=int, default=0)
     parser.add_argument('--max_plot', type=int, default=50)
     parser.add_argument('--min_feat_size', type=int, default=2)
