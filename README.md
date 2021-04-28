@@ -18,11 +18,27 @@ python main.py
 ```
 This line will run the music pattern algorithm on the tablatures available in `data/tablatures/`.
 
+#### Running the code on the dataset
+
 If you want to run the code on the whole dataset and obtain the results from the article, run the following:
 ```sh
 python main.py --tab_dir dataset/tablatures --song_file dataset/songs.json --colour blue --batch_size 500 --n_batch 10 --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
 ```
 __Careful__, it will take about XXX hours for the whole algorithm to be done.
+
+If not patient enough, the distance matrix, which is the longest step of the algorithm, is already computed. Before using it, you need to move `dists.txt` and `song_list.txt` to the result folder:
+```sh
+mv dataset/*.txt results/
+```
+Then, you need to compute and represent the pattern matrices (which takes about XXX times):
+```sh
+python patterns.py --tab_dir dataset/tablatures --colour blue 
+```
+You are now finally ready to play with the statistics of the dataset! You can either use the files directly (`grouping.py` and `statistics.py`), or use the following command line with the extra parameters that suit you best:
+```sh
+python main.py --run_pattern_matrix 0 --run_distance_matrix 0 --song_file dataset/songs.json --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
+```
+
 
 ### Organization of the code
 
