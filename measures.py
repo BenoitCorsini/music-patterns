@@ -84,7 +84,7 @@ class DistanceMatrix(object):
             indices = np.reshape(indices, (1,self.normalized_size))
             indices = np.repeat(indices, self.normalized_size, axis=0)
 
-            dists_to_compute = self.song_list_indexed[start_index:start_index+self.batch_size]
+            dists_to_compute = self.song_list_indexed[start_index:start_index + self.batch_size]
             batch_pat_mat = []
             for index_song, song in dists_to_compute:
                 pat_mat = process(np.loadtxt(osp.join(self.mat_dir, song + '.txt'), delimiter='\t'))
@@ -162,10 +162,10 @@ class DistanceMatrix(object):
         print(self.output)
         for i in range(self.n_batch):
             time_spent = time_to_string(time() - start_time)
-            print('Batch {} of {} starting... ({})'.format(i+1,self.n_batch,time_spent))
+            print('Batch {} of {} starting... ({})'.format(i + 1, self.n_batch, time_spent))
             batch_time = self.compute_batch()
             sys.stdout.write('\033[F\033[K')
-            print('Batch {} of {} done ({})'.format(i+1,self.n_batch,batch_time))
+            print('Batch {} of {} done ({})'.format(i + 1, self.n_batch, batch_time))
         time_algorithm = time_to_string(time() - start_time)
         print('Distance Matrix executed in {}'.format(time_algorithm))
         print('Matrix available as \'{}\''.format(osp.join(self.res_dir, 'dists.txt')))

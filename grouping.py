@@ -170,7 +170,11 @@ class SongClustering(Grouping):
                 cluster_info['number'] = -1
             else:
                 cluster_info['name'] = 'Cluster {}'.format(index_cluster)
-                cluster_info['info'] = ' (dist={:.2f},size={},iter={})'.format(100*cluster_info['dist'],cluster_info['size'],cluster_info['iter'])
+                cluster_info['info'] = ' (dist={:.2f},size={},iter={})'.format(
+                    100*cluster_info['dist'],
+                    cluster_info['size'],
+                    cluster_info['iter']
+                )
                 cluster_info['number'] = index_cluster
                 index_cluster += 1
 
@@ -217,7 +221,6 @@ class SongClustering(Grouping):
         print('The cluster properties are represented in \'{}\''.format(osp.join(self.res_dir, 'clusters.png')))
 
 
-
 class SongNeighbouring(Grouping):
 
     def __init__(self, cmd):
@@ -238,7 +241,7 @@ class SongNeighbouring(Grouping):
             neighbours_dists = self.dists[index_song, :]
             indices = np.argsort(neighbours_dists)[1:1+self.n_neighbours]
 
-            for (number_n, index_n) in enumerate(indices):
+            for number_n, index_n in enumerate(indices):
                 neighbours[self.song_dict[index_n]] = {
                     'dist' : neighbours_dists[index_n],
                     'number' : number_n + 1,

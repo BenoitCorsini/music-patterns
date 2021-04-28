@@ -68,13 +68,14 @@ class PatternMatrix(object):
         song_length = np.size(pat_mat, axis=0)
         if song_length < self.min_song_length:
             raise Exception('The song is too short (length={})'.format(song_length))
+
         if self.overwrite_mat or (not osp.exists(osp.join(self.mat_dir, song_name + '.txt'))):
             np.savetxt(osp.join(self.mat_dir, song_name + '.txt'), pat_mat, delimiter='\t')
 
         im_to_be_saved = self.overwrite_im or (not osp.exists(osp.join(self.im_dir, song_name + '.png')))
         if self.save_im & im_to_be_saved:
-            (n1,n2) = np.shape(pat_mat)
-            color_mat = np.zeros((n1,n2,3))
+            n1, n2 = np.shape(pat_mat)
+            color_mat = np.zeros((n1, n2, 3))
 
             processed = process(pat_mat)**.5 # The sqrt here is used to improve the clarity of the figures.
 
@@ -83,11 +84,11 @@ class PatternMatrix(object):
             color_mat[:,:,2] = 1 - 2*(processed - 0.5)*(processed > 0.5)
             color_mat = color_mat[:,:,self.get_indices_from_colour()]
 
-            plt.figure(figsize=(5,5))
+            plt.figure(figsize=(10,10))
             plt.imshow(color_mat, interpolation='nearest')
             plt.subplots_adjust(left=0, right=1, bottom=0, top=1)
             plt.axis('off')
-            plt.savefig(osp.join(self.im_dir, song_name + '.png'), dpi=2*n1)
+            plt.savefig(osp.join(self.im_dir, song_name + '.png'))
             plt.close()
 
     def compute(self):

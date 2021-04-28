@@ -181,6 +181,7 @@ class Statistics(object):
             plt.close()
 
             return True
+
         else:
         	return False
 
@@ -192,6 +193,7 @@ class Statistics(object):
         start_time = time()
         print('{} Statistics starting...'.format(self.type.capitalize()))
         not_plotted = 0
+
         if basic_stats is None:
             n_plots = len(self.feat_infos)*4
             index_plot = 1
@@ -204,6 +206,7 @@ class Statistics(object):
                         	not_plotted += 1
                         index_plot += 1
                         sys.stdout.write('\033[F\033[K')
+
         else:
             n_plots = len(basic_stats.get(self.type, []))
             for index_plot, (feat, ordering, reverse, bars) in enumerate(basic_stats.get(self.type, [])):
@@ -212,6 +215,7 @@ class Statistics(object):
                 if not self.plot_stats(self.get_stats(feat, ordering, reverse, bars)):
                 	not_plotted += 1
                 sys.stdout.write('\033[F\033[K')
+
         time_algorithm = time_to_string(time() - start_time)
         print('{} Statistics executed in {}'.format(self.type.capitalize(), time_algorithm))
         print('{} figures available at {}'.format(n_plots - not_plotted, self.stats_dir))
