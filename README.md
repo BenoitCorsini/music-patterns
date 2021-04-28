@@ -2,7 +2,7 @@
 
 This project is able to download songs online, transform them into similarity matrices and computes statistics on the resulting images.
 
-The code present here was used in the article [Similarity of structure in popular music](https://arxiv.org/abs/2007.13728).
+The code present here was used in the article [Similarity of structure in popular music](https://www.math.mcgill.ca/bcorsini/math/articles/similarity_of_structures_in_popular_music.pdf).
 
 ## Getting started
 
