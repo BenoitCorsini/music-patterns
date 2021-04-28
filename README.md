@@ -18,28 +18,6 @@ python main.py
 ```
 This line will run the music pattern algorithm on the tablatures available in `data/tablatures/`.
 
-#### Running the code on the dataset
-
-If you want to run the code on the whole dataset and obtain the results from the article, run the following:
-```sh
-python main.py --tab_dir dataset/tablatures --song_file dataset/songs.json --colour blue --batch_size 500 --n_batch 10 --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
-```
-__Careful__, it will take about XXX hours for the whole algorithm to be done.
-
-If not patient enough, the distance matrix, which is the longest step of the algorithm, is already computed. Before using it, you need to move `dists.txt` and `song_list.txt` to the result folder:
-```sh
-mv dataset/*.txt results/
-```
-Then, you need to compute and represent the pattern matrices (which takes about XXX times):
-```sh
-python patterns.py --tab_dir dataset/tablatures --colour blue 
-```
-You are now finally ready to play with the statistics of the dataset! You can either use the files directly (`grouping.py` and `statistics.py`), or use the following command line with the extra parameters that suit you best:
-```sh
-python main.py --run_pattern_matrix 0 --run_distance_matrix 0 --song_file dataset/songs.json --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
-```
-
-
 ### Organization of the code
 
 The code of this project is able to execute several tasks:
@@ -64,6 +42,33 @@ This will transforms the songs in `my_tablatures/` into images and save these im
 The code in `scroller.py` is used to scroll through [Ultimate Guitar](https://www.ultimate-guitar.com/) and to download the corresponding files. This code requires you to set up a web driver for Chrome. To download the Chrome driver, go to [this webpage](https://chromedriver.chromium.org/downloads) and follow the instructions. Once you have downloaded the chromedriver, you can either put it in the main directory, or specify its path by using the argument `--chromedriver` in `scroller.py`.
 
 __Disclaimer__: the code in `scroller.py` is very dependent on the architecture of the website it scrolls through. It might not be up-to-date with the current organization of the website and might need to be slightly modified. If it does not work, you can also download the tablatures from the website and put them into your tablature folder (`data/tablatures` by default).
+
+## The dataset
+
+### Background
+
+This repo contains a newly created dataset made of 4166 songs. These songs were downloaded using [this dataset](https://data.world/kcmillersean/billboard-hot-100-1958-2017) which contains the list of all songs that reached the _Billboard chart_. If you notice any error in the dataset, please contact me using the information available at the bottom of this page
+
+### Playing with the dataset
+
+If you want to run the code on the whole dataset and obtain the results from the article, run the following:
+```sh
+python main.py --tab_dir dataset/tablatures --song_file dataset/songs.json --colour blue --batch_size 500 --n_batch 10 --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
+```
+__Careful__, it will take about XXX hours for the whole algorithm to be done.
+
+If not patient enough, the distance matrix, which is the longest step of the algorithm, is already computed. Before using it, you need to move `dists.txt` and `song_list.txt` to the result folder:
+```sh
+mv dataset/*.txt results/
+```
+Then, you need to compute and represent the pattern matrices (which takes about XXX times):
+```sh
+python patterns.py --tab_dir dataset/tablatures --colour blue 
+```
+You are now finally ready to play with the statistics of the dataset! You can either use the files directly (`grouping.py` and `statistics.py`), or use the following command line with the extra parameters that suit you best:
+```sh
+python main.py --run_pattern_matrix 0 --run_distance_matrix 0 --song_file dataset/songs.json --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
+```
 
 ## Results
 
