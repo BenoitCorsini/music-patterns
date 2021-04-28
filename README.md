@@ -12,20 +12,26 @@ The library requirements for this code can be found in `requirements.txt`. To in
 ```sh
 pip install -r requirements.txt
 ```
-Once this is done or if the required libraries are already installed, run the following:
+Once this is done, or if the required libraries are already installed, run the following:
 ```sh
 python main.py
 ```
-This line will run the music pattern algorithm on the tablatures available in `data/tablatures/`. It is possible to add
+This line will run the music pattern algorithm on the tablatures available in `data/tablatures/`.
+
+If you want to run the code on the whole dataset and obtain the results from the article, run the following:
+```sh
+python main.py --tab_dir dataset/tablatures --song_file dataset/songs.json --colour blue --batch_size 500 --n_batch 10 --clusters_size_threshold 15 --n_neighbours 20 --min_feat_size 5 --min_clus_size 5
+```
+__Careful__, it will take about XXX hours for the whole algorithm to be done.
 
 ### Organization of the code
 
 The code of this project is able to execute several tasks:
-* It scrolls through [Ultimate Guitar](https://www.ultimate-guitar.com/) and downloads the songs specified (when available). The code for this task can be found `scroller.py`.
-* It transforms songs from their _GuitarPro_ files into pattern matrices and images. The code for this task uses `song.py`, which transforms a song into a pattern matrix, and `patterns.py`, which saves these pattern matrices and transform them into images.
-* It computes the distance between songs using their pattern matrices. The code for this task can be found in `measures.py`.
-* It uses the distance between songs to group them into either clusters or neighbourhoods. The code for this task can be found in `grouping.py`.
-* It represents the statistics of the relation between the features of the songs and their distance. The code for this task can be found in `statistics.py`
+* It can scroll through [Ultimate Guitar](https://www.ultimate-guitar.com/) and download the songs specified (when available). The code for this task can be found in `scroller.py`.
+* It can transform songs in _GuitarPro_ format into pattern matrices and images. The code for this task uses `song.py`, which transforms a song into a pattern matrix, and `patterns.py`, which saves these pattern matrices and transform them into images.
+* It can compute the distance between songs using their pattern matrices. The code for this task can be found in `measures.py`.
+* It can use the distance between songs to group them into either clusters or neighbourhoods. The code for this task can be found in `grouping.py`.
+* It can find relation between pattern structures and features. The code for this task can be found in `statistics.py`
 
 On top of these files, `utils.py` contains a few useful functions used in different places, and `main.py` combines all this code.
 
@@ -39,9 +45,9 @@ This will transforms the songs in `my_tablatures/` into images and save these im
 
 ### Website scroller
 
-As explained earlier, the code in `scroller.py` is used to scroll through [Ultimate Guitar](https://www.ultimate-guitar.com/) and to download the corresponding files. This code requires you to set up a web driver for Chrome. To download the Chrome driver, go to [this webpage](https://chromedriver.chromium.org/downloads) and follow the instructions. Once you have downloaded the chromedriver, you can either put it in the main directory, or specify its path by using the argument `--chromedriver` in `scroller.py`.
+The code in `scroller.py` is used to scroll through [Ultimate Guitar](https://www.ultimate-guitar.com/) and to download the corresponding files. This code requires you to set up a web driver for Chrome. To download the Chrome driver, go to [this webpage](https://chromedriver.chromium.org/downloads) and follow the instructions. Once you have downloaded the chromedriver, you can either put it in the main directory, or specify its path by using the argument `--chromedriver` in `scroller.py`.
 
-__Careful__: the code in `scroller.py` is very dependent on the architecture of the website it scrolls through. It might not be up-to-date with the current organization of the website and could need to be adapted.
+__Disclaimer__: the code in `scroller.py` is very dependent on the architecture of the website it scrolls through. It might not be up-to-date with the current organization of the website and might need to be slightly modified. If it does not work, you can also download the tablatures from the website and put them into your tablature folder (`data/tablatures` by default).
 
 ## Results
 
