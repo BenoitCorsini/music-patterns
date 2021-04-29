@@ -235,7 +235,7 @@ if __name__ == '__main__':
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--initialize_distances', type=int, default=1)
     parser.add_argument('--normalized_size', type=int, default=500)
-    parser.add_argument('--batch_size', type=int, default=2)
+    parser.add_argument('--batch_size', type=int, default=25)
     parser.add_argument('--n_batch', type=int, default=4)
     parser.add_argument('--p_norm', type=int, default=2)
     cmd = vars(parser.parse_args())

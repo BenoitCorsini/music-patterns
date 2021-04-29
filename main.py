@@ -73,7 +73,7 @@ if __name__ == '__main__':
         help='boolean stating if the distance matrix and the song indices should be re-initialized')
     parser.add_argument('--normalized_size', type=int, default=500,
         help='the common size used to compare songs, since they all have different length in measures')
-    parser.add_argument('--batch_size', type=int, default=5,
+    parser.add_argument('--batch_size', type=int, default=25,
         help='the size of the batch of normalized songs computed together \
               this parameter is useful to speed the algorithm up but requires more memory power')
     parser.add_argument('--n_batch', type=int, default=4,
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--n_clusters', type=int, default=2,
         help='the number of clusters to be used in the recursive clustering algorithm')
-    parser.add_argument('--cluster_size_threshold', type=int, default=3,
+    parser.add_argument('--cluster_size_threshold', type=int, default=10,
         help='the threshold at which the recursive clustering algorithm will stop trying to divide')
     parser.add_argument('--max_iter', type=int, default=None,
         help='the maximal number of iteration of the recursive cliustering algorithm \
@@ -102,13 +102,13 @@ if __name__ == '__main__':
         help='the algorithm used in the recursive clustering algorithm \
               choices of: agglomerative clustering, spectral clustering, k-medoids')
 
-    parser.add_argument('--n_neighbours', type=int, default=3,
+    parser.add_argument('--n_neighbours', type=int, default=5,
         help='the number of neighbours computed for each song')
 
     # Statistics parameters
     parser.add_argument('--write_stats_info', type=int, default=0,
         help='boolean stating if the parameters used in the statistics should be written on the file name')
-    parser.add_argument('--max_plot', type=int, default=50,
+    parser.add_argument('--max_plot', type=int, default=None,
         help='the maximal number of groups plotted on the horizontal axis (may refer to features, clusters, or neighbourhoods)')
     parser.add_argument('--min_feat_size', type=int, default=2,
         help='the minimal number of songs with a specific feature for it to be considered in the statistics')

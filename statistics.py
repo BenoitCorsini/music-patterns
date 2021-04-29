@@ -531,7 +531,7 @@ if __name__ == '__main__':
     parser.add_argument('--stats_dir', type=str, default='results/statistics')
     parser.add_argument('--song_file', type=str, default='data/songs.json')
     parser.add_argument('--write_stats_info', type=int, default=0)
-    parser.add_argument('--max_plot', type=int, default=50)
+    parser.add_argument('--max_plot', type=int, default=None)
     parser.add_argument('--min_feat_size', type=int, default=2)
     parser.add_argument('--min_clus_size', type=int, default=2)
     cmd = vars(parser.parse_args())

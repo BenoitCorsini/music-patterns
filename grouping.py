@@ -320,12 +320,12 @@ if __name__ == '__main__':
 
     parser.add_argument('--clusters_dir', type=str, default='results/clusters')
     parser.add_argument('--n_clusters', type=int, default=2)
-    parser.add_argument('--cluster_size_threshold', type=int, default=3)
+    parser.add_argument('--cluster_size_threshold', type=int, default=10)
     parser.add_argument('--max_iter', type=int, default=None)
     parser.add_argument('--clustering_method', type=str, default='AC')
 
     parser.add_argument('--neighbours_dir', type=str, default='results/neighbours')
-    parser.add_argument('--n_neighbours', type=int, default=3)
+    parser.add_argument('--n_neighbours', type=int, default=5)
     cmd = vars(parser.parse_args())
     sc = SongClustering(cmd)
     sc.run()
