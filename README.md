@@ -82,7 +82,7 @@ This project transforms songs into corresponding _pattern similarity matrices_. 
 By using these images and comparing them between each other, it becomes possible to define a distance on songs based on pattern similarity. By combining this distance with information on the songs (such as artist, year, or genre), it is possible to obtain figures such as the following.
 
 <p align="center">
-    <img width="80%" src="figures/figure.png"/>
+    <img width="100%" src="figures/figure.png"/>
 </p>
 
 All figures created by this algorithm look like the one above: the horizontal axis corresponds to groups of songs (here the 5 closest neighbours) and the vertical axis corresponds to some metric on these groups (here the year of release). The blue dots and blue bars represent the distribution of the main subject of interest (here the year of release of the songs). The red bars usually give extra information on these groups (here the average distance between songs). Finally, the yellow stars represent a special element of this group of songs (here the center of the neighbourhood). More information on these figures and various types of results can be find in the [article](https://www.math.mcgill.ca/bcorsini/math/articles/similarity_of_structures_in_popular_music.pdf).
