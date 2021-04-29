@@ -74,9 +74,7 @@ This project produces two main types of results: image representation of songs, 
 This project transforms songs into corresponding _pattern similarity matrices_. These matrices offer interesting representation of songs, where the structure of the song can usually be read from the image. Typical images look like the following.
 
 <p align="center">
-    <img width="30%" src="figures/metallica.png"/><img width="30%" src="figures/metallica.png"/>
-    <br />
-    <img width="30%" src="figures/metallica.png"/><img width="30%" src="figures/metallica.png"/>
+    <img width="60%" src="figures/matrices.pdf"/>
 </p>
 
 ### Statistics on patterns of songs
