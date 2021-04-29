@@ -1,85 +1,770 @@
 {
-  "MICHAEL JACKSON - Beat It": {
-    "artist": "MICHAEL JACKSON",
-    "title": "Beat It",
-    "year": 1983,
-    "decade": 1980,
+  "Black Sabbath - Electric Funeral": {
+    "artist": "Black Sabbath",
+    "title": "Electric Funeral",
+    "year": 1970,
     "genre": [
-      "dance rock",
-      "hard rock"
-    ],
-    "types": [
-      "dance",
-      "hard",
-      "rock"
+      "heavy metal"
     ]
   },
-  "JONAS BROTHERS - Lovebug": {
-    "artist": "JONAS BROTHERS",
-    "title": "Lovebug",
-    "year": 2008,
-    "decade": 2000,
+  "Black Sabbath - Fairies Wear Boots": {
+    "artist": "Black Sabbath",
+    "title": "Fairies Wear Boots",
+    "year": 1970,
     "genre": [
-      "pop rock"
-    ],
-    "types": [
-      "pop",
-      "rock"
+      "heavy metal"
     ]
   },
-  "METALLICA - One": {
-    "artist": "METALLICA",
-    "title": "One",
-    "year": 1989,
-    "decade": 1980,
+  "Black Sabbath - Hand Of Doom": {
+    "artist": "Black Sabbath",
+    "title": "Hand Of Doom",
+    "year": 1970,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Black Sabbath - Iron Man": {
+    "artist": "Black Sabbath",
+    "title": "Iron Man",
+    "year": 1970,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Black Sabbath - Paranoid": {
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "year": 1970,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Black Sabbath - Planet Caravan": {
+    "artist": "Black Sabbath",
+    "title": "Planet Caravan",
+    "year": 1970,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Black Sabbath - Rat Salad": {
+    "artist": "Black Sabbath",
+    "title": "Rat Salad",
+    "year": 1970,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Black Sabbath - War Pigs": {
+    "artist": "Black Sabbath",
+    "title": "War Pigs",
+    "year": 1970,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - 22 Acacia Avenue": {
+    "artist": "Iron Maiden",
+    "title": "22 Acacia Avenue",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - Children Of The Damned": {
+    "artist": "Iron Maiden",
+    "title": "Children Of The Damned",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - Gangland": {
+    "artist": "Iron Maiden",
+    "title": "Gangland",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - Hallowed Be Thy Name": {
+    "artist": "Iron Maiden",
+    "title": "Hallowed Be Thy Name",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - Invaders": {
+    "artist": "Iron Maiden",
+    "title": "Invaders",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - Run To The Hills": {
+    "artist": "Iron Maiden",
+    "title": "Run To The Hills",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - The Number Of The Beast": {
+    "artist": "Iron Maiden",
+    "title": "The Number Of The Beast",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Iron Maiden - The Prisoner": {
+    "artist": "Iron Maiden",
+    "title": "The Prisoner",
+    "year": 1982,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - Breaking The Law": {
+    "artist": "Judas Priest",
+    "title": "Breaking The Law",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - Grinder": {
+    "artist": "Judas Priest",
+    "title": "Grinder",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - Living After Midnight": {
+    "artist": "Judas Priest",
+    "title": "Living After Midnight",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - Metal Gods": {
+    "artist": "Judas Priest",
+    "title": "Metal Gods",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - Rapid Fire": {
+    "artist": "Judas Priest",
+    "title": "Rapid Fire",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - The Rage": {
+    "artist": "Judas Priest",
+    "title": "The Rage",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - United": {
+    "artist": "Judas Priest",
+    "title": "United",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Judas Priest - You Dont Have To Be Old To Be Wise": {
+    "artist": "Judas Priest",
+    "title": "You Dont Have To Be Old To Be Wise",
+    "year": 1980,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Megadeth - Dawn Patrol": {
+    "artist": "Megadeth",
+    "title": "Dawn Patrol",
+    "year": 1990,
     "genre": [
       "thrash metal"
-    ],
-    "types": [
-      "metal"
     ]
   },
-  "GUNS N ROSES - Sweet Child O Mine": {
-    "artist": "GUNS N ROSES",
-    "title": "Sweet Child O Mine",
-    "year": 1988,
-    "decade": 1980,
+  "Megadeth - Five Magics": {
+    "artist": "Megadeth",
+    "title": "Five Magics",
+    "year": 1990,
     "genre": [
-      "glam metal",
-      "hard rock"
-    ],
-    "types": [
-      "glam",
-      "hard",
-      "metal",
-      "rock"
+      "thrash metal"
     ]
   },
-  "DIRE STRAITS - Sultans Of Swing": {
-    "artist": "DIRE STRAITS",
-    "title": "Sultans Of Swing",
-    "year": 1979,
-    "decade": 1970,
+  "Megadeth - Hangar 18": {
+    "artist": "Megadeth",
+    "title": "Hangar 18",
+    "year": 1990,
     "genre": [
-      "pub rock",
-      "roots rock"
-    ],
-    "types": [
-      "rock"
+      "thrash metal"
     ]
   },
-  "MICHAEL JACKSON - Smooth Criminal": {
-    "artist": "MICHAEL JACKSON",
-    "title": "Smooth Criminal",
-    "year": 1988,
-    "decade": 1980,
+  "Megadeth - Holy Wars The Punishment Due": {
+    "artist": "Megadeth",
+    "title": "Holy Wars The Punishment Due",
+    "year": 1990,
     "genre": [
-      "pop",
-      "r&b"
-    ],
-    "types": [
-      "pop",
-      "r&b"
+      "thrash metal"
+    ]
+  },
+  "Megadeth - Lucretia": {
+    "artist": "Megadeth",
+    "title": "Lucretia",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Megadeth - Poison Was The Cure": {
+    "artist": "Megadeth",
+    "title": "Poison Was The Cure",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Megadeth - Rust In Peace Polaris": {
+    "artist": "Megadeth",
+    "title": "Rust In Peace Polaris",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Megadeth - Take No Prisoners": {
+    "artist": "Megadeth",
+    "title": "Take No Prisoners",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Megadeth - Tornado Of Souls": {
+    "artist": "Megadeth",
+    "title": "Tornado Of Souls",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Metallica - (Anesthesia) Pulling Teeth": {
+    "artist": "Metallica",
+    "title": "(Anesthesia) Pulling Teeth",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Battery": {
+    "artist": "Metallica",
+    "title": "Battery",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Creeping Death": {
+    "artist": "Metallica",
+    "title": "Creeping Death",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Damage Inc": {
+    "artist": "Metallica",
+    "title": "Damage Inc",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Disposable Heroes": {
+    "artist": "Metallica",
+    "title": "Disposable Heroes",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Escape": {
+    "artist": "Metallica",
+    "title": "Escape",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Fade To Black": {
+    "artist": "Metallica",
+    "title": "Fade To Black",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Fight Fire With Fire": {
+    "artist": "Metallica",
+    "title": "Fight Fire With Fire",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - For Whom The Bell Tolls": {
+    "artist": "Metallica",
+    "title": "For Whom The Bell Tolls",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Hit The Lights": {
+    "artist": "Metallica",
+    "title": "Hit The Lights",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Jump In The Fire": {
+    "artist": "Metallica",
+    "title": "Jump In The Fire",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Leper Messiah": {
+    "artist": "Metallica",
+    "title": "Leper Messiah",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Master Of Puppets": {
+    "artist": "Metallica",
+    "title": "Master Of Puppets",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Metal Militia": {
+    "artist": "Metallica",
+    "title": "Metal Militia",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Motorbreath": {
+    "artist": "Metallica",
+    "title": "Motorbreath",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - No Remorse": {
+    "artist": "Metallica",
+    "title": "No Remorse",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Orion": {
+    "artist": "Metallica",
+    "title": "Orion",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Phantom Lord": {
+    "artist": "Metallica",
+    "title": "Phantom Lord",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Ride The Lightning": {
+    "artist": "Metallica",
+    "title": "Ride The Lightning",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Seek And Destroy": {
+    "artist": "Metallica",
+    "title": "Seek And Destroy",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - The Call Of Ktulu": {
+    "artist": "Metallica",
+    "title": "The Call Of Ktulu",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - The Four Horsemen": {
+    "artist": "Metallica",
+    "title": "The Four Horsemen",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - The Thing That Should Not Be": {
+    "artist": "Metallica",
+    "title": "The Thing That Should Not Be",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Trapped Under Ice": {
+    "artist": "Metallica",
+    "title": "Trapped Under Ice",
+    "year": 1984,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Welcome Home (Sanitarium)": {
+    "artist": "Metallica",
+    "title": "Welcome Home (Sanitarium)",
+    "year": 1986,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Metallica - Whiplash": {
+    "artist": "Metallica",
+    "title": "Whiplash",
+    "year": 1983,
+    "genre": [
+      "heavy metal"
+    ]
+  },
+  "Pantera - Cemetery Gates": {
+    "artist": "Pantera",
+    "title": "Cemetery Gates",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Clash With Reality": {
+    "artist": "Pantera",
+    "title": "Clash With Reality",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Cowboys From Hell": {
+    "artist": "Pantera",
+    "title": "Cowboys From Hell",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Domination": {
+    "artist": "Pantera",
+    "title": "Domination",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Heresy": {
+    "artist": "Pantera",
+    "title": "Heresy",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Medicine Man": {
+    "artist": "Pantera",
+    "title": "Medicine Man",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Message In Blood": {
+    "artist": "Pantera",
+    "title": "Message In Blood",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Primal Concrete Sledge": {
+    "artist": "Pantera",
+    "title": "Primal Concrete Sledge",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Psycho Holiday": {
+    "artist": "Pantera",
+    "title": "Psycho Holiday",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - Shattered": {
+    "artist": "Pantera",
+    "title": "Shattered",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - The Art Of Shredding": {
+    "artist": "Pantera",
+    "title": "The Art Of Shredding",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Pantera - The Sleep": {
+    "artist": "Pantera",
+    "title": "The Sleep",
+    "year": 1990,
+    "genre": [
+      "thrash metal"
+    ]
+  },
+  "Tool - 10000 Days (Wings Part 2)": {
+    "artist": "Tool",
+    "title": "10000 Days (Wings Part 2)",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - 7empest": {
+    "artist": "Tool",
+    "title": "7empest",
+    "year": 2019,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Culling Voices": {
+    "artist": "Tool",
+    "title": "Culling Voices",
+    "year": 2019,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Descending": {
+    "artist": "Tool",
+    "title": "Descending",
+    "year": 2019,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Disposition": {
+    "artist": "Tool",
+    "title": "Disposition",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Eon Blue Apocalypse": {
+    "artist": "Tool",
+    "title": "Eon Blue Apocalypse",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Fear Inoculum": {
+    "artist": "Tool",
+    "title": "Fear Inoculum",
+    "year": 2019,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Intension": {
+    "artist": "Tool",
+    "title": "Intension",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Invincible": {
+    "artist": "Tool",
+    "title": "Invincible",
+    "year": 2019,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Jambi": {
+    "artist": "Tool",
+    "title": "Jambi",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Lateralus": {
+    "artist": "Tool",
+    "title": "Lateralus",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Lost Keys": {
+    "artist": "Tool",
+    "title": "Lost Keys",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Parabola": {
+    "artist": "Tool",
+    "title": "Parabola",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Pneuma": {
+    "artist": "Tool",
+    "title": "Pneuma",
+    "year": 2019,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Reflection": {
+    "artist": "Tool",
+    "title": "Reflection",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Right In Two": {
+    "artist": "Tool",
+    "title": "Right In Two",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Rosetta Stoned": {
+    "artist": "Tool",
+    "title": "Rosetta Stoned",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Schism": {
+    "artist": "Tool",
+    "title": "Schism",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - The Grudge": {
+    "artist": "Tool",
+    "title": "The Grudge",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - The Patient": {
+    "artist": "Tool",
+    "title": "The Patient",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - The Pot": {
+    "artist": "Tool",
+    "title": "The Pot",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Ticks And Leeches": {
+    "artist": "Tool",
+    "title": "Ticks And Leeches",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Triad": {
+    "artist": "Tool",
+    "title": "Triad",
+    "year": 2001,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Vicarious": {
+    "artist": "Tool",
+    "title": "Vicarious",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
+    ]
+  },
+  "Tool - Wings For Marie": {
+    "artist": "Tool",
+    "title": "Wings For Marie",
+    "year": 2006,
+    "genre": [
+      "progressive metal"
     ]
   }
 }
