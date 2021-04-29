@@ -113,7 +113,7 @@ class Statistics(object):
                 centers = []
 
             for count, (label, infos) in enumerate(stats.items()):
-                if self.max_plot is not None:
+                if self.max_plot > 0:
                     if count < self.max_plot:
                         if isinstance(label, str):
                             if len(label) > LABEL_LIMIT_SIZE:
@@ -233,8 +233,6 @@ class FeatureStatistics(Statistics):
         This function adds parameters to the 'Statistics' class specific to stats on the features.
         '''
         self.type = 'feature'
-        if self.min_feat_size is None:
-            self.min_feat_size = 1
         self.min_feat_size = max(self.min_feat_size, 1)
 
         self.dists = np.loadtxt(osp.join(self.res_dir, 'dists.txt'), delimiter='\t')
@@ -338,8 +336,6 @@ class ClusterStatistics(Statistics):
         This function adds parameters to the 'Statistics' class specific to stats on the cluster.
         '''
         self.type = 'cluster'
-        if self.min_clus_size is None:
-            self.min_clus_size = 2
         self.min_clus_size = max(self.min_clus_size, 2)
         with open(osp.join(self.res_dir, 'clusters.json')) as clusters:
             self.clusters = json.load(clusters)
@@ -531,7 +527,7 @@ if __name__ == '__main__':
     parser.add_argument('--stats_dir', type=str, default='results/statistics')
     parser.add_argument('--song_file', type=str, default='data/songs.json')
     parser.add_argument('--write_stats_info', type=int, default=0)
-    parser.add_argument('--max_plot', type=int, default=None)
+    parser.add_argument('--max_plot', type=int, default=-1)
     parser.add_argument('--min_feat_size', type=int, default=2)
     parser.add_argument('--min_clus_size', type=int, default=2)
     cmd = vars(parser.parse_args())

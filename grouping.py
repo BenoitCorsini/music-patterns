@@ -39,7 +39,7 @@ class Grouping(object):
         self.n_songs = len(self.song_dict)
         self.dists = np.loadtxt(osp.join(self.res_dir, 'dists.txt'), delimiter='\t')
 
-        if self.n_folders is None:
+        if self.n_folders < 0:
             self.n_folders = self.n_songs
         self.n_folders = min(self.n_folders, self.n_songs)
 
@@ -104,9 +104,8 @@ class SongClustering(Grouping):
         self.n_clusters = cmd['n_clusters']
         self.cluster_size_threshold = cmd['cluster_size_threshold']
         self.max_iter = cmd['max_iter']
-        if self.max_iter is None:
+        if self.max_iter <= 0:
             self.max_iter = self.n_songs
-        self.max_iter = max(self.max_iter, 1)
         self.clusters = {}
 
         if cmd['clustering_method'].lower() in ['sc', 'spectral clustering', 'spectral', 'spectralclustering']:
@@ -315,13 +314,13 @@ if __name__ == '__main__':
     parser.add_argument('--im_dir', type=str, default='data/images')
     parser.add_argument('--res_dir', type=str, default='results')
     parser.add_argument('--order_by', type=str, default='dist')
-    parser.add_argument('--n_folders', type=int, default=None)
+    parser.add_argument('--n_folders', type=int, default=-1)
     parser.add_argument('--write_group_info', type=int, default=1)
 
     parser.add_argument('--clusters_dir', type=str, default='results/clusters')
     parser.add_argument('--n_clusters', type=int, default=2)
     parser.add_argument('--cluster_size_threshold', type=int, default=10)
-    parser.add_argument('--max_iter', type=int, default=None)
+    parser.add_argument('--max_iter', type=int, default=-1)
     parser.add_argument('--clustering_method', type=str, default='AC')
 
     parser.add_argument('--neighbours_dir', type=str, default='results/neighbours')

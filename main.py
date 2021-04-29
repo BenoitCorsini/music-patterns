@@ -85,7 +85,7 @@ if __name__ == '__main__':
     # Grouping parameters
     parser.add_argument('--order_by', type=str, default='dist',
         help='the parameter used to number the clusters and neighbourhoods')
-    parser.add_argument('--n_folders', type=int, default=None,
+    parser.add_argument('--n_folders', type=int, default=-1,
         help='the number of cluster and neighbourhood folders saved \
               clusters and neighbourhoods will be saved in order as given by "order_by"')
     parser.add_argument('--write_group_info', type=int, default=1,
@@ -95,7 +95,7 @@ if __name__ == '__main__':
         help='the number of clusters to be used in the recursive clustering algorithm')
     parser.add_argument('--cluster_size_threshold', type=int, default=10,
         help='the threshold at which the recursive clustering algorithm will stop trying to divide')
-    parser.add_argument('--max_iter', type=int, default=None,
+    parser.add_argument('--max_iter', type=int, default=-1,
         help='the maximal number of iteration of the recursive cliustering algorithm \
               if set to 1, number of clusters will be "n_clusters"')
     parser.add_argument('--clustering_method', type=str, default='AC',
@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # Statistics parameters
     parser.add_argument('--write_stats_info', type=int, default=0,
         help='boolean stating if the parameters used in the statistics should be written on the file name')
-    parser.add_argument('--max_plot', type=int, default=None,
+    parser.add_argument('--max_plot', type=int, default=-1,
         help='the maximal number of groups plotted on the horizontal axis (may refer to features, clusters, or neighbourhoods)')
     parser.add_argument('--min_feat_size', type=int, default=2,
         help='the minimal number of songs with a specific feature for it to be considered in the statistics')
