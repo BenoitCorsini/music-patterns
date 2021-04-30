@@ -1,0 +1,4166 @@
+0	A TASTE OF HONEY - Boogie Oogie Oogie
+1	THE VERVE - Bitter Sweet Symphony
+2	CURTIS MAYFIELD - Freddies Dead
+3	THE DOORS - Riders On The Storm
+4	EMINEM - Sing For The Moment
+5	PAPA ROACH - Scars
+6	EMINEM - Real Slim Shady
+7	HINDER - Without You
+8	THE ANIMALS - San Franciscan Nights
+9	SANTANA - Evil Ways
+10	SIMON & GARFUNKEL - Bridge Over Troubled Water
+11	XXXTENTACION - Sad
+12	TOM PETTY AND THE HEARTBREAKERS - Learning To Fly
+13	BLACK SABBATH - Paranoid
+14	LORDE - Tennis Court
+15	KORN - Twisted Transistor
+16	P!NK - Family Portrait
+17	LIZZO - Juice
+18	LOVERBOY - Turn Me Loose
+19	BILL MEDLEY & JENNIFER WARNES - Ive Had The Time Of My Life
+20	THIRD EYE BLIND - Hows It Going To Be
+21	ORIANTHI - According To You
+22	FREE - The Stealer
+23	KANYE WEST - Homecoming
+24	HAPPY MONDAYS - Step On
+25	AVRIL LAVIGNE - Wish You Were Here
+26	BILLY JOEL - Shes Always A Woman
+27	M83 - Midnight City
+28	BEWITCHED - Cest La Vie
+29	CARPENTERS - Weve Only Just Begun
+30	LEONA LEWIS - Better In Time
+31	THE DOORS - Hello I Love You
+32	SAVAGE GARDEN - Truly Madly Deeply
+33	CRACKER - Low
+34	TRAIN - Drive By
+35	METALLICA - Until It Sleeps
+36	U2 - Whos Gonna Ride Your Wild Horses
+37	COUNTING CROWS - Accidentally In Love
+38	THE CARS - Tonight She Comes
+39	FALCO - Rock Me Amadeus
+40	GENESIS - Abacab
+41	CROSBY STILLS & NASH - Marrakesh Express
+42	BLACKFOOT - Train Train
+43	YAZOO - Only You
+44	STATUS QUO - Pictures Of Matchstick Men
+45	THE ROLLING STONES - Beast Of Burden
+46	SLADE - Gudbuy T Jane
+47	MY CHEMICAL ROMANCE - Welcome To The Black Parade
+48	THE MONKEES - Im Not Your Steppin Stone
+49	MY CHEMICAL ROMANCE - Sing
+50	KISS - Lets Put The X In Sex
+51	GRAHAM NASH - Military Madness
+52	BRUCE SPRINGSTEEN - My Hometown
+53	BILLY JOEL - We Didnt Start The Fire
+54	GOO GOO DOLLS - Real
+55	LINKIN PARK - What Ive Done
+56	COLLECTIVE SOUL - The World I Know
+57	THE BEATLES - Get Back
+58	THE DOOBIE BROTHERS - China Grove
+59	A HA - Take On Me
+60	RATT - Round And Round
+61	CHUCK BERRY - Back In The Usa
+62	THE OFFSPRING - Original Prankster
+63	RIHANNA - Shut Up And Drive
+64	AIR SUPPLY - Making Love Out Of Nothing At All
+65	DOKKEN - In My Dreams
+66	BARBRA STREISAND - Woman In Love
+67	MEN AT WORK - Down Under
+68	BOW WOW - Outta My System
+69	HEART - Crazy On You
+70	PEARL JAM - Nothing As It Seems
+71	THE BEATLES - For You Blue
+72	EMINEM - Forgot About Dre
+73	DONOVAN - Universal Soldier
+74	GYM CLASS HEROES - Ass Back Home
+75	BACKSTREET BOYS - Everybody
+76	PHARRELL - Frontin
+77	X ECUTIONERS - Its Goin Down
+78	SAM COOKE - Frankie And Johnny
+79	BRYAN ADAMS - Everything I Do I Do It For You
+80	FOUR TOPS - Back To School Again
+81	BREAKING BENJAMIN - So Cold
+82	KELLY CLARKSON - My Life Would Suck Without You
+83	METALLICA - Nothing Else Matters
+84	PARAMORE - Careful
+85	THE BEATLES - Nowhere Man
+86	RASPBERRIES - I Wanna Be With You
+87	FOREIGNER - Dirty White Boy
+88	EDDIE MONEY - Think Im In Love
+89	JUSTIN BIEBER - Baby
+90	THE DOOBIE BROTHERS - What A Fool Believes
+91	EAGLES - Peaceful Easy Feeling
+92	EURYTHMICS - Sisters Are Doin It For Themselves
+93	RIHANNA - Dont Stop The Music
+94	STEVIE WONDER - Master Blaster
+95	BLINK 182 - Whats My Age Again
+96	MADONNA - Like A Virgin
+97	P DIDDY - I Need A Girl
+98	GREEN DAY - Holiday
+99	AIR SUPPLY - Lost In Love
+100	NATASHA BEDINGFIELD - Unwritten
+101	MEAT LOAF - Paradise By The Dashboard Light
+102	MEAT LOAF - Two Out Of Three Aint Bad
+103	TWENTY ONE PILOTS - Jumpsuit
+104	AEROSMITH - Blind Man
+105	STING - If I Ever Lose My Faith In You
+106	JOURNEY - Open Arms
+107	SWEET - Little Willy
+108	ROCKWELL - Somebodys Watching Me
+109	THE ROLLING STONES - Start Me Up
+110	BB KING - Rock Me Baby
+111	MARC COHN - Walking In Memphis
+112	YES - Owner Of A Lonely Heart
+113	LIMP BIZKIT - Nookie
+114	THE CONTOURS - Do You Love Me
+115	JOHN MAYER - Half Of My Heart
+116	SIA - Chandelier
+117	CROWDED HOUSE - Fall At Your Feet
+118	THRIVING IVORY - Angels On The Moon
+119	OPUS - Live Is Life
+120	DEPECHE MODE - Personal Jesus
+121	THE JACKSONS - Can You Feel It
+122	ZZ TOP - Tush
+123	THE HOOTERS - All You Zombies
+124	KINGS OF LEON - Use Somebody
+125	MAROON 5 - Payphone
+126	BRITNEY SPEARS - I Wanna Go
+127	JIMMY EAT WORLD - Sweetness
+128	TESLA - Love Song
+129	THE WONDERS - That Thing You Do
+130	TAYLOR SWIFT - Sparks Fly
+131	MILEY CYRUS - Start All Over
+132	JUSTIN BIEBER - As Long As You Love Me
+133	EN VOGUE - Dont Let Go Love
+134	STEVIE WONDER - I Just Called To Say I Love You
+135	VAN HALEN - And The Cradle Will Rock
+136	BEE GEES - Jive Talkin
+137	TED NUGENT - Wango Tango
+138	THREE DOG NIGHT - Joy To The World
+139	FORT MINOR - Whered You Go
+140	ZZ TOP - Arrested For Driving While Blind
+141	MAROON 5 - Animals
+142	THE WHITE BUFFALO & THE FOREST RANGERS - Come Join The Murder
+143	BREAKING BENJAMIN - I Will Not Bow
+144	WONDER GIRLS - Nobody
+145	BETTE MIDLER - From A Distance
+146	THE BEATLES - Ill Cry Instead
+147	JOHN MELLENCAMP - Pink Houses
+148	THE WEATHER GIRLS - Its Raining Men
+149	SCANDAL - The Warrior
+150	TALKING HEADS - This Must Be The Place Naive Melody
+151	JUSTIN BIEBER - U Smile
+152	MASON WILLIAMS - Classical Gas
+153	THE REMBRANDTS - Just The Way It Is Baby
+154	PROCOL HARUM - A Whiter Shade Of Pale
+155	RICHARD MARX - Right Here Waiting
+156	LITTLE RIVER BAND - Reminiscing
+157	NICKELBACK - Feelin Way Too Damn Good
+158	ALICE COOPER - No More Mr Nice Guy
+159	CLIPSE - When The Last Time
+160	ELTON JOHN - Made In England
+161	WANG CHUNG - Dance Hall Days
+162	THE LONELY ISLAND - Jack Sparrow
+163	VIXEN - Cryin
+164	CELINE DION - Its All Coming Back To Me Now
+165	ELVIS PRESLEY - Stuck On You
+166	KELLY CLARKSON - Since U Been Gone
+167	PARAMORE - Ignorance
+168	THE SMASHING PUMPKINS - Ava Adore
+169	DAFT PUNK - Get Lucky
+170	THE BEATLES - Got To Get You Into My Life
+171	LOVE - Seven And Seven Is
+172	SHOCKING BLUE - Venus
+173	BRUCE SPRINGSTEEN - Fire
+174	SALIVA - Rest In Pieces
+175	THE ALAN PARSONS PROJECT - Time
+176	TI - No Matter What
+177	SIMPLE PLAN - Perfect World
+178	BECK - Devils Haircut
+179	THREE DAYS GRACE - Home
+180	JASON MRAZ - Lucky
+181	PAT BENATAR - Hit Me With Your Best Shot
+182	GEORGE HARRISON - Isnt It A Pity
+183	WHITNEY HOUSTON - I Wanna Dance With Somebody
+184	CHAMILLIONAIRE - Ridin Dirty
+185	VITAMIN C - Graduation Friends Forever
+186	SIMPLE PLAN - Addicted
+187	THE DAVE BRUBECK QUARTET - Take Five
+188	DJ SNAKE - Let Me Love You
+189	CYNDI LAUPER - The Goonies R Good Enough
+190	TRACY CHAPMAN - Crossroads
+191	THE PRETENDERS - Brass In Pocket
+192	HARRY NILSSON - Everybodys Talkin
+193	EDWYN COLLINS - A Girl Like You
+194	AEROSMITH - Come Together
+195	SIXPENCE NONE THE RICHER - Dont Dream Its Over
+196	MERLE HAGGARD - Carolyn
+197	PAUL MCCARTNEY - Band On The Run
+198	MEN AT WORK - Overkill
+199	BILL WITHERS - Aint No Sunshine
+200	METALLICA - Cyanide
+201	STYX - Nothing Ever Goes As Planned
+202	JOHN DENVER - Annies Song
+203	MICHAEL JACKSON - Beat It
+204	JOHNNY CASH - Ring Of Fire
+205	SUPERTRAMP - Its Raining Again
+206	THE CHAINSMOKERS - Closer
+207	LOS INDIOS TABAJARAS - Maria Elena
+208	LADY GAGA - Just Dance
+209	PRINCE - Little Red Corvette
+210	THE POLICE - Message In A Bottle
+211	CRYSTAL GAYLE - Talking In Your Sleep
+212	RASCAL FLATTS - Bless The Broken Road
+213	KISS - Forever
+214	MICHAEL JACKSON - Smooth Criminal
+215	MAROON 5 - Give A Little More
+216	KEITH CARRADINE - Im Easy
+217	GENESIS - Follow You Follow Me
+218	EDDIE MONEY - Take Me Home Tonight
+219	DEEP PURPLE - Black Night
+220	MANA - Labios Compartidos
+221	ELTON JOHN - I Dont Wanna Go On With You Like That
+222	ALABAMA SHAKES - Hold On
+223	YUNG JOC - Its Goin Down
+224	APRIL WINE - Just Between You And Me
+225	THE ROLLING STONES - Shattered
+226	ELECTRIC LIGHT ORCHESTRA - Mr Blue Sky
+227	JOHN FARNHAM - Youre The Voice
+228	AVRIL LAVIGNE - Smile
+229	BAD COMPANY - Gone Gone Gone
+230	THE MONKEES - Last Train To Clarksville
+231	SARAH MCLACHLAN - Building A Mystery
+232	RED HOT CHILI PEPPERS - Dark Necessities
+233	BRUCE SPRINGSTEEN - The Rising
+234	SMOKIE - If You Think You Know How To Love Me
+235	THE BLUES BROTHERS - Gimme Some Lovin
+236	STING - Englishman In New York
+237	BON JOVI - Have A Nice Day
+238	SNOOP DOGG - Gin And Juice
+239	THE BEATLES - You Cant Do That
+240	OUTKAST - Hey Ya
+241	DEEP PURPLE - Hush
+242	BOYS LIKE GIRLS - Thunder
+243	BOWLING FOR SOUP - Girl All The Bad Guys Want
+244	JUDAS PRIEST - Youve Got Another Thing Comin
+245	THE ROLLING STONES - Dandelion
+246	RIHANNA - Love The Way You Lie
+247	HANNAH MONTANA - Ive Got Nerve
+248	SUPERTRAMP - Dreamer
+249	BILLY RAY CYRUS - Achy Breaky Heart
+250	TRAPT - Headstrong
+251	QUEEN - Bicycle Race
+252	THE CHARLIE DANIELS BAND - Still In Saigon
+253	THE DOOBIE BROTHERS - Takin It To The Streets
+254	EAGLES - Seven Bridges Road
+255	PAPA ROACH - Forever
+256	POST MALONE - Sunflower
+257	ALICE COOPER - You And Me
+258	ENRIQUE IGLESIAS - Bailamos
+259	K CI & JOJO - All My Life
+260	PUDDLE OF MUDD - Control
+261	BRITNEY SPEARS - Toxic
+262	IMAGINE DRAGONS - Its Time
+263	STAIND - Outside Ft Fred Durst
+264	COUNTING CROWS - Hanginaround
+265	PASSENGER - Let Her Go
+266	EMINEM - Love The Way You Lie
+267	ABBA - The Winner Takes It All
+268	DAUGHTRY - Its Not Over
+269	SHINEDOWN - If You Only Knew
+270	SHERYL CROW - Strong Enough
+271	MATCHBOX TWENTY - How Far Weve Come
+272	GLEE CAST - Bad Romance
+273	BLUES TRAVELER - Hook
+274	ALANIS MORISSETTE - Ironic
+275	LINKIN PARK - Numb
+276	PETER GABRIEL - Games Without Frontiers
+277	AEROSMITH - Rag Doll
+278	HENRY MANCINI - Theme From Hatari
+279	DAMN YANKEES - Coming Of Age
+280	RED HOT CHILI PEPPERS - Californication
+281	BAD COMPANY - Rock N Roll Fantasy
+282	BIG BROTHER AND THE HOLDING COMPANY - Piece Of My Heart
+283	FETTY WAP - Trap Queen
+284	HALL & OATES - Private Eyes
+285	EUROPE - Rock The Night
+286	HELLOGOODBYE - Here In Your Arms
+287	COLLECTIVE SOUL - Precious Declaration
+288	BRAD PAISLEY - Shes Everything
+289	LEANN RIMES - You Light Up My Life
+290	TOMMY JAMES AND THE SHONDELLS - Hanky Panky
+291	ELTON JOHN - Saturday Nights Alright For Fighting
+292	CYNDI LAUPER - True Colors
+293	THE KINKS - Come Dancing
+294	STONE SOUR - Bother
+295	ALL TIME LOW - Damned If I Do Ya Damned If I Dont
+296	REDNEX - Cotton Eye Joe
+297	TRACEY ULLMAN - They Dont Know
+298	COMMODORES - Brick House
+299	SURVIVOR - The One That Really Matters
+300	JOURNEY - Any Way You Want It
+301	POISON - Life Goes On
+302	ROD STEWART - I Dont Want To Talk About It
+303	THE BEATLES - Yellow Submarine
+304	PEARL JAM - Just Breathe
+305	SPYRO GYRA - Shaker Song
+306	DAVID BOWIE - Dancing In The Street
+307	TOTO - Georgy Porgy
+308	FLORENCE & THE MACHINE - Dog Days Are Over
+309	NO DOUBT - Running
+310	JAY Z - Dirt Off Your Shoulder
+311	MADONNA - American Pie
+312	GEORGE HARRISON - All Those Years Ago
+313	CYNDI LAUPER - Time After Time
+314	ED SHEERAN - Blow
+315	THE HOOTERS - 500 Miles
+316	TAYLOR SWIFT - White Horse
+317	NICKELBACK - How You Remind Me
+318	KORN - Did My Time
+319	DANIEL BOONE - Beautiful Sunday
+320	EARTH WIND FIRE - Boogie Wonderland
+321	JEFFERSON AIRPLANE - Somebody To Love
+322	JEWEL - Who Will Save Your Soul
+323	THE KILLERS - Spaceman
+324	LED ZEPPELIN - Immigrant Song
+325	LINKIN PARK - Burn It Down
+326	THE HUMAN LEAGUE - Human
+327	ZZ TOP - Cheap Sunglasses
+328	SNAP - Rhythm Is A Dancer
+329	MADNESS - Our House
+330	CHEECH AND CHONG - Earache My Eye
+331	ACE OF BASE - Lucky Love
+332	LINKIN PARK - Iridescent
+333	DEF LEPPARD - Rocket
+334	JOHN MAYER - Gravity
+335	BAND AID - Do They Know Its Christmas
+336	JENNIFER PAIGE - Crush
+337	CREEDENCE CLEARWATER REVIVAL - Wholl Stop The Rain
+338	GLENN FREY - The Heat Is On
+339	SCORPIONS - No One Like You
+340	THE BYRDS - Eight Miles High
+341	ALICIA KEYS - No One
+342	MCAULEY SCHENKER GROUP MSG - Anytime
+343	MADONNA - Open Your Heart
+344	DR DRE - The Next Episode
+345	QUEEN - I Want To Break Free
+346	ARETHA FRANKLIN - The Weight
+347	JOAN BAEZ - Diamonds And Rust
+348	BODEANS - Closer To Free
+349	PAUL MCCARTNEY - Hope Of Deliverance
+350	ECHOSMITH - Cool Kids
+351	ZAC BROWN BAND - Chicken Fried
+352	CHRISTINA PERRI - A Thousand Years
+353	PANIC AT THE DISCO - This Is Gospel
+354	ALVIN AND THE CHIPMUNKS - The Chipmunk Song Christmas Dont Be Late
+355	LED ZEPPELIN - Living Loving Maid
+356	ALAN JACKSON - Its Five Oclock Somewhere
+357	EVERLAST - What Its Like
+358	JOHN MAYER - Waiting On The World To Change
+359	KATE BUSH - The Man With The Child In His Eyes
+360	TIL TUESDAY - Voices Carry
+361	ED SHEERAN - The A Team
+362	LYNN ANDERSON - Rose Garden
+363	DEADMAU5 - Raise Your Weapon
+364	THE BEATLES - Theres A Place
+365	THE CULT - Fire Woman
+366	CREEDENCE CLEARWATER REVIVAL - Bad Moon Rising
+367	ALISON KRAUSS - When You Say Nothing At All
+368	FACES - Stay With Me
+369	CARPENTERS - Yesterday Once More
+370	PARAMORE - Misery Business
+371	REM - Everybody Hurts
+372	EXTREME - Stop The World
+373	HILARY DUFF - With Love
+374	THE MARSHALL TUCKER BAND - Cant You See
+375	GENESIS - Jesus He Knows Me
+376	THEM - Gloria
+377	SAMANTHA FOX - Touch Me I Want Your Body
+378	U2 - I Will Follow
+379	RITCHIE VALENS - Donna
+380	NAZARETH - Love Hurts
+381	BILLY SQUIER - The Stroke
+382	MADONNA - Frozen
+383	TOTO - Hold The Line
+384	ELECTRIC LIGHT ORCHESTRA - Confusion
+385	SPANDAU BALLET - Gold
+386	THE MOODY BLUES - Question
+387	ED SHEERAN - Sing
+388	THE STONE PONEYS - Different Drum
+389	VAN HALEN - Why Cant This Be Love
+390	SNOOP DOGG - Beautiful
+391	VAN MORRISON - Come Running Come Running To Me
+392	311 - Love Song
+393	3OH3 - My First Kiss
+394	GARY GLITTER - Rock And Roll Part 2
+395	THE ROLLING STONES - Shes A Rainbow
+396	THE KINKS - Destroyer
+397	EAGLES - I Cant Tell You Why
+398	DAUGHTRY - Feels Like Tonight
+399	MADISON AVENUE - Dont Call Me Baby
+400	ANDY KIM - Rock Me Gently
+401	SEETHER - Remedy
+402	NIRVANA - You Know Youre Right
+403	ALICE COOPER - Elected
+404	STEELY DAN - Josie
+405	BABYFACE - When Can I See You Again
+406	KID CUDI - Erase Me
+407	MY CHEMICAL ROMANCE - Im Not Okay I Promise
+408	RESTLESS HEART - Ill Still Be Loving You
+409	LITA FORD - Kiss Me Deadly
+410	DAVID GRAY - Babylon
+411	EAGLES - Take It Easy
+412	PORNO FOR PYROS - Pets
+413	THE DOOBIE BROTHERS - Jesus Is Just Alright
+414	IMAGINE DRAGONS - Shots
+415	BEE GEES - How Deep Is Your Love
+416	LUTHER VANDROSS - Never Too Much
+417	MARSHMELLO - Rescue Me
+418	MILEY CYRUS - Butterfly Fly Away
+419	5 SECONDS OF SUMMER - Amnesia
+420	LIONEL RICHIE - Dancing On The Ceiling
+421	DIRE STRAITS - So Far Away
+422	AVRIL LAVIGNE - Sk8er Boi
+423	EAGLES - New Kid In Town
+424	AFI - Love Like Winter
+425	RAINBOW - Stone Cold
+426	THE BEATLES - Act Naturally
+427	KHALID - Young Dumb And Broke
+428	BUDDY MILES - Them Changes
+429	PAT BENATAR - Promises In The Dark
+430	BLINK 182 - Bored To Death
+431	ROBIN THICKE - Lost Without You
+432	SUGAR RAY - Someday
+433	AMY WINEHOUSE - You Know Im No Good
+434	MOTLEY CRUE - Primal Scream
+435	TWISTED SISTER - Were Not Gonna Take It
+436	KESHA - Tik Tok
+437	THE DOORS - Love Me Two Times
+438	MARVIN GAYE - Sexual Healing
+439	HINDER - Better Than Me
+440	DRAKE - Passionfruit
+441	CHER - I Found Someone
+442	VAN HALEN - Black And Blue
+443	EMINEM - Crack A Bottle
+444	KINGS OF LEON - Notion
+445	CHUCK BERRY - Johnny B Goode
+446	PETER PAUL AND MARY - Leaving On A Jet Plane
+447	JOSE FELICIANO - Feliz Navidad
+448	ASHER ROTH - I Love College
+449	GREEN DAY - Know Your Enemy
+450	A PERFECT CIRCLE - Weak And Powerless
+451	COLDPLAY - A Sky Full Of Stars
+452	GORKY PARK - Try To Find Me
+453	BRYAN ADAMS - The Only Thing That Looks Good On Me Is You
+454	FOO FIGHTERS - Best Of You
+455	BRYAN ADAMS - Heat Of The Night
+456	IGGY AZALEA - Black Widow
+457	RAY CHARLES - Hit The Road Jack
+458	LUIS FONSI - Despacito
+459	TODD RUNDGREN - Bang The Drum All Day
+460	CRAIG DAVID - 7 Days
+461	LOU GRAMM - Ready Or Not
+462	BON JOVI - You Give Love A Bad Name
+463	MAROON 5 - Moves Like Jagger
+464	JOHN DENVER - Take Me Home Country Roads
+465	THE MAMAS & THE PAPAS - Dream A Little Dream Of Me
+466	TAYLOR SWIFT - Untouchable
+467	VELVET REVOLVER - Fall To Pieces
+468	TAYLOR SWIFT - Never Grow Up
+469	FALCO - Vienna Calling
+470	PORTISHEAD - Sour Times
+471	KANSAS - Hold On
+472	GEORGE BENSON - On Broadway
+473	EARTH WIND & FIRE - Lets Groove
+474	THE ROLLING STONES - Not Fade Away
+475	DIERKS BENTLEY - Trying To Stop Your Leaving
+476	3 DOORS DOWN - Kryptonite
+477	LADY GAGA - Paparazzi
+478	HALL & OATES - Kiss On My List
+479	RICK JAMES - Super Freak
+480	MARILLION - Kayleigh
+481	KROKUS - Midnite Maniac
+482	KISS - Tears Are Falling
+483	GWEN STEFANI - Hollaback Girl
+484	MEN AT WORK - Its A Mistake
+485	SHINEDOWN - Save Me
+486	TAYLOR SWIFT - Wildest Dreams
+487	JOAN JETT - Do You Wanna Touch Me Oh Yeah
+488	SIMON & GARFUNKEL - America
+489	THE BEACH BOYS - Sloop John B
+490	HADDAWAY - What Is Love
+491	JUSTIN BIEBER - Eenie Meenie
+492	DEMI LOVATO - Heart Attack
+493	TOM PETTY AND THE HEARTBREAKERS - Listen To Her Heart
+494	METALLICA - Enter Sandman
+495	JUANES - La Camisa Negra
+496	BAD ENGLISH - When I See You Smile
+497	ALVIN AND THE CHIPMUNKS - Bad Day
+498	PARAMORE - The Only Exception
+499	MAROON 5 - Sunday Morning
+500	MADONNA - 4 Minutes
+501	ED SHEERAN - Lego House
+502	JON & VANGELIS - Ill Find My Way Home
+503	JOAN JETT & THE BLACKHEARTS - I Hate Myself For Loving You
+504	THE NOTORIOUS BIG - Big Poppa
+505	THE SURFARIS - Wipe Out
+506	CHRISTINA PERRI - Jar Of Hearts
+507	JONAS BROTHERS - Sos
+508	POINT BLANK - Nicole
+509	BOB DYLAN - Positively 4th Street
+510	GLORIA ESTEFAN - Turn The Beat Around
+511	BOOKER T & THE MGS - Time Is Tight
+512	PAUL MCCARTNEY - Freedom
+513	BRUNO MARS - Grenade
+514	THE ROLLING STONES - Brown Sugar
+515	KISS - Calling Dr Love
+516	THE BEACH BOYS - California Dreaming
+517	LEE ANN WOMACK - I Hope You Dance
+518	JENNIFER LOPEZ - Que Hiciste
+519	U2 - All I Want Is You
+520	FOUR TOPS - Reach Out And Ill Be There
+521	LOS LOBOS - Will The Wolf Survive
+522	ELTON JOHN - Bennie And The Jets
+523	STING - Fields Of Gold
+524	FLEETWOOD MAC - Tusk
+525	HANNAH MONTANA - Youll Always Find Your Way Back Home
+526	SUPERTRAMP - Give A Little Bit
+527	ONEREPUBLIC - If I Lose Myself
+528	THE WHO - Long Live Rock
+529	CHILLIWACK - Fly At Night
+530	STEVIE WONDER - For Once In My Life
+531	THIRTY SECONDS TO MARS - Kings And Queens
+532	EVANESCENCE - My Immortal
+533	AIR SUPPLY - All Out Of Love
+534	BLACKFOOT - Highway Song
+535	MARVIN GAYE - Whats Going On
+536	STAIND - So Far Away
+537	THE TROGGS - Wild Thing
+538	FAITHLESS - Insomnia
+539	HANNAH MONTANA - Rock Star
+540	ABBA - Mamma Mia
+541	RICKY MARTIN - Livin La Vida Loca
+542	INXS - Need You Tonight
+543	THE KILLERS - Somebody Told Me
+544	PHIL COLLINS - You Cant Hurry Love
+545	QUEEN - Killer Queen
+546	THE VAPORS - Turning Japanese
+547	BLACK ROB - Whoa
+548	ACE - How Long
+549	KOOL THE GANG - Summer Madness
+550	BON JOVI - Living In Sin
+551	DEF LEPPARD - Hysteria
+552	MC HAMMER - U Cant Touch This
+553	LOVERBOY - Lovin Every Minute Of It
+554	THE ALLMAN BROTHERS BAND - One Way Out
+555	NSYNC - Its Gonna Be Me
+556	THE FIRST CLASS - Beach Baby
+557	ZAC BROWN BAND - My Old Man
+558	LENNY KRAVITZ - Cant Get You Off My Mind
+559	THE BEATLES - I Dont Want To Spoil The Party
+560	JASON MRAZ - I Wont Give Up
+561	MOTLEY CRUE - Looks That Kill
+562	WIZ KHALIFA - Black Yellow
+563	BON JOVI - Who Says You Cant Go Home
+564	THE CHANTAYS - Pipeline
+565	U2 - Angel Of Harlem
+566	THE BEATLES - Yes It Is
+567	MILEY CYRUS - Cant Be Tamed
+568	SUGAR RAY - When Its Over
+569	TAYLOR SWIFT - I Knew You Were Trouble
+570	LANA DEL REY - Lust For Life
+571	WARRANT - Blind Faith
+572	THE BEATLES - A Hard Days Night
+573	TRINI LOPEZ - Lemon Tree
+574	HENRY MANCINI - The Pink Panther Theme
+575	AVRIL LAVIGNE - Im With You
+576	PAT GREEN - Wave On Wave
+577	FRANK SINATRA - Somethin Stupid
+578	OMI - Cheerleader
+579	LOS BRAVOS - Black Is Black
+580	DISTURBED - The Sound Of Silence
+581	JUSTIN BIEBER - Down To Earth
+582	DAVID GUETTA - When Love Takes Over
+583	HOLE - Celebrity Skin
+584	KEITH URBAN - Long Hot Summer
+585	SEVEN MARY THREE - Cumbersome
+586	TOM COCHRANE - Life Is A Highway
+587	JERRY DOUCETTE - Mama Let Him Play
+588	WHITESNAKE - Now Youre Gone
+589	EVANESCENCE - Lost In Paradise
+590	NEIL YOUNG - Old Man
+591	KISS - I Was Made For Lovin You
+592	GIGI DAGOSTINO - Lamour Toujours
+593	GARBAGE - Special
+594	ZZ TOP - I Thank You
+595	AVRIL LAVIGNE - Alice Underground
+596	COLLECTIVE SOUL - December
+597	HANSON - Mmmbop
+598	DAVID GUETTA - Memories
+599	BILLY JOEL - Its Still Rock And Roll To Me
+600	KT TUNSTALL - Suddenly I See
+601	JOHNNY WINTER - Johnny B Goode
+602	AFI - Miss Murder
+603	HEATWAVE - Boogie Nights
+604	DEMI LOVATO - La La Land
+605	SEAL - Crazy
+606	LOU BEGA - Mambo No 5 A Little Bit Of
+607	KISS - Love Gun
+608	STYX - Blue Collar Man Long Nights
+609	MIDNIGHT OIL - Beds Are Burning
+610	THE SMASHING PUMPKINS - Bullet With Butterfly Wings
+611	U2 - One
+612	GREG KIHN BAND - The Breakup Song They Dont Write Em
+613	KID ROCK - Only God Knows Why
+614	LENNY KRAVITZ - Let Love Rule
+615	GLENN MEDEIROS - Nothings Gonna Change My Love For You
+616	RIHANNA - Unfaithful
+617	BILLY JOEL - Honesty
+618	PAPA ROACH - Last Resort
+619	VAN MORRISON - Domino
+620	BILLY JOEL - Shes Got A Way
+621	MILEY CYRUS - The Driveway
+622	SUGARLOAF - Dont Call Us Well Call You
+623	PRINCE - I Would Die 4 U
+624	RASCAL FLATTS - Fast Cars And Freedom
+625	CARLY RAE JEPSEN - Call Me Maybe
+626	HUEY LEWIS & THE NEWS - If This Is It
+627	AMERICAN AUTHORS - Best Day Of My Life
+628	JOURNEY - Separate Ways
+629	LIL WAYNE - Let It Rock
+630	PAUL SIMON - Kodachrome
+631	THE BREEDERS - Cannonball
+632	VAN HALEN - Jump
+633	KID ROCK - Cowboy
+634	LOBO - Me And You And A Dog Named Boo
+635	MATTHEW WILDER - Break My Stride
+636	AEROSMITH - Home Tonight
+637	BRANDI CARLILE - The Story
+638	BJ THOMAS - Raindrops Keep Fallin On My Head
+639	POISON - Every Rose Has Its Thorn
+640	DEEP PURPLE - Woman From Tokyo
+641	BRYAN ADAMS - Cuts Like A Knife
+642	BOB DYLAN - Hurricane
+643	DRAM - Broccoli
+644	BADFINGER - Baby Blue
+645	THE POLICE - Roxanne
+646	TLC - Waterfalls
+647	NICKELBACK - Lullaby
+648	THE BEACH BOYS - Dont Worry Baby
+649	REM - Strange Currencies
+650	MILEY CYRUS - Fly On The Wall
+651	BRAD PAISLEY - Southern Comfort Zone
+652	THE OFFSPRING - Pretty Fly For A White Guy
+653	PARAMORE - Hard Times
+654	CUTTING CREW - I Just Died In Your Arms
+655	VAN HALEN - Ill Wait
+656	LUKE BRYAN - Kick The Dust Up
+657	ROB THOMAS - Smooth
+658	LINKIN PARK - New Divide
+659	RICHARD HARRIS - Macarthur Park
+660	THE ROLLING STONES - Love Is Strong
+661	MY CHEMICAL ROMANCE - Famous Last Words
+662	TOM JONES - Delilah
+663	MICHAEL JACKSON - Rock With You
+664	TAYLOR SWIFT - Dear John
+665	GARY PUCKETT AND THE UNION GAP - Lady Willpower
+666	DAVID BOWIE - Fame
+667	10CC - The Things We Do For Love
+668	POISON - Something To Believe In
+669	LANDON PIGG - Falling In Love At A Coffee Shop
+670	AEROSMITH - Angel
+671	ED SHEERAN - One
+672	THE FOUR SEASONS - Walk Like A Man
+673	LED ZEPPELIN - Dyer Maker
+674	ELECTRIC LIGHT ORCHESTRA - Do Ya
+675	SHINEDOWN - Bully
+676	JONAS BROTHERS - Burnin Up
+677	STEELY DAN - Deacon Blues
+678	PANIC AT THE DISCO - The Only Difference Between Martyrdom And Suicide Is Press Coverage
+679	PLEASURE - Glide
+680	THE RACONTEURS - Steady As She Goes
+681	NELLY FURTADO - Maneater
+682	KOOL & THE GANG - Joanna
+683	ELVIS PRESLEY - The Wonder Of You
+684	HOLE - Malibu
+685	THE WHO - I Can See For Miles
+686	ELVIS PRESLEY - Burning Love
+687	BOBBY DARIN - Dream Lover
+688	LENNY KRAVITZ - Dig In
+689	GERRY RAFFERTY - Baker Street
+690	VERTICAL HORIZON - Youre A God
+691	LILLY WOOD & THE PRICK - Prayer In C
+692	CINDERELLA - Dont Know What You Got Till Its Gone
+693	WILLIE NELSON - Blue Eyes Crying In The Rain
+694	BECK - Loser
+695	KATY PERRY - Last Friday Night
+696	NIGHT RANGER - Sing Me Away
+697	DEMI LOVATO - Really Dont Care
+698	FOREIGNER - Urgent
+699	INCUBUS - Megalomaniac
+700	TRAIN - Hey Soul Sister
+701	THE ROLLING STONES - Fool To Cry
+702	DUNCAN SHEIK - Barely Breathing
+703	PSY - Gentleman
+704	JOHN LENNON - Watching The Wheels
+705	IMPRESSIONS - Amen
+706	KORN - Freak On A Leash
+707	EDWARD MAYA - Stereo Love
+708	APOLLO 100 - Joy
+709	PAUL MCCARTNEY - Juniors Farm
+710	SIMON & GARFUNKEL - Wake Up Little Susie
+711	EVANESCENCE - Bring Me To Life
+712	DAVID BOWIE - Space Oddity
+713	THE ALAN PARSONS PROJECT - The Raven
+714	COBRA STARSHIP - Good Girls Go Bad
+715	KID ROCK - First Kiss
+716	THE HOOTERS - Johnny B
+717	SIMON & GARFUNKEL - Homeward Bound
+718	LED ZEPPELIN - Black Dog
+719	TWENTY ONE PILOTS - My Blood
+720	BOSTON - Foreplay Long Time
+721	BRUCE SPRINGSTEEN - Born In The Usa
+722	ZEDD - Clarity
+723	CAPITAL CITIES - Safe And Sound
+724	ROD STEWART - Young Turks
+725	JET - Are You Gonna Be My Girl
+726	BOZ SCAGGS - Lido Shuffle
+727	GOOD CHARLOTTE - Hold On
+728	THE FRAY - Never Say Never
+729	THE ROLLING STONES - The Last Time
+730	MAROON 5 - Memories
+731	THE DOORS - Roadhouse Blues
+732	38 SPECIAL - Fantasy Girl
+733	JOJO - Leave Get Out
+734	CHER - Just Like Jesse James
+735	RED HOT CHILI PEPPERS - Under The Bridge
+736	PUDDLE OF MUDD - Blurry
+737	HONEYMOON SUITE - Feel It Again
+738	TALKING HEADS - Take Me To The River
+739	KID CUDI - Day N Nite
+740	THE ROLLING STONES - Its All Over Now
+741	POISON - I Wont Forget You
+742	BEASTIE BOYS - Fight For Your Right To Party
+743	ORION THE HUNTER - So You Ran
+744	BALTIMORA - Tarzan Boy
+745	NO DOUBT - Its My Life
+746	JULIA MICHAELS - Issues
+747	P!NK - Try
+748	PET SHOP BOYS - West End Girls
+749	BOY MEETS GIRL - Waiting For A Star To Fall
+750	JONAS BROTHERS - Fly With Me
+751	INXS - What You Need
+752	ELTON JOHN - The Bitch Is Back
+753	LIL WAYNE - Knockout
+754	DMX - Ruff Ryders Anthem
+755	BEASTIE BOYS - Brass Monkey
+756	WEEZER - Beverly Hills
+757	POISON - Your Mama Dont Dance
+758	LENNY KRAVITZ - Ill Be Waiting
+759	U2 - Mysterious Ways
+760	POD - Alive
+761	BILLY JOEL - The Entertainer
+762	KORN - Coming Undone
+763	THE LONELY ISLAND - Im On A Boat
+764	THE TURTLES - Happy Together
+765	HEART - Even It Up
+766	THE ROLLING STONES - Heart Of Stone
+767	DON FELDER - Heavy Metal Takin A Ride
+768	DAVID LEE ROTH - Stand Up
+769	GENESIS - I Cant Dance
+770	ALICE COOPER - House Of Fire
+771	DEXYS MIDNIGHT RUNNERS - Come On Eileen
+772	GWEN STEFANI - The Sweet Escape
+773	DURAN DURAN - Ordinary World
+774	BON JOVI - This Aint A Love Song
+775	THE J GEILS BAND - Come Back
+776	EAGLES - One Of These Nights
+777	TIM MCGRAW - Something Like That
+778	WINGS - Letting Go
+779	OZZY OSBOURNE - Shot In The Dark
+780	KALEO - Way Down We Go
+781	HALL & OATES - Out Of Touch
+782	AMERIE - One Thing
+783	THE ROLLING STONES - Jumpin Jack Flash
+784	STONE SOUR - Through Glass
+785	RIHANNA - We Found Love
+786	BILLIE EILISH - When The Partys Over
+787	METALLICA - One
+788	BETTE MIDLER - Wind Beneath My Wings
+789	ALAN JACKSON - Remember When
+790	BRUCE SPRINGSTEEN - Hungry Heart
+791	PETER FRAMPTON - Im In You
+792	JONAS BROTHERS - Year 3000
+793	REO SPEEDWAGON - Time For Me To Fly
+794	THE BLACK CROWES - Remedy
+795	SON BY FOUR - Purest Of Pain
+796	THE BEATLES - I Am The Walrus
+797	OMARION - Post To Be
+798	THE WHO - Pictures Of Lily
+799	ACDC - Moneytalks
+800	TAYLOR SWIFT - Blank Space
+801	STYX - Lady
+802	HARRY NILSSON - Coconut
+803	FRANK ZAPPA - Dont Eat The Yellow Snow
+804	THE BEACH BOYS - Little Deuce Coupe
+805	WINGS - Silly Love Songs
+806	U2 - Hold Me Thrill Me Kiss Me Kill Me
+807	ELTON JOHN - Tiny Dancer
+808	SOUNDGARDEN - Black Rain
+809	AVRIL LAVIGNE - What The Hell
+810	KATY PERRY - Unconditionally
+811	SUGAR RAY - Every Morning
+812	OASIS - The Shock Of The Lightning
+813	98 DEGREES - The Hardest Thing
+814	5 SECONDS OF SUMMER - Good Girls
+815	GLASS TIGER - Dont Forget Me When Im Gone
+816	ROXETTE - Spending My Time
+817	GUNS N ROSES - November Rain
+818	FLEETWOOD MAC - As Long As You Follow
+819	RUSTED ROOT - Send Me On My Way
+820	THE TEMPTATIONS - Papa Was A Rollin Stone
+821	THREE DOG NIGHT - Shambala
+822	PHIL COLLINS - Another Day In Paradise
+823	LINKIN PARK - Waiting For The End
+824	THE SMASHING PUMPKINS - Perfect
+825	THE ROLLING STONES - I Cant Get No Satisfaction
+826	ELTON JOHN - Dont Let The Sun Go Down On Me
+827	CREAM - Crossroads
+828	MARTIN SOLVEIG - Hello
+829	TONI BRAXTON - Unbreak My Heart
+830	ELTON JOHN - Little Jeannie
+831	BELINDA CARLISLE - Heaven Is A Place On Earth
+832	VANESSA CARLTON - A Thousand Miles
+833	EXTREME - More Than Words
+834	GAVIN DEGRAW - Chariot
+835	ACE OF BASE - The Sign
+836	LENNY KRAVITZ - Fly Away
+837	2PAC - Thugz Mansion
+838	CREED - Higher
+839	THE BEACH BOYS - Fun Fun Fun
+840	REM - Daysleeper
+841	ROXETTE - How Do You Do
+842	DANIEL CAESAR - Best Part
+843	LIL WAYNE - John
+844	FALL OUT BOY - The Phoenix
+845	NIGHT RANGER - Dont Tell Me You Love Me
+846	LUIS FONSI - Nada Es Para Siempre
+847	POISON - Nothin But A Good Time
+848	MAROON 5 - This Love
+849	JOHN LENNON - Happy Xmas War Is Over
+850	GERRY AND THE PACEMAKERS - Youll Never Walk Alone
+851	MOTLEY CRUE - Dr Feelgood
+852	ELTON JOHN - Crocodile Rock
+853	CARLY SIMON - Anticipation
+854	AVICII - Hey Brother
+855	THE OFFSPRING - Defy You
+856	TAYLOR SWIFT - Love Story
+857	BEE GEES - You Should Be Dancing
+858	SPICE GIRLS - 2 Become 1
+859	STRYPER - Honestly
+860	METALLICA - The Unforgiven
+861	FLORIDA GEORGIA LINE - Round Here
+862	INFORMATION SOCIETY - Think
+863	BILLY JOEL - Just The Way You Are
+864	THE BEATLES - Baby Youre A Rich Man
+865	THE WHISPERS - And The Beat Goes On
+866	SHAKIRA - Dont Bother
+867	LIT - My Own Worst Enemy
+868	GRASS ROOTS - Lets Live For Today
+869	KATY PERRY - Dark Horse
+870	CANNED HEAT - Going Up The Country
+871	ACE FREHLEY - New York Groove
+872	DONOVAN - Catch The Wind
+873	BREATHE - How Can I Fall
+874	MICHAEL BOLTON - When A Man Loves A Woman
+875	GRAND FUNK RAILROAD - Im Your Captain
+876	OASIS - Wonderwall
+877	CINDERELLA - Nobodys Fool
+878	MAROON 5 - Wake Up Call
+879	CHRIS BROWN - Gimme That
+880	WEIRD AL YANKOVIC - Smells Like Nirvana
+881	STEVE MILLER BAND - Take The Money And Run
+882	MEAT LOAF - Id Do Anything For Love
+883	DEF LEPPARD - Lets Get Rocked
+884	P!NK - Just Like A Pill
+885	LOSTPROPHETS - Last Train Home
+886	ELECTRIC LIGHT ORCHESTRA - Telephone Line
+887	BRITNEY SPEARS - Hold It Against Me
+888	WAYNE FONTANA & THE MINDBENDERS - The Game Of Love
+889	SHAGGY - It Wasnt Me
+890	MERLE HAGGARD - Okie From Muskogee
+891	KEITH URBAN - Making Memories Of Us
+892	PEARL JAM - Daughter
+893	BON JOVI - Always
+894	THE BEATLES - If I Fell
+895	PARLIAMENT - Give Up The Funk
+896	RATT - Dance
+897	PEARL JAM - Sirens
+898	PINK FLOYD - Money
+899	IGGY POP - Candy
+900	DEMI LOVATO - Give Your Heart A Break
+901	FUEL - Hemorrhage In My Hands
+902	TAYLOR SWIFT - Tim Mcgraw
+903	ALICIA KEYS - Empire State Of Mind Part 2
+904	A FLOCK OF SEAGULLS - The More You Live The More You Love
+905	TALKING HEADS - Psycho Killer
+906	FLO RIDA - Whistle
+907	JAY Z - Run This Town
+908	KESHA - Your Love Is My Drug
+909	EIFFEL 65 - Blue
+910	LEROY VAN DYKE - Walk On By
+911	ERIC CLAPTON - Bell Bottom Blues
+912	JACKSON BROWNE - Stay
+913	BRUCE HORNSBY - The Way It Is
+914	DEF LEPPARD - Women
+915	WHITESNAKE - Fool For Your Loving
+916	WHITESNAKE - Is This Love
+917	OF MONSTERS AND MEN - Little Talks
+918	GIGI DAGOSTINO - Ill Fly With You
+919	BON JOVI - We Werent Born To Follow
+920	KOOL & THE GANG - Get Down On It
+921	NAS - Hip Hop Is Dead
+922	MIA - Paper Planes
+923	THE CURE - Close To Me
+924	WHITNEY HOUSTON - One Moment In Time
+925	P DIDDY - Coming Home
+926	WILD CHERRY - Play That Funky Music
+927	IMAGINE DRAGONS - On Top Of The World
+928	SCATMAN JOHN - Scatman
+929	BON JOVI - Bad Medicine
+930	MIDNIGHT OIL - The Dead Heart
+931	SUPERTRAMP - Goodbye Stranger
+932	MR MISTER - Kyrie
+933	MADCON - Beggin
+934	BRITNEY SPEARS - Do Something
+935	GARBAGE - Only Happy When It Rains
+936	BLUE OYSTER CULT - Shooting Shark
+937	BETTE MIDLER - Beast Of Burden
+938	ANDREW GOLD - Never Let Her Slip Away
+939	QUEEN - We Are The Champions
+940	BLINK 182 - I Miss You
+941	10CC - Im Not In Love
+942	THE BRAVERY - An Honest Mistake
+943	THE KILLERS - Human
+944	SHERYL CROW - If It Makes You Happy
+945	GRAND FUNK RAILROAD - Were An American Band
+946	NIRVANA - Lithium
+947	WAR - Low Rider
+948	SARAH MCLACHLAN - Angel
+949	SIMON & GARFUNKEL - Scarborough Fair
+950	GREEN DAY - Wake Me Up When September Ends
+951	NEIL DIAMOND - Forever In Blue Jeans
+952	LEWIS CAPALDI - Someone You Loved
+953	MARTY ROBBINS - El Paso
+954	CHUCK BERRY - Carol
+955	SHERYL CROW - My Favorite Mistake
+956	EMINEM - Beautiful
+957	QUEEN - Youre My Best Friend
+958	LINDA RONSTADT - Get Closer
+959	AEROSMITH - Livin On The Edge
+960	PAUL SIMON - Hobos Blues
+961	CROSBY STILLS NASH YOUNG - Woodstock
+962	ROXETTE - The Look
+963	JANES ADDICTION - Just Because
+964	FIVE FOR FIGHTING - 100 Years
+965	EMINEM - Without Me
+966	MARIAH CAREY - All I Want For Christmas Is You
+967	NEIL YOUNG - Walk On
+968	NE YO - Closer
+969	JETHRO TULL - Bungle In The Jungle
+970	TRAIN - 50 Ways To Say Goodbye
+971	US3 - Cantaloop
+972	RUSH - In The Mood
+973	RATT - Lay It Down
+974	JUSTIN BIEBER - Love Yourself
+975	JUSTIN TIMBERLAKE - Lovestoned
+976	GUNS N ROSES - Sweet Child O Mine
+977	BON JOVI - Keep The Faith
+978	THE MONKEES - Pleasant Valley Sunday
+979	STEVE HARLEY AND COCKNEY REBEL - Make Me Smile
+980	GLEE CAST - Hello Goodbye
+981	TOTO - Rosanna
+982	TWISTED SISTER - I Wanna Rock
+983	U2 - When Love Comes To Town
+984	MOTLEY CRUE - Same Ol Situation
+985	FIREHOUSE - When I Look Into Your Eyes
+986	AUDIOSLAVE - Be Yourself
+987	STRAY CATS - Stray Cat Strut
+988	BOB DYLAN - I Want You
+989	MY CHEMICAL ROMANCE - Under Pressure
+990	DON OMAR - Danza Kuduro
+991	CREEDENCE CLEARWATER REVIVAL - I Put A Spell On You
+992	CHEAP TRICK - Surrender
+993	ISAAC HAYES - Walk On By
+994	BURT BACHARACH - Ill Never Fall In Love Again
+995	INFORMATION SOCIETY - Whats On Your Mind Pure Energy
+996	JASON MRAZ - The Remedy I Wont Worry
+997	THE DOORS - The Unknown Soldier
+998	BRUCE SPRINGSTEEN - One Step Up
+999	KISS - Shout It Out Loud
+1000	THE BEATLES - Shes A Woman
+1001	THE LIGHTNING SEEDS - Pure
+1002	YEAH YEAH YEAHS - Gold Lion
+1003	WINGER - Cant Get Enuff
+1004	MARIAH CAREY - We Belong Together
+1005	THE POLICE - Spirits In The Material World
+1006	ERIC CLAPTON - Comin Home
+1007	KAOMA - Lambada
+1008	POISON - Fallen Angel
+1009	NINE INCH NAILS - March Of The Pigs
+1010	EDDIE MONEY - Shakin
+1011	DEPECHE MODE - Never Let Me Down Again
+1012	TRAVELING WILBURYS - End Of The Line
+1013	THE BEATLES - Please Please Me
+1014	GOOD CHARLOTTE - The River
+1015	MODJO - Lady Hear Me Tonight
+1016	BRUNO MARS - Runaway Baby
+1017	MIKA - Grace Kelly
+1018	PHIL COLLINS - A Groovy Kind Of Love
+1019	ELTON JOHN - Something About The Way You Look Tonight
+1020	FOREIGNER - Double Vision
+1021	STEPPENWOLF - Magic Carpet Ride
+1022	NICKELBACK - Too Bad
+1023	IKE & TINA TURNER - Nutbush City Limits
+1024	THE LONELY ISLAND - I Just Had Sex
+1025	38 SPECIAL - Hold On Loosely
+1026	QUESTION MARK AND THE MYSTERIANS - 96 Tears
+1027	MARC ANTHONY - My Baby You
+1028	THE TIME - Jungle Love
+1029	SWEDISH HOUSE MAFIA - Dont You Worry Child
+1030	SHAWN MENDES - I Know What You Did Last Summer
+1031	THE ROLLING STONES - Tumbling Dice
+1032	44 - When Your Heart Stops Beating
+1033	MOTT THE HOOPLE - One Of The Boys
+1034	I PREVAIL - Blank Space
+1035	ED SHEERAN - Perfect
+1036	RIHANNA - Take A Bow
+1037	PURE PRAIRIE LEAGUE - Amie
+1038	ENYA - Orinoco Flow
+1039	THE PSYCHEDELIC FURS - Love My Way
+1040	THE DOORS - Light My Fire
+1041	ADELE - Chasing Pavements
+1042	HARRY CHAPIN - Cats In The Cradle
+1043	A GREAT BIG WORLD - Say Something
+1044	TOAD THE WET SPROCKET - Fall Down
+1045	PLAIN WHITE TS - 1 2 3 4
+1046	MOTLEY CRUE - Smokin In The Boys Room
+1047	EDDY GRANT - Electric Avenue
+1048	DUA LIPA - Idgaf
+1049	BRAD PAISLEY - Alcohol
+1050	RASCAL FLATTS - What Hurts The Most
+1051	BACHMAN TURNER OVERDRIVE - Takin Care Of Business
+1052	DEPECHE MODE - Enjoy The Silence
+1053	SQUEEZE - Hourglass
+1054	THE BEATLES - Hey Jude
+1055	BOSTON - A Man Ill Never Be
+1056	NIGHT RANGER - Goodbye
+1057	BIG & RICH - Save A Horse Ride A Cowboy
+1058	BOSTON - Amanda
+1059	DISTURBED - Indestructible
+1060	LONESTAR - Amazed
+1061	JOHN MELLENCAMP - Rock In The Usa
+1062	KELLY CLARKSON - Breakaway
+1063	THE CURE - Fascination Street
+1064	WHITE LION - Little Fighter
+1065	TAKING BACK SUNDAY - Makedamnsure
+1066	SLAUGHTER - Fly To The Angels
+1067	ELLE KING - Exs And Ohs
+1068	BTS - Fake Love
+1069	CAT STEVENS - Morning Has Broken
+1070	VANESSA WILLIAMS - Save The Best For Last
+1071	FLORIDA GEORGIA LINE - Holy
+1072	GRAND FUNK RAILROAD - Shes Some Kind Of Wonderful
+1073	AEROSMITH - Kings And Queens
+1074	98 DEGREES - I Do
+1075	U2 - Desire
+1076	ABBA - Fernando
+1077	CHINGY - One Call Away
+1078	BAD COMPANY - Cant Get Enough
+1079	PEARL JAM - Tremor Christ
+1080	WARREN ZEVON - Werewolves Of London
+1081	RAY CHARLES - I Cant Stop Loving You
+1082	SIMON & GARFUNKEL - The Sound Of Silence
+1083	FLEETWOOD MAC - Gypsy
+1084	KORN - Here To Stay
+1085	CRASH TEST DUMMIES - Supermans Song
+1086	MAC MILLER - Come Back To Earth
+1087	NELLY - Just A Dream
+1088	TRAIN - If Its Love
+1089	JESSIE J - Flashlight
+1090	STYX - The Best Of Times
+1091	LOOKING GLASS - Brandy
+1092	P!NK - Trouble
+1093	BRUNO MARS - Versace On The Floor
+1094	THE BEATLES - Do You Want To Know A Secret
+1095	LENNY KRAVITZ - Rock And Roll Is Dead
+1096	ONEREPUBLIC - Love Runs Out
+1097	GREEN JELLY - Three Little Pigs
+1098	MICHAEL JACKSON - Billie Jean
+1099	THE ROLLING STONES - You Cant Always Get What You Want
+1100	WARRANT - Sometimes She Cries
+1101	MY CHEMICAL ROMANCE - Teenagers
+1102	WHITESNAKE - Give Me All Your Love
+1103	PINKFONG - Baby Shark
+1104	HOLE - Doll Parts
+1105	TAYLOR SWIFT - Fifteen
+1106	SURVIVOR - The Search Is Over
+1107	KINGS OF LEON - The End
+1108	ELTON JOHN - Sad Songs Say So Much
+1109	DIXIE CHICKS - Theres Your Trouble
+1110	BOWLING FOR SOUP - High School Never Ends
+1111	BASTILLE - Pompeii
+1112	NO DOUBT - Hey Baby
+1113	BILLY IDOL - Flesh For Fantasy
+1114	NEIL YOUNG - Hey Hey My My Into The Black
+1115	RONNIE MILSAP - Any Day Now
+1116	THE WHO - Love Reign Oer Me
+1117	MKTO - Classic
+1118	FOREIGNER - Juke Box Hero
+1119	ELTON JOHN - Levon
+1120	TOTO - I Wont Hold You Back
+1121	DIRE STRAITS - Money For Nothing
+1122	UGLY KID JOE - Cats In The Cradle
+1123	JAY Z - Big Pimpin
+1124	LOUIS TOMLINSON - Back To You
+1125	ROXY MUSIC - Love Is The Drug
+1126	THE BEATLES - Ps I Love You
+1127	MAROON 5 - One More Night
+1128	MODERN ENGLISH - Ill Melt With You
+1129	MADONNA - La Isla Bonita
+1130	SELENA GOMEZ - Tell Me Something I Dont Know
+1131	DON HENLEY - Heart Of The Matter
+1132	THE FRAY - You Found Me
+1133	ELVIS PRESLEY - Blue Christmas
+1134	VANESSA CARLTON - White Houses
+1135	POINTER SISTERS - Im So Excited
+1136	JIMMY CLIFF - I Can See Clearly Now
+1137	THE ROLLING STONES - Rock And A Hard Place
+1138	TRAPT - Still Frame
+1139	PARAMORE - Still Into You
+1140	CINDERELLA - Gypsy Road
+1141	MEN AT WORK - Who Can It Be Now
+1142	VELVET REVOLVER - Slither
+1143	TINA TURNER - Whats Love Got To Do With It
+1144	THE ROLLING STONES - Mothers Little Helper
+1145	CALVIN HARRIS - Outside
+1146	SNOW PATROL - Set The Fire To The Third Bar
+1147	LINK WRAY & HIS RAY MEN - Jack The Ripper
+1148	YOUNG THE GIANT - Cough Syrup
+1149	BRYAN ADAMS - Somebody
+1150	BRUCE SPRINGSTEEN - Cover Me
+1151	HOOBASTANK - The Reason
+1152	MOTLEY CRUE - Without You
+1153	FALL OUT BOY - Headfirst Slide Into Cooperstown On A Bad Bet
+1154	SKID ROW - 18 And Life
+1155	GREG LAKE - I Believe In Father Christmas
+1156	3 DOORS DOWN - Here Without You
+1157	JAMES BROWN - Try Me
+1158	DR DRE - Still Dre
+1159	CASCADES - Rhythm Of The Rain
+1160	KATY PERRY - Waking Up In Vegas
+1161	THE ROMANTICS - Talking In Your Sleep
+1162	BLONDIE - Call Me
+1163	JOAN JETT - Crimson And Clover
+1164	BB KING - Paying The Cost To Be The Boss
+1165	USHER - More
+1166	SUBLIME - Doin Time
+1167	BILLY JOEL - Uptown Girl
+1168	GEORGE MICHAEL - Careless Whisper
+1169	COLDPLAY - Hymn For The Weekend
+1170	AALIYAH - Are You That Somebody
+1171	FASTER PUSSYCAT - House Of Pain
+1172	LUDACRIS - Roll Out
+1173	COLLECTIVE SOUL - Run
+1174	50 CENT - In Da Club
+1175	BEE GEES - Holiday
+1176	GREEN DAY - Boulevard Of Broken Dreams
+1177	ELLIE GOULDING - Burn
+1178	SNIFF N THE TEARS - Drivers Seat
+1179	JOHN CAFFERTY - Hearts On Fire
+1180	BTS - Dna
+1181	THE GAME - Hate It Or Love It
+1182	ALICE COOPER - Caught In A Dream
+1183	HOOBASTANK - Crawling In The Dark
+1184	NEIL YOUNG - Heart Of Gold
+1185	OK GO - Here It Goes Again
+1186	PHIL COLLINS - Against All Odds
+1187	MICHAEL BOLTON - How Can We Be Lovers
+1188	ADAM LAMBERT - Whataya Want From Me
+1189	IMAGINE DRAGONS - Demons
+1190	MEN WITHOUT HATS - Pop Goes The World
+1191	THE 5TH DIMENSION - Aquarius Let The Sunshine In The Flesh Failures
+1192	THE BEATLES - Paperback Writer
+1193	MEAT LOAF - You Took The Words Right Out Of My Mouth
+1194	DEMI LOVATO - Neon Lights
+1195	BEE GEES - New York Mining Disaster 1941
+1196	KISS - Heavens On Fire
+1197	MARVIN GAYE - Lets Get It On
+1198	THE MONKEES - Valleri
+1199	THIRTY SECONDS TO MARS - The Kill
+1200	HEART - Straight On
+1201	THE FRAY - Love Dont Die
+1202	MATCHBOX TWENTY - Mad Season
+1203	THE BEACH BOYS - Good Vibrations
+1204	LILY ALLEN - Smile
+1205	HUMBLE PIE - I Dont Need No Doctor
+1206	FOREIGNER - Hot Blooded
+1207	DEF LEPPARD - Pour Some Sugar On Me
+1208	CREED - Overcome
+1209	BON JOVI - In These Arms
+1210	LYNYRD SKYNYRD - Double Trouble
+1211	VANESSA CARLTON - Ordinary Day
+1212	SKILLET - Awake And Alive
+1213	P DIDDY - Bad Boy For Life
+1214	EMF - Unbelievable
+1215	AVENGED SEVENFOLD - Hail To The King
+1216	LIFEHOUSE - Spin
+1217	CARPENTERS - Calling Occupants Of Interplanetary Craft
+1218	CULTURE BEAT - Mr Vain
+1219	THE TORNADOES - Telstar
+1220	WARRANT - Cherry Pie
+1221	PET SHOP BOYS - Always On My Mind
+1222	PUBLIC ENEMY - Give It Up
+1223	THE DRIFTERS - Save The Last Dance For Me
+1224	SHANIA TWAIN - Youre Still The One
+1225	THE WHITE STRIPES - Icky Thump
+1226	RED HOT CHILI PEPPERS - Give It Away
+1227	BRENTON WOOD - Gimme A Little Sign
+1228	BILLY IDOL - Eyes Without A Face
+1229	JOHN LENNON - Mind Games
+1230	SECONDHAND SERENADE - Vulnerable
+1231	BLINK 182 - The Rock Show
+1232	CHRISTOPHER CROSS - Sailing
+1233	JARS OF CLAY - Flood
+1234	THE GUESS WHO - Laughing
+1235	ALAN JACKSON - Pop A Top
+1236	COLD - Stupid Girl
+1237	JOHN MELLENCAMP - Rain On The Scarecrow
+1238	JUANES - Me Enamora
+1239	QUEEN - One Vision
+1240	KISS - Sure Know Something
+1241	CHUBBY CHECKER - Lets Twist Again
+1242	EDDIE COCHRAN - Summertime Blues
+1243	VAN HALEN - Dreams
+1244	WALTER MURPHY - A Fifth Of Beethoven
+1245	REAL MCCOY - Another Night
+1246	MADONNA - This Used To Be My Playground
+1247	ED SHEERAN - Thinking Out Loud
+1248	NINE INCH NAILS - The Day The World Went Away
+1249	DEMI LOVATO - Here We Go Again
+1250	JIMMY BUFFETT - Come Monday
+1251	MIKA - Love Today
+1252	SPINNERS - Ill Be Around
+1253	WAR - Cisco Kid
+1254	INXS - Devil Inside
+1255	ELVIS PRESLEY - Cant Help Falling In Love
+1256	GOOD CHARLOTTE - Lifestyles Of The Rich And Famous
+1257	SHAGGY - Angel
+1258	FALL OUT BOY - Irresistible
+1259	GRAND FUNK RAILROAD - Heartbreaker
+1260	DONNA SUMMER - Bad Girls
+1261	NEON TREES - Animal
+1262	BADFINGER - No Matter What
+1263	THE BEATLES - Inner Light
+1264	JIMMY EAT WORLD - The Middle
+1265	BILLY JOEL - Piano Man
+1266	TALKING HEADS - And She Was
+1267	THE LAST GOODNIGHT - Pictures Of You
+1268	ROXETTE - Almost Unreal
+1269	NIGHT RANGER - You Can Still Rock In America
+1270	DONOVAN - Hurdy Gurdy Man
+1271	POST MALONE - I Fall Apart
+1272	THE POLICE - Wrapped Around Your Finger
+1273	JOHN LENNON - Jealous Guy
+1274	GILBERT OSULLIVAN - Alone Again Naturally
+1275	LED ZEPPELIN - Trampled Under Foot
+1276	TOM PETTY - You Dont Know How It Feels
+1277	PEARL JAM - World Wide Suicide
+1278	AVRIL LAVIGNE - Rock N Roll
+1279	FRANK MILLS - Music Box Dancer
+1280	CORINNE BAILEY RAE - Like A Star
+1281	U2 - Last Night On Earth
+1282	HONEYMOON SUITE - What Does It Take
+1283	BJORK - Earth Intruders
+1284	LYNYRD SKYNYRD - Sweet Home Alabama
+1285	JAMES BLUNT - Stay The Night
+1286	BRUNO MARS - The Lazy Song
+1287	JUSTIN TIMBERLAKE - Summer Love
+1288	SAMMY HAGAR - Plain Jane
+1289	MILEY CYRUS - The Climb
+1290	DAVID BOWIE - Lets Dance
+1291	ENNIO MORRICONE - The Good The Bad And The Ugly
+1292	TRINI LOPEZ - Kansas City
+1293	LADY GAGA - Million Reasons
+1294	TAMIA - Officially Missing You
+1295	FOO FIGHTERS - All My Life
+1296	THE BYRDS - Mr Tambourine Man
+1297	ENRIQUE IGLESIAS - Do You Know
+1298	ELTON JOHN - The Last Song
+1299	THE CULT - Edie Ciao Baby
+1300	THE POLICE - Synchronicity Ii
+1301	PHIL COLLINS - I Wish It Would Rain Down
+1302	SERJ TANKIAN - Empty Walls
+1303	TED NUGENT - Hey Baby
+1304	WINGS - Let Em In
+1305	THE OFFSPRING - Why Dont You Get A Job
+1306	BRITNEY SPEARS - Everytime
+1307	USHER - My Way
+1308	BILLY JOEL - Movin Out
+1309	COLDPLAY - Talk
+1310	PETER FRAMPTON - Baby I Love Your Way
+1311	THE DOORS - Love Her Madly
+1312	EARTH WIND & FIRE - Fantasy
+1313	WHITNEY HOUSTON - So Emotional
+1314	U2 - Sometimes You Cant Make It On Your Own
+1315	LOU REED - Walk On The Wild Side
+1316	TRICK DADDY - Sugar Gimme Some
+1317	THE BEATLES - Thank You Girl
+1318	TOM PETTY AND THE HEARTBREAKERS - Dont Do Me Like That
+1319	ADELE - Someone Like You
+1320	JONAS BROTHERS - Play My Music
+1321	BONNIE TYLER - Total Eclipse Of The Heart
+1322	SLADE - Run Runaway
+1323	EMINEM - Lose Yourself
+1324	UNCLE KRACKER - Drift Away
+1325	LIONEL RICHIE - Endless Love
+1326	JOHN LENNON - Just Like Starting Over
+1327	FLEETWOOD MAC - Little Lies
+1328	PAUL SIMON - You Can Call Me Al
+1329	BOBBY DARIN - If I Were A Carpenter
+1330	EUROPE - Carrie
+1331	CYNDI LAUPER - She Bop
+1332	PAUL STOOKEY - Wedding Song There Is Love
+1333	PEARL JAM - Jeremy
+1334	KATY PERRY - Firework
+1335	STYX - Dont Let It End
+1336	OUTKAST - Roses
+1337	LINKIN PARK - One Step Closer
+1338	JOE COCKER - Up Where We Belong
+1339	CREEDENCE CLEARWATER REVIVAL - Travelin Band
+1340	MADONNA - Vogue
+1341	BELLAMY BROTHERS - Let Your Love Flow
+1342	TAYLOR SWIFT - I Dont Wanna Live Forever
+1343	THE PRETENDERS - Back On The Chain Gang
+1344	KID ROCK - All Summer Long
+1345	TAYLOR SWIFT - Shouldve Said No
+1346	KOOL & THE GANG - Shes Fresh
+1347	EMINEM - You Dont Know
+1348	DAUGHTRY - September
+1349	THE PUSSYCAT DOLLS - I Hate This Part
+1350	SIA - Helium
+1351	FRAMING HANLEY - Lollipop
+1352	BOBBY HELMS - Jingle Bell Rock
+1353	GODSMACK - Speak
+1354	CHRIS ISAAK - Somebodys Crying
+1355	LIONEL RICHIE - Hello
+1356	VAN HALEN - Finish What Ya Started
+1357	BARENAKED LADIES - Pinch Me
+1358	BARENAKED LADIES - The Old Apartment
+1359	FOGHAT - I Just Want To Make Love To You
+1360	ELVIS PRESLEY - Kentucky Rain
+1361	SHAKIRA - She Wolf
+1362	AL CORLEY - Square Rooms
+1363	BRUCE SPRINGSTEEN - Brilliant Disguise
+1364	SHINEDOWN - Second Chance
+1365	QUEEN - We Will Rock You
+1366	BOB DYLAN - Lay Lady Lay
+1367	JAMES BLUNT - Goodbye My Lover
+1368	TAYLOR SWIFT - Youre Not Sorry
+1369	DAN FOGELBERG - Same Old Lang Syne
+1370	VAN HALEN - Not Enough
+1371	ERIC CLAPTON - After Midnight
+1372	BRUCE SPRINGSTEEN - Devils And Dust
+1373	SHANIA TWAIN - That Dont Impress Me Much
+1374	MILEY CYRUS - Slide Away
+1375	THE SUPREMES - I Hear A Symphony
+1376	ROD STEWART - I Was Only Joking
+1377	LADY GAGA - Telephone
+1378	CHRISTINA AGUILERA - Genie In A Bottle
+1379	ROBERT PALMER - Addicted To Love
+1380	FAITH NO MORE - Epic
+1381	THE WHO - My Generation
+1382	JACK JOHNSON - Imagine
+1383	THIN LIZZY - The Boys Are Back In Town
+1384	JETHRO TULL - Locomotive Breath
+1385	2PAC - Changes
+1386	ELVIS PRESLEY - In The Ghetto
+1387	SHINEDOWN - The Crow And The Butterfly
+1388	KISS - Detroit Rock City
+1389	KEANE - Somewhere Only We Know
+1390	THE BLACK EYED PEAS - Where Is The Love
+1391	FOCUS - Sylvia
+1392	THE METERS - Hand Clapping Song
+1393	BOBBY BLAND - Aint No Love In The Heart Of The City
+1394	ERIC CLAPTON - Layla
+1395	NICKELBACK - This Afternoon
+1396	ZZ TOP - Rough Boy
+1397	JOURNEY - Faithfully
+1398	THE CLASH - Rock The Casbah
+1399	VAN MCCOY - The Hustle
+1400	AVRIL LAVIGNE - When Youre Gone
+1401	U2 - Even Better Than The Real Thing
+1402	CELINE DION - Beauty And The Beast
+1403	ENRIQUE IGLESIAS - Bailando
+1404	U2 - Electrical Storm
+1405	BUGGLES - Video Killed The Radio Star
+1406	THE REMBRANDTS - Ill Be There For You
+1407	BOB DYLAN - Like A Rolling Stone
+1408	FILTER - Take A Picture
+1409	EDDIE FLOYD - Knock On Wood
+1410	TRAVELING WILBURYS - Handle With Care
+1411	GUNS N ROSES - Since I Dont Have You
+1412	DAVID BOWIE - Young Americans
+1413	SWITCHFOOT - Stars
+1414	RED HOT CHILI PEPPERS - Soul To Squeeze
+1415	SPIN DOCTORS - Two Princes
+1416	OHIO EXPRESS - Yummy Yummy Yummy
+1417	PINK FLOYD - Another Brick In The Wall Part 2
+1418	ELTON JOHN - Sacrifice
+1419	THE JACKSON 5 - I Want You Back
+1420	SMASH MOUTH - Im A Believer
+1421	JEWEL - Foolish Games
+1422	BRITNEY SPEARS - Baby One More Time
+1423	DON HENLEY - The Boys Of Summer
+1424	ACE OF BASE - Beautiful Life
+1425	DEF LEPPARD - Make Love Like A Man
+1426	REM - Electrolite
+1427	ATLANTIC STARR - Always
+1428	WARRANT - Down Boys
+1429	LUKAS GRAHAM - 7 Years
+1430	COLBIE CAILLAT - Realize
+1431	THE WHITE STRIPES - Seven Nation Army
+1432	THE KINKS - Set Me Free
+1433	STYX - Mr Roboto
+1434	THE BEATLES - I Feel Fine
+1435	THE TEMPTATIONS - I Wish It Would Rain
+1436	BRAD PAISLEY - Mud On The Tires
+1437	GARBAGE - Push It
+1438	BLINK 182 - After Midnight
+1439	YLVIS - The Fox
+1440	METRO STATION - Seventeen Forever
+1441	BREAD - Baby Im A Want You
+1442	CHRIS BROWN - Fine China
+1443	MICHAEL BUBLE - Hollywood
+1444	THE SCRIPT - Breakeven
+1445	COLDPLAY - Fix You
+1446	BROOKS & DUNN - Boot Scootin Boogie
+1447	WILSON PICKETT - Mustang Sally
+1448	WHITNEY HOUSTON - I Will Always Love You
+1449	MADONNA - Live To Tell
+1450	LIFEHOUSE - Halfway Gone
+1451	EURYTHMICS - Sweet Dreams Are Made Of This
+1452	THE ROLLING STONES - Happy
+1453	ONEREPUBLIC - Good Life
+1454	PATRICE RUSHEN - Forget Me Nots
+1455	RADIOHEAD - Creep
+1456	ELECTRIC LIGHT ORCHESTRA - Dont Bring Me Down
+1457	ROD STEWART - Forever Young
+1458	THE GAME - How We Do
+1459	ELECTRIC LIGHT ORCHESTRA - Sweet Talkin Woman
+1460	DEF LEPPARD - Tonight
+1461	ERASURE - A Little Respect
+1462	NICKELBACK - When We Stand Together
+1463	OASIS - Dont Look Back In Anger
+1464	RAINBOW - Street Of Dreams
+1465	JAMES BLUNT - 1973
+1466	LANCO - Greatest Love Story
+1467	PLAIN WHITE TS - Our Time Now
+1468	THE RUBETTES - Sugar Baby Love
+1469	TONY JOE WHITE - Polk Salad Annie
+1470	MODEST MOUSE - Dashboard
+1471	ELTON JOHN - Sorry Seems To Be The Hardest Word
+1472	GEORGE MICHAEL - One More Try
+1473	ALICE COOPER - Be My Lover
+1474	MURRAY HEAD - One Night In Bangkok
+1475	MOBB DEEP - Shook Ones Part 2
+1476	BEYONCE - Crazy In Love
+1477	KISS - Reason To Live
+1478	ELTON JOHN - Blue Eyes
+1479	SHOP BOYZ - Party Like A Rockstar
+1480	BRAD PAISLEY - Water
+1481	ABBA - Money Money Money
+1482	SELENA GOMEZ - One And The Same
+1483	RAGNBONE MAN - Human
+1484	TOTO - Ill Be Over You
+1485	DEF LEPPARD - Rock Of Ages
+1486	CYMANDE - The Message
+1487	DMX - X Gonna Give It To Ya
+1488	BRUCE SPRINGSTEEN - Tunnel Of Love
+1489	JOHN LENNON - Power To The People
+1490	THE KINKS - Better Things
+1491	LIFEHOUSE - You And Me
+1492	THE BANGLES - Hazy Shade Of Winter
+1493	CYNDI LAUPER - Money Changes Everything
+1494	WINGS - Helen Wheels
+1495	REM - Imitation Of Life
+1496	U2 - In Gods Country
+1497	B2K - Bump Bump Bump
+1498	WYCLEF JEAN - 911
+1499	PET SHOP BOYS - Its A Sin
+1500	THE BEATLES - Eight Days A Week
+1501	THE ALLMAN BROTHERS BAND - Jessica
+1502	DEVO - Whip It
+1503	THE TROGGS - Love Is All Around
+1504	SCORPIONS - Wind Of Change
+1505	PRINCE - Purple Rain
+1506	ROXETTE - Fading Like A Flower
+1507	BOB DYLAN - Tangled Up In Blue
+1508	DEF LEPPARD - When Love And Hate Collide
+1509	FALL OUT BOY - This Aint A Scene Its An Arms Race
+1510	KENNY LOGGINS - Danger Zone
+1511	WHITE TOWN - Your Woman
+1512	DAN FOGELBERG - Longer
+1513	ROBBIE WILLIAMS - Millennium
+1514	CAROLE KING - Its Too Late
+1515	PUDDLE OF MUDD - Away From Me
+1516	FAITH NO MORE - Falling To Pieces
+1517	SHIRLEY BASSEY - Goldfinger
+1518	JAMES ARTHUR - Say You Wont Let Go
+1519	ELECTRIC LIGHT ORCHESTRA - Hold On Tight
+1520	JOURNEY - Just The Same Way
+1521	TESLA - Signs
+1522	TAIO CRUZ - Break Your Heart
+1523	CHUCK MANGIONE - Land Of Make Believe
+1524	ELECTRIC LIGHT ORCHESTRA - Cant Get It Out Of My Head
+1525	MIRANDA LAMBERT - White Liar
+1526	50 CENT - Pimp
+1527	STRYPER - I Believe In You
+1528	THREE DAYS GRACE - Just Like You
+1529	SNOOP DOGG - Young Wild And Free
+1530	DEPECHE MODE - Home
+1531	DIXIE CHICKS - Wide Open Spaces
+1532	THE ROLLING STONES - Hang Fire
+1533	BEN E KING - Spanish Harlem
+1534	ZZ TOP - Stages
+1535	COLLECTIVE SOUL - Listen
+1536	RICKY MARTIN - She Bangs
+1537	MOTT THE HOOPLE - All The Young Dudes
+1538	PAUL MAURIAT - Love Is Blue
+1539	KANYE WEST - Through The Wire
+1540	GIN BLOSSOMS - As Long As It Matters
+1541	THE SMASHING PUMPKINS - Tarantula
+1542	SPIN DOCTORS - You Let Your Heart Go Too Fast
+1543	TOM JONES - Shes A Lady
+1544	STAIND - Its Been Awhile
+1545	NO MERCY - When I Die
+1546	ADAM LAMBERT - For Your Entertainment
+1547	AIR SUPPLY - Here I Am
+1548	5 SECONDS OF SUMMER - Youngblood
+1549	FLO RIDA - Low
+1550	THE ALLMAN BROTHERS BAND - Melissa
+1551	THE BLACK EYED PEAS - Pump It
+1552	EMPIRE OF THE SUN - Walking On A Dream
+1553	THE CURE - High
+1554	FUEL - Bad Day
+1555	SUPERTRAMP - Breakfast In America
+1556	CRAIG MORGAN - Almost Home
+1557	LINDSEY BUCKINGHAM - Holiday Road
+1558	TOTO - Without Your Love
+1559	HUEY LEWIS & THE NEWS - Heart And Soul
+1560	MIRANDA COSGROVE - Kissin U
+1561	QUEEN - Play The Game
+1562	THE WHO - Behind Blue Eyes
+1563	SANTANA - The Game Of Love
+1564	THE BEATLES - I Should Have Known Better
+1565	AEROSMITH - I Dont Want To Miss A Thing
+1566	ARETHA FRANKLIN - Think
+1567	THE KINKS - Tired Of Waiting For You
+1568	HEART - Dog And Butterfly
+1569	HEART - What About Love
+1570	TI - Whatever You Like
+1571	HANNAH MONTANA - Just Like You
+1572	URGE OVERKILL - Girl Youll Be A Woman Soon
+1573	ALIEN ANT FARM - Smooth Criminal
+1574	BLOODHOUND GANG - The Bad Touch
+1575	CHARLIE PUTH - Attention
+1576	NEIL YOUNG - Only Love Can Break Your Heart
+1577	THE HOLLIES - He Aint Heavy Hes My Brother
+1578	JOAN JETT & THE BLACKHEARTS - I Love Rock N Roll
+1579	THE CRANBERRIES - Free To Decide
+1580	CHICAGO - Make Me Smile
+1581	MICHELLE BRANCH - Everywhere
+1582	SANTANA - Maria Maria
+1583	LIMP BIZKIT - My Way
+1584	LORDE - Royals
+1585	THE RED JUMPSUIT APPARATUS - Pen And Paper
+1586	BOWLING FOR SOUP - 1985
+1587	NEW FOUND GLORY - My Friends Over You
+1588	MOTLEY CRUE - Dont Go Away Mad Just Go Away
+1589	ONE DIRECTION - Night Changes
+1590	STAIND - Fade
+1591	KID CUDI - Mr Rager
+1592	TWENTY ONE PILOTS - Nico And The Niners
+1593	STEELHEART - Ill Never Let You Go
+1594	STONE TEMPLE PILOTS - Sour Girl
+1595	JOURNEY - Girl Cant Help It
+1596	PAUL MCCARTNEY - Say Say Say
+1597	AEROSMITH - Hole In My Soul
+1598	LIMP BIZKIT - N 2 Gether Now
+1599	U2 - Get On Your Boots
+1600	JESSIE J - Price Tag
+1601	DAFT PUNK - One More Time
+1602	PUDDLE OF MUDD - Psycho
+1603	FALL OUT BOY - I Dont Care
+1604	THE KILLERS - Runaways
+1605	CHESNEY HAWKES - The One And Only
+1606	CHRIS ISAAK - Wicked Game
+1607	ALICE COOPER - Schools Out
+1608	NELLY - Wadsyaname
+1609	ELVIS PRESLEY - Are You Lonesome Tonight
+1610	THE YARDBIRDS - Over Under Sideways Down
+1611	GOLDEN EARRING - Radar Love
+1612	EDDIE MONEY - Two Tickets To Paradise
+1613	LED ZEPPELIN - Good Times Bad Times
+1614	TAYLOR SWIFT - Enchanted
+1615	OINGO BOINGO - Just Another Day
+1616	SANTANA - Oye Como Va
+1617	MICHAEL BUBLE - Home
+1618	FIREHOUSE - All She Wrote
+1619	EXILE - Kiss You All Over
+1620	LITA FORD - Close My Eyes Forever
+1621	BROWNSVILLE STATION - Smokin In The Boys Room
+1622	WINGS - Jet
+1623	SPONGE - Molly
+1624	BEE GEES - Words
+1625	NICKELBACK - Figured You Out
+1626	DAN FOGELBERG - Leader Of The Band
+1627	STEELY DAN - Peg
+1628	IMAGINE DRAGONS - Believer
+1629	DAVID GUETTA - Dangerous
+1630	JOE COCKER - Woman To Woman
+1631	LINKIN PARK - Given Up
+1632	TEARS FOR FEARS - Break It Down Again
+1633	RED HOT CHILI PEPPERS - Snow Hey Oh
+1634	RADIOHEAD - Nude
+1635	CALVIN HARRIS - Slide
+1636	GARBAGE - Vow
+1637	STEVIE NICKS - Edge Of Seventeen
+1638	THE TOKENS - The Lion Sleeps Tonight
+1639	BILLY IDOL - White Wedding
+1640	SURVIVOR - Burning Heart
+1641	JAMES BAY - Let It Go
+1642	ACDC - You Shook Me All Night Long
+1643	HEART - Magic Man
+1644	COLDPLAY - Speed Of Sound
+1645	DEF LEPPARD - Animal
+1646	JOHNNY CASH - Folsom Prison Blues
+1647	KOOL & THE GANG - Celebration
+1648	BERLIN - Take My Breath Away
+1649	CELINE DION - All By Myself
+1650	THE BEATLES - Lady Madonna
+1651	THE ANIMALS - Weve Gotta Get Out Of This Place
+1652	THE WHO - Athena
+1653	JOE COCKER - You Are So Beautiful
+1654	RATT - Youre In Love
+1655	SWITCHFOOT - Meant To Live
+1656	SAM SMITH - Im Not The Only One
+1657	JOURNEY - The Partys Over
+1658	THE JACKSON 5 - Ill Be There
+1659	THE LAS - There She Goes
+1660	THE CORRS - Runaway
+1661	BOB SEGER - Old Time Rock And Roll
+1662	THE BEACH BOYS - Barbara Ann
+1663	NICKELBACK - Far Away
+1664	TWISTA - Hope
+1665	50 CENT - If I Cant
+1666	THE HOLLIES - Bus Stop
+1667	MAROON 5 - Wont Go Home Without You
+1668	ERIC CLAPTON - Lay Down Sally
+1669	FINE YOUNG CANNIBALS - She Drives Me Crazy
+1670	LIL WAYNE - Prom Queen
+1671	THE CLASH - Train In Vain
+1672	THE ANIMALS - Dont Let Me Be Misunderstood
+1673	P!NK - U Plus Ur Hand
+1674	WES MONTGOMERY - Windy
+1675	CHERYL LYNN - Got To Be Real
+1676	PAT BENATAR - Treat Me Right
+1677	USHER - Nice And Slow
+1678	THE ZOMBIES - Tell Her No
+1679	LIL UZI VERT - Xo Tour Llif3
+1680	TOAD THE WET SPROCKET - All I Want
+1681	REO SPEEDWAGON - Roll With The Changes
+1682	PAT BENATAR - Love Is A Battlefield
+1683	BAD COMPANY - Feel Like Makin Love
+1684	LIPPS INC - Funkytown
+1685	4 NON BLONDES - Whats Up
+1686	TWENTY ONE PILOTS - Stressed Out
+1687	3 DOORS DOWN - Let Me Go
+1688	LADY GAGA - Judas
+1689	U2 - Staring At The Sun
+1690	KYGO - Firestone
+1691	SIMPLE PLAN - Id Do Anything
+1692	AEROSMITH - Crazy
+1693	CIARA - Oh
+1694	TAYLOR SWIFT - Ours
+1695	LIVE - The Dolphins Cry
+1696	ELTON JOHN - Daniel
+1697	BABY BASH - Suga Suga
+1698	VENGABOYS - Boom Boom Boom
+1699	SMASH MOUTH - Then The Morning Comes
+1700	VAN MORRISON - Jackie Wilson Said
+1701	KEVIN GATES - Really Really
+1702	MILEY CYRUS - Party In The Usa
+1703	BILLY SQUIER - Everybody Wants You
+1704	BRUCE SPRINGSTEEN - Born To Run
+1705	BREAKING BENJAMIN - Breath
+1706	SALT N PEPA - Whatta Man
+1707	HOWIE DAY - Collide
+1708	MARIAH CAREY - Bye Bye
+1709	THE TEMPTATIONS - My Girl
+1710	GUNS N ROSES - Welcome To The Jungle
+1711	MY CHEMICAL ROMANCE - Na Na Na
+1712	CHRIS BROWN - New Flame
+1713	ROY ORBISON - Only The Lonely
+1714	AMERICA - Sister Golden Hair
+1715	RUSH - The Big Money
+1716	BILLY IDOL - Mony Mony
+1717	SPIN DOCTORS - Little Miss Cant Be Wrong
+1718	VAN HALEN - Hot For Teacher
+1719	THE BEATLES - All You Need Is Love
+1720	DELIVERANCE - Dueling Banjos
+1721	CYNDI LAUPER - Girls Just Want To Have Fun
+1722	COMMANDER CODY & HIS LOST PLANET AIRMEN - Hot Rod Lincoln
+1723	ROGER MILLER - King Of The Road
+1724	HUEY LEWIS & THE NEWS - I Want A New Drug
+1725	THE CHARLIE DANIELS BAND - Long Haired Country Boy
+1726	FLEETWOOD MAC - Dreams
+1727	MUMFORD & SONS - I Will Wait
+1728	RANDY NEWMAN - Short People
+1729	THE RENTALS - Friends Of P
+1730	LILY ALLEN - The Fear
+1731	GEORGE MICHAEL - Kissing A Fool
+1732	RED HOT CHILI PEPPERS - Scar Tissue
+1733	NICKELBACK - Savin Me
+1734	STEVE MILLER BAND - Abracadabra
+1735	FUN - We Are Young
+1736	CAT STEVENS - Sitting
+1737	THE ZOMBIES - Time Of The Season
+1738	AIR SUPPLY - Two Less Lonely People In The World
+1739	RICKY NELSON - Lonesome Town
+1740	ABBA - Does Your Mother Know
+1741	THE CRANBERRIES - Linger
+1742	TAYLOR SWIFT - Safe And Sound
+1743	THE SMASHING PUMPKINS - Doomsday Clock
+1744	BREAD - Everything I Own
+1745	HINDER - Lips Of An Angel
+1746	SAMMY HAGAR - I Cant Drive 55
+1747	P!NK - Who Knew
+1748	JAMES BLUNT - Youre Beautiful
+1749	AEROSMITH - Dream On
+1750	TONI BASIL - Mickey
+1751	CREEDENCE CLEARWATER REVIVAL - Lookin Out My Back Door
+1752	CARPENTERS - Goodbye To Love
+1753	THE POLICE - Every Little Thing She Does Is Magic
+1754	3 DOORS DOWN - Be Like That
+1755	MAROON 5 - Sugar
+1756	FALL OUT BOY - Beat It
+1757	ABBA - Honey Honey
+1758	MILEY CYRUS - See You Again
+1759	SIMON & GARFUNKEL - A Hazy Shade Of Winter
+1760	TOM PETTY AND THE HEARTBREAKERS - A Woman In Love
+1761	THE DAVE BRUBECK QUARTET - Unsquare Dance
+1762	PEARL JAM - The Fixer
+1763	DUANE EDDY - Peter Gunn
+1764	A PERFECT CIRCLE - The Outsider
+1765	CROSBY STILLS & NASH - Just A Song Before I Go
+1766	ALICIA KEYS - If I Aint Got You
+1767	POST MALONE - Rockstar
+1768	THE DOORS - Touch Me
+1769	SHERYL CROW - Soak Up The Sun
+1770	MADONNA - Secret
+1771	50 CENT - Candy Shop
+1772	SMOKIE - Living Next Door To Alice
+1773	TRAIN - Marry Me
+1774	THE BAND PERRY - If I Die Young
+1775	SPANDAU BALLET - True
+1776	BRYAN ADAMS - Have You Ever Really Loved A Woman
+1777	CAMILA CABELLO - Havana
+1778	GOO GOO DOLLS - Broadway
+1779	THE ROLLING STONES - Play With Fire
+1780	DIVINYLS - I Touch Myself
+1781	UB40 - I Cant Help Falling In Love With You
+1782	BRUNO MARS - Marry You
+1783	THE CHAINSMOKERS - Dont Let Me Down
+1784	WE THE KINGS - Well Be A Dream
+1785	LENNY KRAVITZ - I Belong To You
+1786	THE ROCKETS - Oh Well
+1787	JAMES TAYLOR - Handy Man
+1788	HEART - Kick It Out
+1789	BARENAKED LADIES - One Week
+1790	SPICE GIRLS - Wannabe
+1791	THE BEATLES - Revolution 1
+1792	SMOKEY ROBINSON - Being With You
+1793	SIMPLE PLAN - Shut Up
+1794	DEFAULT - Wasting My Time
+1795	KREWELLA - Alive
+1796	CLIFF RICHARD - Bachelor Boy
+1797	BRITNEY SPEARS - Lucky
+1798	FOO FIGHTERS - Times Like These
+1799	MARVIN GAYE - Aint No Mountain High Enough
+1800	DEPECHE MODE - Walking In My Shoes
+1801	MAROON 5 - It Was Always You
+1802	PARAMORE - Crushcrushcrush
+1803	SHAWN MENDES - Theres Nothing Holdin Me Back
+1804	CHER - Bang Bang My Baby Shot Me Down
+1805	YELLOWCARD - Lights And Sounds
+1806	ROD STEWART - People Get Ready
+1807	THE BEATLES - Ask Me Why
+1808	BLINK 182 - All The Small Things
+1809	ENRIQUE IGLESIAS - Hero
+1810	ASHLEE SIMPSON - Love
+1811	THE ROLLING STONES - Angie
+1812	GOLDEN EARRING - Twilight Zone
+1813	GREAT WHITE - Save Your Love
+1814	LIONEL RICHIE - Say You Say Me
+1815	DR JOHN - Right Place Wrong Time
+1816	THE MARKETTS - Out Of Limits
+1817	JOHN MELLENCAMP - Lonely Ol Night
+1818	ELTON JOHN - Blessed
+1819	WEEZER - If Youre Wondering If I Want You To I Want You To
+1820	JASON MRAZ - Wordplay
+1821	MICHAEL BOLTON - Go The Distance
+1822	OWL CITY - Vanilla Twilight
+1823	CHRISTINA AGUILERA - Fighter
+1824	ENIGMA - Return To Innocence
+1825	BONEY M - Daddy Cool
+1826	GREEN DAY - American Idiot
+1827	GENESIS - Mama
+1828	SUPERTRAMP - The Logical Song
+1829	FLORIDA GEORGIA LINE - This Is How We Roll
+1830	JOHN MAYER - Daughters
+1831	INXS - Not Enough Time
+1832	NO DOUBT - Hella Good
+1833	TOMMY LEE - Good Times
+1834	ONE DIRECTION - Story Of My Life
+1835	BRYAN ADAMS - Heaven
+1836	PINK FLOYD - Take It Back
+1837	HILARY DUFF - Wake Up
+1838	ALDO NOVA - Fantasy
+1839	THE WHO - Wont Get Fooled Again
+1840	RIHANNA - Umbrella
+1841	LEONA LEWIS - Run
+1842	FINGER ELEVEN - Paralyzer
+1843	DAVID GUETTA - Play Hard
+1844	GIN BLOSSOMS - Till I Hear It From You
+1845	TIMBALAND - The Way I Are
+1846	POISON - Talk Dirty To Me
+1847	PHARRELL WILLIAMS - Come Get It Bae
+1848	STEVIE WONDER - Uptight Everythings Alright
+1849	CHER - If I Could Turn Back Time
+1850	MICHELLE BRANCH - Goodbye To You
+1851	THE PRODIGY - Firestarter
+1852	INXS - Suicide Blonde
+1853	THE ALLMAN BROTHERS BAND - Ramblin Man
+1854	SWING OUT SISTER - Breakout
+1855	RARE EARTH - Whatd I Say
+1856	DONOVAN - Colours
+1857	MILEY CYRUS - 7 Things
+1858	AVICII - You Make Me
+1859	THE ALAN PARSONS PROJECT - Games People Play
+1860	KIM MITCHELL - Go For A Soda
+1861	PETER TOSH - Johnny B Goode
+1862	JUDY COLLINS - Both Sides Now
+1863	THUNDER - Dirty Love
+1864	NATALIE IMBRUGLIA - Torn
+1865	BLUR - Theres No Other Way
+1866	ONEREPUBLIC - Stop And Stare
+1867	OZZY OSBOURNE - Mama Im Coming Home
+1868	JACK WHITE - Another Way To Die
+1869	DAVID BOWIE - Im Afraid Of Americans
+1870	JOHN FOGERTY - Centerfield
+1871	CLASSICS IV - Spooky
+1872	ELASTICA - Stutter
+1873	STEVIE WONDER - I Wish
+1874	ADELE - Rolling In The Deep
+1875	MARVIN GAYE - Aint That Peculiar
+1876	JOURNEY - Whos Crying Now
+1877	SYSTEM OF A DOWN - Aerials
+1878	THE YARDBIRDS - Happenings Ten Years Time Ago
+1879	THE PRETENDERS - Middle Of The Road
+1880	SHAKIRA - Waka Waka This Time For Africa
+1881	STING - Desert Rose
+1882	JAMES TAYLOR - Country Road
+1883	PEGGY LEE - Fever
+1884	TOM JONES - Green Green Grass Of Home
+1885	BUFFALO SPRINGFIELD - For What Its Worth
+1886	BROTHERS JOHNSON - Stomp
+1887	BILLY IDOL - Cradle Of Love
+1888	GUNS N ROSES - Nightrain
+1889	IMAGINE DRAGONS - Radioactive
+1890	ALPHAVILLE - Big In Japan
+1891	ELECTRIC LIGHT ORCHESTRA - Last Train To London
+1892	JACKIE WILSON - Your Love Keeps Lifting Me Higher And Higher
+1893	MARIAH CAREY - One Sweet Day
+1894	HARRY STYLES - Lights Up
+1895	NIRVANA - Come As You Are
+1896	LIMP BIZKIT - Rollin Air Raid Vehicle
+1897	THE BEATLES - Dont Let Me Down
+1898	ALBERT HAMMOND - It Never Rains In Southern California
+1899	MICHAEL JACKSON - Wanna Be Startin Somethin
+1900	BLONDIE - Atomic
+1901	VAN HALEN - Dancing In The Street
+1902	SEETHER - Country Song
+1903	THE BYRDS - My Back Pages
+1904	R E M - Bang And Blame
+1905	THE MOODY BLUES - Nights In White Satin
+1906	GLEE CAST - Go Your Own Way
+1907	FIVE FOR FIGHTING - Riddle
+1908	SHAKIRA - Cant Remember To Forget You
+1909	FLYLEAF - All Around Me
+1910	LENNY KRAVITZ - Again
+1911	EMINEM - The Monster
+1912	TRACY CHAPMAN - Fast Car
+1913	VANILLA ICE - Ice Ice Baby
+1914	P DIDDY - Ill Be Missing You
+1915	QUEEN - Somebody To Love
+1916	ELVIS PRESLEY - A Little Less Conversation
+1917	QUEENSRYCHE - Silent Lucidity
+1918	INXS - Dont Change
+1919	TAYLOR SWIFT - Speak Now
+1920	DIANA ROSS - Love Child
+1921	THE KINKS - Sunny Afternoon
+1922	THE BLACK KEYS - Lonely Boy
+1923	MADONNA - Hung Up
+1924	MEGHAN TRAINOR - Dear Future Husband
+1925	GUNS N ROSES - Patience
+1926	JOHN DENVER - Seasons Of The Heart
+1927	TANGIER - On The Line
+1928	HOT BUTTER - Popcorn
+1929	PILOT - Magic
+1930	HUEY LEWIS & THE NEWS - The Power Of Love
+1931	GRAND FUNK RAILROAD - Time Machine
+1932	FRANK ZAPPA - Valley Girl
+1933	DAMN YANKEES - Where You Goin Now
+1934	THE CURE - Friday Im In Love
+1935	WARRANT - Heaven
+1936	LADY GAGA - Shallow
+1937	ADELE - Set Fire To The Rain
+1938	THE HOLLIES - Just One Look
+1939	BEYONCE - Irreplaceable
+1940	GWEN STEFANI - 4 In The Morning
+1941	ERIC CHURCH - Springsteen
+1942	PUDDLE OF MUDD - Drift And Die
+1943	CREEDENCE CLEARWATER REVIVAL - Up Around The Bend
+1944	DOKKEN - Alone Again
+1945	38 SPECIAL - Rockin Into The Night
+1946	FALL OUT BOY - Alone Together
+1947	ERIC CLAPTON - Pretending
+1948	LED ZEPPELIN - Fool In The Rain
+1949	DIRE STRAITS - Lady Writer
+1950	CONCRETE BLONDE - Joey
+1951	LITTLE RIVER BAND - Help Is On Its Way
+1952	SIMON & GARFUNKEL - Mrs Robinson
+1953	MILKY CHANCE - Stolen Dance
+1954	BON JOVI - Its My Life
+1955	ALICIA BRIDGES - I Love The Nightlife
+1956	BRUCE SPRINGSTEEN - Im On Fire
+1957	JESSE MCCARTNEY - Right Where You Want Me
+1958	BLAKE SHELTON - Honey Bee
+1959	MATCHBOX TWENTY - Real World
+1960	PHIL COLLINS - In The Air Tonight
+1961	RADIOHEAD - High And Dry
+1962	JAY Z - Feeling It
+1963	PEARL JAM - I Got Id
+1964	DAUGHTRY - What About Now
+1965	KEANE - Is It Any Wonder
+1966	CREEDENCE CLEARWATER REVIVAL - Down On The Corner
+1967	JOURNEY - After The Fall
+1968	METALLICA - King Nothing
+1969	RAMONES - Sheena Is A Punk Rocker
+1970	TIM MCGRAW - My Little Girl
+1971	BRUCE SPRINGSTEEN - Prove It All Night
+1972	A ROCKET TO THE MOON - Like We Used To
+1973	STING - Im So Happy I Cant Stop Crying
+1974	2 UNLIMITED - Twilight Zone
+1975	MARCY PLAYGROUND - Sex And Candy
+1976	PAUL SIMON - American Tune
+1977	THE BLUES BROTHERS - Soul Man
+1978	HEART - Who Will You Run To
+1979	STEVIE WONDER - Higher Ground
+1980	TRIUMPH - Lay It On The Line
+1981	KATY PERRY - Circle The Drain
+1982	PAPA ROACH - She Loves Me Not
+1983	TRAVIE MCCOY - Billionaire
+1984	AEROSMITH - Dude Looks Like A Lady
+1985	THE NEIGHBOURHOOD - Sweater Weather
+1986	DARUDE - Sandstorm
+1987	TAYLOR SWIFT - Better Than Revenge
+1988	ERIC CLAPTON - Cocaine
+1989	THE BEATLES - Roll Over Beethoven
+1990	ANDY WILLIAMS - Speak Softly Love
+1991	BRITNEY SPEARS - Me Against The Music
+1992	FLORIDA GEORGIA LINE - Cruise
+1993	TERRY JACKS - Seasons In The Sun
+1994	THE SMASHING PUMPKINS - Tonight Tonight
+1995	AVRIL LAVIGNE - Complicated
+1996	ROD STEWART - You Wear It Well
+1997	THE BARBARIANS - Are You A Boy Or Are You A Girl
+1998	MICHAEL JACKSON - They Dont Care About Us
+1999	THE RED JUMPSUIT APPARATUS - Face Down
+2000	SARA BAREILLES - Love Song
+2001	FALL OUT BOY - Sugar Were Going Down
+2002	JUSTIN BIEBER - What Do You Mean
+2003	BOB DYLAN - Rainy Day Women 12 And 35
+2004	TERENCE TRENT DARBY - Wishing Well
+2005	THE ROLLING STONES - Street Fighting Man
+2006	CREEDENCE CLEARWATER REVIVAL - Proud Mary
+2007	HOZIER - Take Me To Church
+2008	SONNY CHER - Bang Bang
+2009	BON JOVI - Runaway
+2010	KINGS OF LEON - Radioactive
+2011	DISTURBED - Stricken
+2012	FOUR TOPS - I Cant Help Myself
+2013	LITA FORD - Shot Of Poison
+2014	EMINEM - My Name Is
+2015	MARTHA & THE VANDELLAS - Dancing In The Street
+2016	ZZ TOP - Gimme All Your Lovin
+2017	THE KORGIS - Everybodys Got To Learn Sometime
+2018	THE DOOBIE BROTHERS - Long Train Runnin
+2019	JAKE OWEN - Eight Second Ride
+2020	SCORPIONS - Send Me An Angel
+2021	THREE DAYS GRACE - Never Too Late
+2022	KISS - Shandi
+2023	INXS - Pretty Vegas
+2024	ROSE ROYCE - Car Wash
+2025	GUNS N ROSES - Dont Cry
+2026	THREE DAYS GRACE - Pain
+2027	P!NK - Sober
+2028	U2 - With Or Without You
+2029	NE YO - Because Of You
+2030	JOHN MAYER - Who Says
+2031	JOHN LEGEND - All Of Me
+2032	3 DOORS DOWN - Its Not My Time
+2033	EAGLES - Lyin Eyes
+2034	TRACY CHAPMAN - Talkin Bout A Revolution
+2035	POCO - Call It Love
+2036	CAT STEVENS - Moonshadow
+2037	VANCE JOY - Riptide
+2038	LINKIN PARK - Breaking The Habit
+2039	SKID ROW - Youth Gone Wild
+2040	FLEETWOOD MAC - Sara
+2041	DEF LEPPARD - Bringin On The Heartbreak
+2042	MEAT PUPPETS - Backwater
+2043	THE BEATLES - The Long And Winding Road
+2044	STEELY DAN - Hey Nineteen
+2045	THIRTY SECONDS TO MARS - Closer To The Edge
+2046	DAVE MATTHEWS BAND - You And Me
+2047	LIL PUMP - Gucci Gang
+2048	FLO RIDA - Club Cant Handle Me
+2049	OAR - Shattered
+2050	EXTREME - Hole Hearted
+2051	ALICE COOPER - Im Eighteen
+2052	MADONNA - Lucky Star
+2053	THE WHO - I Cant Explain
+2054	INXS - Never Tear Us Apart
+2055	FRANZ FERDINAND - Do You Want To
+2056	ROY ORBISON - In Dreams
+2057	HEART - These Dreams
+2058	GENESIS - No Son Of Mine
+2059	HIM - Wings Of A Butterfly
+2060	TINA TURNER - Private Dancer
+2061	OTIS REDDING - Try A Little Tenderness
+2062	ALICE COOPER - Billion Dollar Babies
+2063	MOLLY HATCHET - Flirting With Disaster
+2064	3OH3 - Double Vision
+2065	MICHAEL JACKSON - One Day In Your Life
+2066	HEART - All I Wanna Do Is Make Love To You
+2067	MEREDITH BROOKS - Bitch
+2068	BILLY IDOL - Rebel Yell
+2069	PRINCE - Raspberry Beret
+2070	SANTANA - Why Dont You And I
+2071	ASIA - Heat Of The Moment
+2072	ACDC - Highway To Hell
+2073	REM - Losing My Religion
+2074	FLEETWOOD MAC - Big Love
+2075	TRICK DADDY - Lets Go
+2076	WE THE KINGS - Check Yes Juliet
+2077	LADY GAGA - Bad Romance
+2078	LA GUNS - The Ballad Of Jayne
+2079	GARBAGE - Why Do You Love Me
+2080	THE PUSSYCAT DOLLS - Beep
+2081	NENEH CHERRY - 7 Seconds
+2082	THE BEATLES - Help
+2083	LANA DEL REY - Summertime Sadness
+2084	RAINBOW - Since You Been Gone
+2085	CREEDENCE CLEARWATER REVIVAL - Lodi
+2086	HUEY LEWIS & THE NEWS - Stuck With You
+2087	MICHAEL JACKSON - Pyt Pretty Young Thing
+2088	MUDVAYNE - Happy
+2089	MARVIN GAYE - Aint Nothing Like The Real Thing
+2090	OTIS REDDING - Sittin On The Dock Of The Bay
+2091	DOLLY PARTON - Jolene
+2092	DEATH CAB FOR CUTIE - Soul Meets Body
+2093	JAMES TAYLOR - Carolina In My Mind
+2094	AEROSMITH - Last Child
+2095	JAY Z - Hard Knock Life Ghetto Anthem
+2096	JON BELLION - All Time Low
+2097	BILLY CURRINGTON - People Are Crazy
+2098	FOO FIGHTERS - Doa
+2099	DON MCLEAN - American Pie
+2100	MICHAEL BUBLE - Lost
+2101	J KWON - Tipsy
+2102	FIREHOUSE - Reach For The Sky
+2103	WEEZER - Undone The Sweater Song
+2104	KIM CARNES - Bette Davis Eyes
+2105	NICKELBACK - If Today Was Your Last Day
+2106	THE CHARLIE DANIELS BAND - The Devil Went Down To Georgia
+2107	LAURA BRANIGAN - Self Control
+2108	WET WILLIE - Dixie Rock
+2109	CAT STEVENS - Peace Train
+2110	GTR - When The Heart Rules The Mind
+2111	DR DRE - Keep Their Heads Ringin
+2112	BREAD - Diary
+2113	DAUGHTRY - Home
+2114	THE WEEKND - Blinding Lights
+2115	THE BLACK EYED PEAS - I Gotta Feeling
+2116	SHANIA TWAIN - Im Gonna Getcha Good
+2117	PARAMORE - Monster
+2118	ELTON JOHN - Island Girl
+2119	BEN FOLDS - Landed
+2120	RUSH - Tom Sawyer
+2121	VAN HALEN - Top Of The World
+2122	JAMES TAYLOR - Fire And Rain
+2123	BARRY MANILOW - Mandy
+2124	SIMPLE MINDS - Alive And Kicking
+2125	SANTANA - Hold On
+2126	BUSTA RHYMES - Break Ya Neck
+2127	DURAN DURAN - A View To A Kill
+2128	ROBERTA FLACK - Killing Me Softly With His Song
+2129	THE ROLLING STONES - Waiting On A Friend
+2130	JOURNEY - When You Love A Woman
+2131	CREAM - Sunshine Of Your Love
+2132	SHAWN MENDES - Senorita
+2133	DEEP PURPLE - Kentucky Woman
+2134	ENRIQUE IGLESIAS - I Like It
+2135	GOOD CHARLOTTE - Girls And Boys
+2136	COLDPLAY - Violet Hill
+2137	JAMES TAYLOR - Long Ago And Far Away
+2138	KELLY CLARKSON - Miss Independent
+2139	ERIC CLAPTON - Change The World
+2140	P!NK - Dont Let Me Get Me
+2141	INCUBUS - Wish You Were Here
+2142	TRIUMPH - Hold On
+2143	JAMES GANG - Funk 49
+2144	NICKELBACK - Someday
+2145	GORILLAZ - Dare
+2146	BRUCE SPRINGSTEEN - Dancing In The Dark
+2147	VAN MORRISON - Wild Night
+2148	MOUNTAIN - Mississippi Queen
+2149	BILLY OCEAN - Caribbean Queen
+2150	IMAGINE DRAGONS - Thunder
+2151	UGLY KID JOE - Everything About You
+2152	BRAD PAISLEY - This Is Country Music
+2153	THE CURE - Just Like Heaven
+2154	MARSHMELLO - Happier
+2155	SELENA GOMEZ - Magic
+2156	BLUE OCTOBER - Hate Me
+2157	GLEN CAMPBELL - Wichita Lineman
+2158	MICHAEL JACKSON - Love Never Felt So Good
+2159	QUEENS OF THE STONE AGE - No One Knows
+2160	LINKIN PARK - Faint
+2161	TAYLOR SWIFT - The Story Of Us
+2162	THE CURE - Why Cant I Be You
+2163	GREG KIHN BAND - Happy Man
+2164	LMFAO - Sexy And I Know It
+2165	THE BLACK EYED PEAS - Meet Me Halfway
+2166	THE STYLE COUNCIL - My Ever Changing Moods
+2167	JACKSON BROWNE - Somebodys Baby
+2168	GORDON LIGHTFOOT - Beautiful
+2169	LYNYRD SKYNYRD - Saturday Night Special
+2170	SOUL ASYLUM - Misery
+2171	HEART - Dreamboat Annie
+2172	KELLY CLARKSON - Behind These Hazel Eyes
+2173	RED HOT CHILI PEPPERS - By The Way
+2174	LANA DEL REY - Shades Of Cool
+2175	KELLY CLARKSON - Because Of You
+2176	SAMMY HAGAR - Ill Fall In Love Again
+2177	SHEENA EASTON - Almost Over You
+2178	NEIL YOUNG - Cinnamon Girl
+2179	MATT AND KIM - Daylight
+2180	MARIAH CAREY - Hero
+2181	DEAD OR ALIVE - You Spin Me Round
+2182	LIMP BIZKIT - Behind Blue Eyes
+2183	THE BEACH BOYS - Do You Wanna Dance
+2184	THE STROKES - Juicebox
+2185	ALANIS MORISSETTE - You Oughta Know
+2186	STARSHIP - Nothings Gonna Stop Us Now
+2187	MARTIKA - Toy Soldiers
+2188	SOUL ASYLUM - Runaway Train
+2189	ELVIS PRESLEY - Suspicious Minds
+2190	JANIS JOPLIN - Me And Bobby Mcgee
+2191	THE BEATLES - Penny Lane
+2192	HEART - Theres The Girl
+2193	DIONNE WARWICK - Thats What Friends Are For
+2194	AFROMAN - Because I Got High
+2195	THE WHO - The Real Me
+2196	BROOKS & DUNN - My Maria
+2197	DAVID BOWIE - Modern Love
+2198	BLONDIE - One Way Or Another
+2199	CHEVELLE - Send The Pain Below
+2200	SANTANA - Smooth
+2201	JOHN MAYER - Free Falling
+2202	THE BLACK CROWES - Jealous Again
+2203	TAYLOR SWIFT - Crazier
+2204	COLDPLAY - Clocks
+2205	GLEN CAMPBELL - Rhinestone Cowboy
+2206	DAVID DUNDAS - Jeans On
+2207	CHICAGO - Wishing You Were Here
+2208	DURAN DURAN - Save A Prayer
+2209	WHITE LION - When The Children Cry
+2210	T REX - Get It On
+2211	AEROSMITH - What It Takes
+2212	THE ROSSINGTON COLLINS BAND - Dont Misunderstand Me
+2213	DAVID BOWIE - Tvc15
+2214	LOVERBOY - Hot Girls In Love
+2215	ERIC CLAPTON - Blues Power
+2216	THE DOORS - People Are Strange
+2217	CREAM - Badge
+2218	STEVIE NICKS - Rooms On Fire
+2219	BREAKING BENJAMIN - Give Me A Sign
+2220	JESSE MCCARTNEY - Beautiful Soul
+2221	THE ROLLING STONES - Sympathy For The Devil
+2222	VAN HALEN - Oh Pretty Woman
+2223	BRUCE COCKBURN - If I Had A Rocket Launcher
+2224	BOYS LIKE GIRLS - Great Escape
+2225	A HA - The Sun Always Shines On Tv
+2226	DAVID COOK - Permanent
+2227	THE BAND - The Weight
+2228	VAN HALEN - Love Walks In
+2229	KISS - Rock And Roll All Nite
+2230	STING - All This Time
+2231	SISTER SLEDGE - We Are Family
+2232	GUNS N ROSES - Paradise City
+2233	EVANESCENCE - What You Want
+2234	THE KNACK - My Sharona
+2235	ANNE MURRAY - You Needed Me
+2236	ARETHA FRANKLIN - Respect
+2237	GOOD CHARLOTTE - I Just Wanna Live
+2238	EAGLES - Tequila Sunrise
+2239	EDIE BRICKELL & NEW BOHEMIANS - What I Am
+2240	FABOLOUS - You Be Killin Em
+2241	CARTEL - Honestly
+2242	LIFEHOUSE - First Time
+2243	REEL 2 REAL - I Like To Move It
+2244	YOUNG JEEZY - Soul Survivor
+2245	ANNIE LENNOX - I Put A Spell On You
+2246	CHIC - Everybody Dance
+2247	MODEST MOUSE - Float On
+2248	STEVIE WONDER - Superstition
+2249	MICHAEL JACKSON - Off The Wall
+2250	RELIENT K - Be My Escape
+2251	SOFT CELL - Tainted Love
+2252	ROD STEWART - Maggie May
+2253	ROB THOMAS - Streetcorner Symphony
+2254	TWENTY ONE PILOTS - Ride
+2255	ROBERT PLANT - Burning Down One Side
+2256	TOAD THE WET SPROCKET - Walk On The Ocean
+2257	ALESSIA CARA - Scars To Your Beautiful
+2258	ASHLEE SIMPSON - Pieces Of Me
+2259	HARRY CHAPIN - Wold
+2260	ALPHAVILLE - Forever Young
+2261	TOM PETTY - I Wont Back Down
+2262	HEART - Alone
+2263	AL MARTINO - Spanish Eyes
+2264	DIANA ROSS AND THE SUPREMES - Im Gonna Make You Love Me
+2265	SMASH MOUTH - All Star
+2266	ALICE DEEJAY - Better Off Alone
+2267	ALICE COOPER - Clones
+2268	REAL MCCOY - Automatic Lover
+2269	GENESIS - Land Of Confusion
+2270	HILARY DUFF - So Yesterday
+2271	THE EDGAR WINTER GROUP - Frankenstein
+2272	SWEET - Ballroom Blitz
+2273	EURYTHMICS - There Must Be An Angel
+2274	THE CURE - Lullaby
+2275	ELECTRIC LIGHT ORCHESTRA - Rock N Roll Is King
+2276	THE KINKS - A Well Respected Man
+2277	THE OUTFIELD - All The Love In The World
+2278	FALL OUT BOY - Americas Suitehearts
+2279	STEVIE B - When I Dream About You
+2280	RINGO STARR - It Dont Come Easy
+2281	PRINCE - Cream
+2282	ONEREPUBLIC - Counting Stars
+2283	FASTBALL - Out Of My Head
+2284	LINKIN PARK - The Catalyst
+2285	AMY WINEHOUSE - Rehab
+2286	PRINCE - Sign O The Times
+2287	P DIDDY - Mo Money Mo Problems
+2288	THE ROLLING STONES - Mixed Emotions
+2289	BON JOVI - Ill Sleep When Im Dead
+2290	PERCY SLEDGE - When A Man Loves A Woman
+2291	SEETHER - Careless Whisper
+2292	BOB - Airplanes
+2293	DONOVAN - Mellow Yellow
+2294	SIMON & GARFUNKEL - I Am A Rock
+2295	DEPECHE MODE - Behind The Wheel
+2296	SCORPIONS - Still Loving You
+2297	KISS - A World Without Heroes
+2298	MAROON 5 - What Lovers Do
+2299	BON JOVI - Livin On A Prayer
+2300	EMINEM - Like Toy Soldiers
+2301	STRAY CATS - Rock This Town
+2302	JASON MICHAEL CARROLL - Alyssa Lies
+2303	BLACK SABBATH - Iron Man
+2304	EMINEM - Superman
+2305	LOBO - Id Love You To Want Me
+2306	JOE JACKSON - Steppin Out
+2307	JUNIOR - Mama Used To Say
+2308	GIN BLOSSOMS - Found Out About You
+2309	THE HOLLIES - I Cant Tell The Bottom From The Top
+2310	THE RIGHTEOUS BROTHERS - Youve Lost That Lovin Feelin
+2311	DURAN DURAN - Hungry Like The Wolf
+2312	TRIUMPH - Magic Power
+2313	OUTLAWS - Hurry Sundown
+2314	ELTON JOHN - I Feel Like A Bullet In The Gun Of Robert Ford
+2315	CARLY SIMON - Coming Around Again
+2316	THE ROLLING STONES - Miss You
+2317	CREED - My Sacrifice
+2318	RICK SPRINGFIELD - Jessies Girl
+2319	JACKSON BROWNE - Doctor My Eyes
+2320	TIM MCGRAW - Dont Take The Girl
+2321	DUCK SAUCE - Barbra Streisand
+2322	KANSAS - Play The Game Tonight
+2323	JOHN CAFFERTY & THE BEAVER BROWN BAND - On The Dark Side
+2324	MAROON 5 - Harder To Breathe
+2325	SALIVA - Always
+2326	PLASTIC BERTRAND - Ca Plane Pour Moi
+2327	THE TUBES - Shes A Beauty
+2328	FOO FIGHTERS - Learn To Fly
+2329	CC MUSIC FACTORY - Everybody Dance Now
+2330	SWEET - Fox On The Run
+2331	THE BEATLES - Rain
+2332	CHIC - Le Freak
+2333	LOUIS ARMSTRONG - Hello Dolly
+2334	SCORPIONS - Rhythm Of Love
+2335	BOB DYLAN - Subterranean Homesick Blues
+2336	THE HIVES - Hate To Say I Told You So
+2337	JOHN LENNON - Stand By Me
+2338	SANTO & JOHNNY - Sleep Walk
+2339	THE WHITE STRIPES - Blue Orchid
+2340	JEFFERSON AIRPLANE - White Rabbit
+2341	TRAIN - Drops Of Jupiter
+2342	KANYE WEST - Amazing
+2343	THE EASYBEATS - Friday On My Mind
+2344	ROD STEWART - Hot Legs
+2345	PANIC AT THE DISCO - I Write Sins Not Tragedies
+2346	WARRANT - Big Talk
+2347	JOHN MAYER - Dreaming With A Broken Heart
+2348	POST MALONE - Congratulations
+2349	YES - Leave It
+2350	HEART - If Looks Could Kill
+2351	DOWN AKA KILO - Lean Like A Cholo
+2352	J FRANK WILSON AND THE CAVALIERS - Last Kiss
+2353	APRIL WINE - Sign Of The Gypsy Queen
+2354	THE VENTURES - Diamond Head
+2355	FOSTER THE PEOPLE - Pumped Up Kicks
+2356	CALVIN HARRIS - I Need Your Love
+2357	ONE DIRECTION - What Makes You Beautiful
+2358	THE ROLLING STONES - Time Is On My Side
+2359	ZZ TOP - Legs
+2360	LINKIN PARK - Somewhere I Belong
+2361	THE BEATLES - I Saw Her Standing There
+2362	KISS - Christine Sixteen
+2363	KANYE WEST - Runaway
+2364	WINGER - Hungry
+2365	EAGLES - Best Of My Love
+2366	STEVE MILLER BAND - Rockn Me
+2367	SIA - The Greatest
+2368	DEF LEPPARD - Photograph
+2369	ZAC BROWN BAND - Knee Deep
+2370	FOO FIGHTERS - The Pretender
+2371	KINGS OF LEON - Sex On Fire
+2372	SYSTEM OF A DOWN - Hypnotize
+2373	TOTO - Ill Supply The Love
+2374	BLUE CHEER - Summertime Blues
+2375	SAGA - On The Loose
+2376	BB KING - How Blue Can You Get
+2377	PEARL JAM - I Am Mine
+2378	KID CUDI - Pursuit Of Happiness
+2379	DAVID BOWIE - This Is Not America
+2380	DISTURBED - Another Way To Die
+2381	HENRY MANCINI - Charade
+2382	THE HUMAN BEINZ - Nobody But Me
+2383	RARE EARTH - Get Ready
+2384	AVRIL LAVIGNE - Hello Kitty
+2385	LEVEL 42 - Something About You
+2386	POISON - Stand
+2387	JONAS BROTHERS - When You Look Me In The Eyes
+2388	THE HOLLIES - The Air That I Breathe
+2389	THE KILLERS - Shadowplay
+2390	U2 - The Fly
+2391	METRO STATION - Shake It
+2392	TOWER OF POWER - Down To The Nightclub
+2393	SUZANNE VEGA - Luka
+2394	PATTI SMITH - Sometimes Love Just Aint Enough
+2395	FRANKIE J - How To Deal
+2396	WHITNEY HOUSTON - Saving All My Love For You
+2397	ORGY - Blue Monday
+2398	JIMMY BARNES - Working Class Man
+2399	DR DRE - Nuthin But A G Thang
+2400	CHRISTIE - Yellow River
+2401	RICHARD MARX - Hazard
+2402	SHAKIRA - Underneath Your Clothes
+2403	JOHNNY WINTER - Jumpin Jack Flash
+2404	DEPECHE MODE - Master
+2405	ALICIA KEYS - Girl On Fire
+2406	KIX - Dont Close Your Eyes
+2407	MADONNA - Papa Dont Preach
+2408	GIN BLOSSOMS - Hey Jealousy
+2409	RUSH - New World Man
+2410	JOSH GROBAN - You Raise Me Up
+2411	NEW ORDER - Regret
+2412	LIL WAYNE - Lollipop
+2413	ROBERT PALMER - Simply Irresistible
+2414	TAYLOR SWIFT - Fearless
+2415	CHAD KROEGER - Hero
+2416	JOURNEY - Lovin Touchin Squeezin
+2417	KEITH URBAN - Put You In A Song
+2418	THE J GEILS BAND - Love Stinks
+2419	ERIC CLAPTON - Promises
+2420	FABOLOUS - Cant Let You Go
+2421	ELVIS PRESLEY - Return To Sender
+2422	BON JOVI - Thank You For Loving Me
+2423	PETER CETERA - Glory Of Love
+2424	GREAT WHITE - Rock Me
+2425	TINA TURNER - Steamy Windows
+2426	THE POLICE - Dont Stand So Close To Me
+2427	ROY ORBISON - Crying
+2428	ED SHEERAN - Photograph
+2429	EDDIE MONEY - Walk On Water
+2430	MADNESS - It Must Be Love
+2431	DASHBOARD CONFESSIONAL - Stolen
+2432	ARIANA GRANDE - Problem
+2433	THE BEATLES - I Want To Hold Your Hand
+2434	THE ROMANTICS - What I Like About You
+2435	THIRD EYE BLIND - Deep Inside Of You
+2436	BILLY SQUIER - Emotions In Motion
+2437	MATCHBOX TWENTY - Bent
+2438	VAN HALEN - Beautiful Girls
+2439	FOO FIGHTERS - Long Road To Ruin
+2440	TRISHA YEARWOOD - How Do I Live
+2441	GENESIS - Turn It On Again
+2442	FUEL - Shimmer
+2443	LOBO - How Can I Tell Her
+2444	BARRY MANILOW - Even Now
+2445	CREEDENCE CLEARWATER REVIVAL - I Heard It Through The Grapevine
+2446	ROBIN SCHULZ - Sugar
+2447	REM - Radio Free Europe
+2448	STEVE MILLER BAND - Jet Airliner
+2449	THE LUMINEERS - Ho Hey
+2450	SIMON & GARFUNKEL - The Boxer
+2451	MADONNA - Take A Bow
+2452	QUIET RIOT - Metal Health Bang Your Head
+2453	TOM PETTY AND THE HEARTBREAKERS - Breakdown
+2454	FOUNTAINS OF WAYNE - Stacys Mom
+2455	AEROSMITH - Chip Away The Stone
+2456	SHAKIRA - Loca
+2457	TRUSTCOMPANY - Downfall
+2458	GORDON LIGHTFOOT - If You Could Read My Mind
+2459	BONEY M - Rivers Of Babylon
+2460	LOUIS ARMSTRONG - What A Wonderful World
+2461	THE HOLLIES - Long Cool Woman In A Black Dress
+2462	ABBA - Chiquitita
+2463	BECK - Girl
+2464	BRAD PAISLEY - Online
+2465	BRITNY FOX - Long Way To Love
+2466	CROSBY STILLS NASH & YOUNG - Teach Your Children
+2467	MIKE & THE MECHANICS - Silent Running
+2468	BEA MILLER - Fire N Gold
+2469	JESSIE J - Bang Bang
+2470	FLASH - Small Beginnings
+2471	QUEEN - Fat Bottomed Girls
+2472	JANET JACKSON - Thats The Way Love Goes
+2473	PETER GABRIEL - In Your Eyes
+2474	IRENE CARA - Fame
+2475	EAGLES - The Long Run
+2476	THIRD EYE BLIND - Jumper
+2477	INXS - Original Sin
+2478	CANNONBALL ADDERLEY - Mercy Mercy Mercy
+2479	JIM CROCE - Ill Have To Say I Love You In A Song
+2480	THE CHURCH - Under The Milky Way
+2481	VENGABOYS - We Like To Party
+2482	PAPA ROACH - Getting Away With Murder
+2483	JOAN JETT - Fake Friends
+2484	THE TRAMMPS - Disco Inferno
+2485	THE WEEKND - Shameless
+2486	PATRICK HERNANDEZ - Born To Be Alive
+2487	INCUBUS - Drive
+2488	SAIGON KICK - Love Is On The Way
+2489	THE SEEKERS - Georgy Girl
+2490	KATY PERRY - Teenage Dream
+2491	AARON NEVILLE - Tell It Like It Is
+2492	FLEETWOOD MAC - Landslide
+2493	NENA - 99 Luftballons
+2494	ALICE COOPER - Department Of Youth
+2495	DURAN DURAN - Skin Trade
+2496	LEONA LEWIS - Bleeding Love
+2497	BACHMAN TURNER OVERDRIVE - Hey You
+2498	RUSH - Fly By Night
+2499	AIR SUPPLY - Even The Nights Are Better
+2500	FOGHAT - Fool For The City
+2501	STAIND - Right Here
+2502	LOVE - My Little Red Book
+2503	LENNY KRAVITZ - Where Are We Running
+2504	BACKSTREET BOYS - Larger Than Life
+2505	COLDPLAY - Yellow
+2506	AEROSMITH - Jaded
+2507	JAY SEAN - Down
+2508	DEMI LOVATO - Get Back
+2509	ERIC CARMEN - Hungry Eyes
+2510	EMINEM - Cleanin Out My Closet
+2511	THE BEATLES - And I Love Her
+2512	ANITA WARD - Ring My Bell
+2513	JOAN JETT - Little Liar
+2514	NIGHT RANGER - Four In The Morning
+2515	JOE WALSH - Life Of Illusion
+2516	LONNIE MACK - Memphis
+2517	P DIDDY - Come With Me
+2518	KATY PERRY - Hot N Cold
+2519	METALLICA - The Day That Never Comes
+2520	JOHN LEE HOOKER - Boom Boom
+2521	USHER - You Make Me Wanna
+2522	JOHN MAYER - Heartbreak Warfare
+2523	ALICE MERTON - No Roots
+2524	RUSH - Limelight
+2525	BACHMAN TURNER OVERDRIVE - Let It Ride
+2526	ALICE COOPER - Welcome To My Nightmare
+2527	FIXX - One Thing Leads To Another
+2528	CHRIS CORNELL - You Know My Name
+2529	SLADE - Mama Weer All Crazee Now
+2530	THE CLASH - Should I Stay Or Should I Go
+2531	JEWEL - You Were Meant For Me
+2532	GUNS N ROSES - Live And Let Die
+2533	DON HENLEY - Dirty Laundry
+2534	BUSTA RHYMES - We Made It
+2535	AL STEWART - Year Of The Cat
+2536	UB40 - Red Red Wine
+2537	THE WANTED - Glad You Came
+2538	JAMES TAYLOR - Dont Let Me Be Lonely Tonight
+2539	SELENA GOMEZ - Love You Like A Love Song
+2540	BRYAN ADAMS - Run To You
+2541	EMINEM - Rap God
+2542	THE ROLLING STONES - 19th Nervous Breakdown
+2543	THE MARS VOLTA - The Widow
+2544	MILEY CYRUS - Wrecking Ball
+2545	EAGLES - Take It To The Limit
+2546	AEROSMITH - Draw The Line
+2547	CAROLE KING - So Far Away
+2548	DOLLY PARTON - I Will Always Love You
+2549	NO DOUBT - Underneath It All
+2550	HANSON - I Will Come To You
+2551	THE FRAY - Absolute
+2552	TAYLOR SWIFT - You Belong With Me
+2553	SEETHER - Fine Again
+2554	CRAZY TOWN - Butterfly
+2555	KC AND THE SUNSHINE BAND - Please Dont Go
+2556	KANSAS - Dust In The Wind
+2557	THE BLACK EYED PEAS - Dont Lie
+2558	DANIEL POWTER - Bad Day
+2559	LEONARD COHEN - Hallelujah
+2560	NEW RADICALS - You Get What You Give
+2561	SEETHER - Fake It
+2562	GENESIS - Hold On My Heart
+2563	AVRIL LAVIGNE - Hot
+2564	SIMON & GARFUNKEL - At The Zoo
+2565	KISS - Rocket Ride
+2566	AFTER THE FIRE - Der Kommissar
+2567	BILLY JOEL - The Longest Time
+2568	SICK PUPPIES - Maybe
+2569	RICKY NELSON - Hello Mary Lou
+2570	DEPECHE MODE - Precious
+2571	ELVIS PRESLEY - Good Luck Charm
+2572	THE KILLERS - Read My Mind
+2573	DAVE MATTHEWS BAND - American Baby
+2574	REGINA SPEKTOR - Fidelity
+2575	JOURNEY - Be Good To Yourself
+2576	HOOBASTANK - Running Away
+2577	ELTON JOHN - Your Song
+2578	TOM PETTY AND THE HEARTBREAKERS - You Got Lucky
+2579	PETER SCHILLING - Major Tom
+2580	CELINE DION - A New Day Has Come
+2581	BON JOVI - Ill Be There For You
+2582	U2 - Stay Faraway So Close
+2583	B2K - Badaboom
+2584	THE KINKS - Lola
+2585	THE ROLLING STONES - Ruby Tuesday
+2586	OUTLAWS - There Goes Another Love Song
+2587	SELENA GOMEZ - Hands To Myself
+2588	ENRIQUE IGLESIAS - Rhythm Divine
+2589	BILLIE MYERS - Kiss The Rain
+2590	DRAGONFORCE - Through The Fire And Flames
+2591	FLEETWOOD MAC - Dont Stop
+2592	QUEEN - A Kind Of Magic
+2593	KENNY LOGGINS - Footloose
+2594	JOHNNY LEE - Looking For Love
+2595	DEPECHE MODE - Dream On
+2596	LINKIN PARK - Lost In The Echo
+2597	YES - Your Move
+2598	THE VENTURES - Secret Agent Man
+2599	CHRIS BROWN - With You
+2600	THE BEATLES - From Me To You
+2601	RICHIE SAMBORA - Ballad Of Youth
+2602	JUSTIN TIMBERLAKE - Cry Me A River
+2603	THE ANIMALS - House Of The Rising Sun
+2604	MY CHEMICAL ROMANCE - The Ghost Of You
+2605	SAVAGE GARDEN - To The Moon And Back
+2606	ANNIE LENNOX - Walking On Broken Glass
+2607	FATBOY SLIM - Praise You
+2608	CARPENTERS - Rainy Days And Mondays
+2609	TROOPER - Raise A Little Hell
+2610	THE BOX TOPS - The Letter
+2611	KELLY OSBOURNE - Papa Dont Preach
+2612	TOM PETTY - Runnin Down A Dream
+2613	RIHANNA - California King Bed
+2614	THE ZOMBIES - Shes Not There
+2615	ELTON JOHN - Candle In The Wind
+2616	MACKLEMORE & RYAN LEWIS - Thrift Shop
+2617	GNARLS BARKLEY - Crazy
+2618	BRUNO MARS - 24k Magic
+2619	THE BLACK KEYS - Gold On The Ceiling
+2620	DAVID BOWIE - Starman
+2621	THE SCRIPT - For The First Time
+2622	WHITNEY HOUSTON - Greatest Love Of All
+2623	RIHANNA - Diamonds
+2624	BACHMAN TURNER OVERDRIVE - You Aint Seen Nothing Yet
+2625	MICHAEL JACKSON - You Rock My World
+2626	AMERICA - Woman Tonight
+2627	DR HOOK - Cover Of The Rolling Stone
+2628	THE CURE - Pictures Of You
+2629	JOE WALSH - Lifes Been Good
+2630	AVRIL LAVIGNE - Keep Holding On
+2631	JUSTIN TIMBERLAKE - My Love
+2632	SIMPLE MINDS - Dont You Forget About Me
+2633	NICKELBACK - Photograph
+2634	VAN HALEN - Panama
+2635	THE CRANBERRIES - Dreams
+2636	KELLY CLARKSON - Stronger What Doesnt Kill You
+2637	KATY PERRY - Chained To The Rhythm
+2638	DISTURBED - Inside The Fire
+2639	EUROPE - Cherokee
+2640	LOU GRAMM - Midnight Blue
+2641	DEF LEPPARD - Armageddon It
+2642	EMERSON LAKE & PALMER - Nutrocker
+2643	STYX - Renegade
+2644	SNOOP DOGG - Whats My Name
+2645	NANCY SINATRA - These Boots Are Made For Walkin
+2646	POD - Youth Of The Nation
+2647	AMERICA - Ventura Highway
+2648	RIHANNA - Stay
+2649	FIVE FOR FIGHTING - Superman Its Not Easy
+2650	THE BEATLES - Slow Down
+2651	ABBA - Knowing Me Knowing You
+2652	LENNY KRAVITZ - It Aint Over Til Its Over
+2653	COLBIE CAILLAT - Falling For You
+2654	CREEDENCE CLEARWATER REVIVAL - Hey Tonight
+2655	THE SMASHING PUMPKINS - 1979
+2656	TAYLOR SWIFT - Back To December
+2657	BARRY MANILOW - Copacabana
+2658	GRASS ROOTS - Midnight Confessions
+2659	SUM 41 - Fat Lip
+2660	LANA DEL REY - High By The Beach
+2661	SLADE - Little Sheila
+2662	AWOLNATION - Sail
+2663	THE CARS - Drive
+2664	LEVEL 42 - Lessons In Love
+2665	POD - Goodbye For Now
+2666	OTIS REDDING - Hard To Handle
+2667	AEROSMITH - Walk This Way
+2668	CANDLEBOX - Far Behind
+2669	EAGLES - Life In The Fast Lane
+2670	NEAL MCCOY - Wink
+2671	THE CURE - In Between Days
+2672	MICHAEL JACKSON - Human Nature
+2673	THE ALAN PARSONS PROJECT - Eye In The Sky
+2674	RIHANNA - Only Girl In The World
+2675	HEART - Never
+2676	TOMMY JAMES - Draggin The Line
+2677	JUSTIN TIMBERLAKE - Cant Stop The Feeling
+2678	FAIRGROUND ATTRACTION - Perfect
+2679	SKRILLEX - First Of The Year Equinox
+2680	KOOL & THE GANG - Jungle Boogie
+2681	THE EVERLY BROTHERS - All I Have To Do Is Dream
+2682	NORAH JONES - Dont Know Why
+2683	MICHAEL JACKSON - Ben
+2684	STEVE MILLER BAND - Swingtown
+2685	DEF LEPPARD - Have You Ever Needed Someone So Bad
+2686	JIMMY BUFFETT - Margaritaville
+2687	WHITNEY HOUSTON - I Have Nothing
+2688	AVRIL LAVIGNE - Losing Grip
+2689	THE VENTURES - Walk Dont Run
+2690	NICKELBACK - Id Come For You
+2691	JASON MRAZ - Im Yours
+2692	XXXTENTACION - Save Me
+2693	MICHAEL JACKSON - Man In The Mirror
+2694	ZOMBIE NATION - Kernkraft 400
+2695	THREE DAYS GRACE - I Hate Everything About You
+2696	DAVID LEE ROTH - Yankee Rose
+2697	URIAH HEEP - Easy Livin
+2698	THE ROLLING STONES - As Tears Go By
+2699	BIG COUNTRY - Fields Of Fire
+2700	CINDERELLA - Heartbreak Station
+2701	SIMPLY RED - Something Got Me Started
+2702	BEE GEES - Nights On Broadway
+2703	NINE INCH NAILS - Only
+2704	DIRE STRAITS - Sultans Of Swing
+2705	GORDON LIGHTFOOT - The Wreck Of The Edmund Fitzgerald
+2706	RUFUS CHAKA KHAN - Aint Nobody
+2707	GENESIS - Throwing It All Away
+2708	MICHAEL JACKSON - I Just Cant Stop Loving You
+2709	VANDENBERG - Burning Heart
+2710	THE BEATLES - Eleanor Rigby
+2711	RYAN CABRERA - On The Way Down
+2712	SIXPENCE NONE THE RICHER - There She Goes
+2713	SANTANA - Black Magic Woman
+2714	VIXEN - How Much Love
+2715	THE CURE - Never Enough
+2716	HILARY DUFF - Come Clean
+2717	DURAN DURAN - Rio
+2718	ONE DIRECTION - Drag Me Down
+2719	THE B 52S - Rock Lobster
+2720	JACK JOHNSON - Sitting Waiting Wishing
+2721	BILLY JOEL - You May Be Right
+2722	THE BEATLES - Matchbox
+2723	CHUCK BERRY - Almost Grown
+2724	MOTLEY CRUE - Home Sweet Home
+2725	SHOCKING BLUE - Long And Lonesome Road
+2726	MAZZY STAR - Fade Into You
+2727	ALABAMA - When We Make Love
+2728	DEPECHE MODE - Policy Of Truth
+2729	FLEETWOOD MAC - Rhiannon
+2730	LINDSAY LOHAN - Confessions Of A Broken Heart
+2731	YEAH YEAH YEAHS - Maps
+2732	P!NK - Funhouse
+2733	GROVER WASHINGTON JR - Just The Two Of Us
+2734	APOCALYPTICA - I Dont Care
+2735	JIMMY EAT WORLD - Pain
+2736	MADONNA - Material Girl
+2737	KISS - Crazy Crazy Nights
+2738	THE WEEKND - Cant Feel My Face
+2739	JET - Cold Hard Bitch
+2740	KINGDOM COME - Get It On
+2741	FINGER ELEVEN - One Thing
+2742	THE CHARLIE DANIELS BAND - In America
+2743	PETER FRAMPTON - Do You Feel Like We Do
+2744	PLAYER - Baby Come Back
+2745	FALL OUT BOY - Uma Thurman
+2746	VICTORIA JUSTICE - Best Friends Brother
+2747	ONE DIRECTION - Midnight Memories
+2748	LUDACRIS - Act A Fool
+2749	DANNY WILSON - Marys Prayer
+2750	PHILIP BAILEY - Easy Lover
+2751	HALL & OATES - I Cant Go For That No Can Do
+2752	SAMMY HAGAR - Your Love Is Driving Me Crazy
+2753	OUR LADY PEACE - Somewhere Out There
+2754	ASIA - The Smile Has Left Your Eyes
+2755	JONATHAN EDWARDS - Sunshine
+2756	GRATEFUL DEAD - Alabama Getaway
+2757	3 DOORS DOWN - When Youre Young
+2758	STEVIE WONDER - You Are The Sunshine Of My Life
+2759	THE J GEILS BAND - Centerfold
+2760	KATE BUSH - Rubberband Girl
+2761	HALL & OATES - One On One
+2762	GOO GOO DOLLS - Iris
+2763	ROY ORBISON - Blue Bayou
+2764	DAVE MATTHEWS BAND - Where Are You Going
+2765	BREAD - If
+2766	DURAN DURAN - Wild Boys
+2767	EMERSON LAKE & PALMER - From The Beginning
+2768	FUEL - Falls On Me
+2769	JETHRO TULL - Living In The Past
+2770	FIVE FINGER DEATH PUNCH - Under And Over It
+2771	GORILLAZ - Clint Eastwood
+2772	ZZ TOP - Give It Up
+2773	BLIND MELON - No Rain
+2774	THE BOOMTOWN RATS - I Dont Like Mondays
+2775	THE PRODIGY - Smack My Bitch Up
+2776	FOCUS - Hocus Pocus
+2777	FLEETWOOD MAC - Over My Head
+2778	PHIL COLLINS - Youll Be In My Heart
+2779	GLEE CAST - Dont Stop Believin
+2780	ZZ TOP - Sharp Dressed Man
+2781	FOO FIGHTERS - Walk
+2782	ADAM LAMBERT - If I Had You
+2783	BRITNEY SPEARS - Womanizer
+2784	CURTIS MAYFIELD - Superfly
+2785	CINDERELLA - Shelter Me
+2786	CHARLIE PUTH - We Dont Talk Anymore
+2787	GUNS N ROSES - Chinese Democracy
+2788	DRAKE - Hold On Were Going Home
+2789	BILLY JOEL - The Downeaster Alexa
+2790	PETER GABRIEL - Sledgehammer
+2791	JONAS BROTHERS - Pushin Me Away
+2792	BON JOVI - Born To Be My Baby
+2793	JUSTIN BIEBER - Nothing Like Us
+2794	CHEAP TRICK - The Flame
+2795	AKON - Right Now
+2796	KISS - Hide Your Heart
+2797	JAMES BLUNT - High
+2798	JOURNEY - Stay Awhile
+2799	PAPA ROACH - Lifeline
+2800	ATC - All Around The World La La La La
+2801	DIERKS BENTLEY - Drunk On A Plane
+2802	THE BEATLES - Day Tripper
+2803	MIDNIGHT OIL - Blue Sky Mine
+2804	KATE BUSH - Running Up That Hill
+2805	CARL DOUGLAS - Kung Fu Fighting
+2806	NORMAN GREENBAUM - Spirit In The Sky
+2807	KANYE WEST - Stronger
+2808	FAITH NO MORE - Easy
+2809	FOGHAT - Slow Ride
+2810	ALANIS MORISSETTE - You Learn
+2811	CHUCK MANGIONE - Feels So Good
+2812	CALUM SCOTT - Dancing On My Own
+2813	GARRETT HEDLUND - Give In To Me
+2814	BREAKING BENJAMIN - Sooner Or Later
+2815	ANNIE LENNOX - No More I Love Yous
+2816	TOM PETTY - Free Fallin
+2817	NICKELBACK - Never Gonna Be Alone
+2818	BILLY JOEL - I Go To Extremes
+2819	AVICII - Levels
+2820	WINGS - Beware My Love
+2821	TAIO CRUZ - Dynamite
+2822	BACKSTREET BOYS - All I Have To Give
+2823	FOREIGNER - Waiting For A Girl Like You
+2824	TESLA - What You Give
+2825	BOWLING FOR SOUP - Almost
+2826	JONAS BROTHERS - A Little Bit Longer
+2827	TOM PETTY AND THE HEARTBREAKERS - Refugee
+2828	DASHBOARD CONFESSIONAL - Dont Wait
+2829	REAL THING - You To Me Are Everything
+2830	EARTH WIND & FIRE - September
+2831	DIONNE WARWICK - I Say A Little Prayer
+2832	JOURNEY - Wheel In The Sky
+2833	CASS ELLIOT - Make Your Own Kind Of Music
+2834	DOUBLE - The Captain Of Her Heart
+2835	SANTANA - The Sensitive Kind
+2836	BRUCE SPRINGSTEEN - Streets Of Philadelphia
+2837	THE ISLEY BROTHERS - Midnight Sky
+2838	ARCHIE BELL & THE DRELLS - Tighten Up
+2839	STEVE MILLER BAND - The Joker
+2840	GREEN DAY - 21 Guns
+2841	MAROON 5 - Never Gonna Leave This Bed
+2842	THE POLICE - Secret Journey
+2843	INCUBUS - Dig
+2844	SCOTT MCKENZIE - San Francisco
+2845	GOO GOO DOLLS - Here Is Gone
+2846	JOE JACKSON - Is She Really Going Out With Him
+2847	ABC - Poison Arrow
+2848	THE HUMAN LEAGUE - Dont You Want Me
+2849	JONAS BROTHERS - Hold On
+2850	AVRIL LAVIGNE - Nobodys Home
+2851	GOOD CHARLOTTE - Dance Floor Anthem
+2852	STEELY DAN - Kid Charlemagne
+2853	DR DRE - Forgot About Dre
+2854	VAN HALEN - Right Now
+2855	ABBA - Super Trouper
+2856	COOLIO - Gangstas Paradise
+2857	BOSTON - Cantcha Say You Believe In Me Still In Love
+2858	DEPECHE MODE - Its No Good
+2859	FRANZ FERDINAND - Take Me Out
+2860	GEORGE EZRA - Budapest
+2861	LINKIN PARK - We Made It
+2862	THE FLAMING LIPS - She Dont Use Jelly
+2863	DUSTY SPRINGFIELD - You Dont Have To Say You Love Me
+2864	THE BEATLES - Hello Goodbye
+2865	HUEY LEWIS & THE NEWS - Hip To Be Square
+2866	ROXETTE - It Must Have Been Love
+2867	BLUR - Girls And Boys
+2868	WU TANG CLAN - Cream
+2869	LENNY KRAVITZ - Lady
+2870	MR BIG - Aint Seen Love Like That
+2871	LINKIN PARK - In The End
+2872	CAT STEVENS - Wild World
+2873	UNCLE KRACKER - Follow Me
+2874	THE SUGARHILL GANG - Rappers Delight
+2875	BILL DOGGETT - Honky Tonk
+2876	THE WHO - Pinball Wizard
+2877	ACDC - Guns For Hire
+2878	PORTUGAL THE MAN - Feel It Still
+2879	JONAS BROTHERS - Bb Good
+2880	MUSE - Madness
+2881	FR DAVID - Words Dont Come Easy
+2882	NE YO - Mad
+2883	SLAUGHTER - Real Love
+2884	SHANIA TWAIN - Dont Be Stupid
+2885	ANNE MURRAY - Could I Have This Dance
+2886	EDDIE COCHRAN - Cmon Everybody
+2887	THE ROLLING STONES - Harlem Shuffle
+2888	BILLIE EILISH - Ocean Eyes
+2889	WYCLEF JEAN - Sweetest Girl
+2890	SKRILLEX - Scary Monsters And Nice Sprites
+2891	WHITESNAKE - Here I Go Again
+2892	HOOTIE & THE BLOWFISH - Only Wanna Be With You
+2893	SMOKIE - Needles And Pins
+2894	KEITH URBAN - Stupid Boy
+2895	CHIC - I Want Your Love
+2896	X AMBASSADORS - Renegades
+2897	P!NK - So What
+2898	DAVE MATTHEWS BAND - The Space Between
+2899	FALL OUT BOY - Dance Dance
+2900	BRUCE SPRINGSTEEN - Human Touch
+2901	TEARS FOR FEARS - Change
+2902	SADE - Paradise
+2903	LYNYRD SKYNYRD - Whats Your Name
+2904	TESLA - The Way It Is
+2905	MADONNA - Like A Prayer
+2906	SCORPIONS - Rock You Like A Hurricane
+2907	BOYS LIKE GIRLS - Love Drunk
+2908	BON JOVI - Lay Your Hands On Me
+2909	ELTON JOHN - I Guess Thats Why They Call It The Blues
+2910	RED HOT CHILI PEPPERS - The Zephyr Song
+2911	THE BEATLES - Real Love
+2912	THE BEATLES - Baby Its You
+2913	GUNS N ROSES - You Could Be Mine
+2914	YES - Roundabout
+2915	DAFT PUNK - Around The World
+2916	BEASTIE BOYS - Intergalactic
+2917	METALLICA - Hero Of The Day
+2918	JOURNEY - Too Late
+2919	LYNYRD SKYNYRD - Free Bird
+2920	THIRTY SECONDS TO MARS - From Yesterday
+2921	BOSTON - Peace Of Mind
+2922	BONNIE TYLER - Its A Heartache
+2923	THE WHO - See Me Feel Me
+2924	SAVAGE GARDEN - I Knew I Loved You
+2925	A FLOCK OF SEAGULLS - Space Age Love Song
+2926	THE BEATLES - Let It Be
+2927	LIL NAS X - Old Town Road
+2928	REO SPEEDWAGON - Take It On The Run
+2929	JOHN MAYER - Paper Doll
+2930	AKON - Hypnotized
+2931	ACDC - Lets Get It Up
+2932	PAT BENATAR - Fire And Ice
+2933	LOS DEL RIO - Macarena
+2934	WARREN G - I Shot The Sheriff
+2935	DEPECHE MODE - Strangelove
+2936	AVICII - Wake Me Up
+2937	NIGHT RANGER - When You Close Your Eyes
+2938	THE ALAN PARSONS PROJECT - You Dont Believe
+2939	THE AFTERS - Beautiful Love
+2940	TINA TURNER - We Dont Need Another Hero
+2941	TEARS FOR FEARS - Shout
+2942	COLLECTIVE SOUL - Heavy
+2943	THREE DAYS GRACE - Animal I Have Become
+2944	MAROON 5 - Makes Me Wonder
+2945	PAUL MCCARTNEY - Ebony And Ivory
+2946	U2 - Discotheque
+2947	EURYTHMICS - Here Comes The Rain Again
+2948	RED HOT CHILI PEPPERS - Otherside
+2949	BLOOD SWEAT & TEARS - Youve Made Me So Very Happy
+2950	FALL OUT BOY - The Carpal Tunnel Of Love
+2951	U2 - I Still Havent Found What Im Looking For
+2952	RED HOT CHILI PEPPERS - The Adventures Of Rain Dance Maggie
+2953	AEROSMITH - Love In An Elevator
+2954	MAJOR LAZER - Powerful
+2955	BRYAN ADAMS - One Night Love Affair
+2956	GENESIS - Invisible Touch
+2957	THE BLACK KEYS - Tighten Up
+2958	JOHN MAYER - No Such Thing
+2959	IKE & TINA TURNER - Proud Mary
+2960	ED SHEERAN - Castle On The Hill
+2961	DADDY YANKEE - Rompe
+2962	TORI AMOS - Bliss
+2963	CARRIE UNDERWOOD - Cowboy Casanova
+2964	BRYAN ADAMS - This Time
+2965	TOMMY TUTONE - 867 5309 Jenny
+2966	ONEREPUBLIC - All The Right Moves
+2967	DAVID BOWIE - Blue Jean
+2968	DEMI LOVATO - Catch Me
+2969	ABBA - I Do I Do I Do I Do I Do
+2970	THE LUMINEERS - Stubborn Love
+2971	RICHARD MARX - Shouldve Known Better
+2972	3 DOORS DOWN - Away From The Sun
+2973	ALABAMA - Love In The First Degree
+2974	THE BEATLES - Free As A Bird
+2975	JACKSON BROWNE - Boulevard
+2976	GEORGE MICHAEL - Freedom 90
+2977	TOOL - Fear Inoculum
+2978	JOHN LENNON - Mother
+2979	COLLECTIVE SOUL - Shine
+2980	MATISYAHU - King Without A Crown
+2981	SHANIA TWAIN - Man I Feel Like A Woman
+2982	JASON ALDEAN - My Kinda Party
+2983	CYNDI LAUPER - I Drove All Night
+2984	BOYS LIKE GIRLS - Two Is Better Than One
+2985	AVRIL LAVIGNE - Dont Tell Me
+2986	SELENA GOMEZ - Same Old Love
+2987	AKON - Smack That
+2988	BRUNO MARS - Just The Way You Are
+2989	JEWEL - Hands
+2990	DURAN DURAN - Come Undone
+2991	KNAAN - Wavin Flag
+2992	SHEENA EASTON - For Your Eyes Only
+2993	THE MOTELS - Only The Lonely
+2994	THEORY OF A DEADMAN - Bad Girlfriend
+2995	COLDPLAY - Viva La Vida
+2996	LADY ANTEBELLUM - Love Dont Live Here
+2997	KATRINA AND THE WAVES - Walking On Sunshine
+2998	CHEVELLE - Vitamin R Leading Us Along
+2999	AKON - I Wanna Love You
+3000	GOOD CHARLOTTE - The Anthem
+3001	VERTICAL HORIZON - Everything You Want
+3002	BACKSTREET BOYS - Show Me The Meaning Of Being Lonely
+3003	HENRY MANCINI - A Shot In The Dark
+3004	JAMES TAYLOR - Mexico
+3005	KONGOS - Come With Me Now
+3006	CHRISTINA AGUILERA - Not Myself Tonight
+3007	JIM BRICKMAN - My Valentine
+3008	NEIL DIAMOND - Song Sung Blue
+3009	HANNAH MONTANA - Nobodys Perfect
+3010	BACKSTREET BOYS - Incomplete
+3011	YOLANDA BE COOL - We No Speak Americano
+3012	DAVID GATES - Goodbye Girl
+3013	EAGLES - Please Come Home For Christmas
+3014	HOOTIE & THE BLOWFISH - Hold My Hand
+3015	STRYPER - Always There For You
+3016	THE BEACH BOYS - Surfin Safari
+3017	TORA TORA - Walkin Shoes
+3018	FRANK SINATRA - My Way
+3019	RAY CHARLES - You Dont Know Me
+3020	KISS - Beth
+3021	BRIAN HYLAND - Ginny Come Lately
+3022	DEMI LOVATO - Dont Forget
+3023	DONOVAN - Sunshine Superman
+3024	DEL SHANNON - Runaway
+3025	JOHNNY RIVERS - Secret Agent Man
+3026	DONOVAN - Jennifer Juniper
+3027	THE BANGLES - Eternal Flame
+3028	SIMON & GARFUNKEL - For Emily Whenever I May Find Her
+3029	MAJOR LAZER - Cold Water
+3030	JOHN MELLENCAMP - Dance Naked
+3031	CAESARS - Jerk It Out
+3032	YELLOWCARD - For You And Your Denial
+3033	THE BEATLES - The Ballad Of John And Yoko
+3034	THIRD EYE BLIND - Never Let You Go
+3035	BAD ENGLISH - Heaven Is A 4 Letter Word
+3036	THE KINKS - You Really Got Me
+3037	ALBERT HAMMOND - The Free Electric Band
+3038	CANNED HEAT - Lets Work Together
+3039	ANGELS & AIRWAVES - Adventure
+3040	DANIEL BEDINGFIELD - If Youre Not The One
+3041	VAN MORRISON - Brown Eyed Girl
+3042	DON MCLEAN - Vincent
+3043	MILEY CYRUS - When I Look At You
+3044	ERIC CLAPTON - Wonderful Tonight
+3045	GREAT WHITE - The Angel Song
+3046	STAN GETZ - Desafinado
+3047	DUANE EDDY - 40 Miles Of Bad Road
+3048	MICHELLE BRANCH - Breathe
+3049	THE BLACK EYED PEAS - Rock That Body
+3050	AEROSMITH - Cryin
+3051	GLORIA GAYNOR - I Will Survive
+3052	3 DOORS DOWN - Citizen Soldier
+3053	AEROSMITH - Janies Got A Gun
+3054	BON JOVI - She Dont Know Me
+3055	THE KILLERS - When You Were Young
+3056	BUCKCHERRY - Crazy Bitch
+3057	SEAN KINGSTON - Beautiful Girls
+3058	SIMON & GARFUNKEL - Cecilia
+3059	STRAWBERRY ALARM CLOCK - Incense And Peppermints
+3060	LISA LOEB - Stay
+3061	TED NUGENT - Cat Scratch Fever
+3062	AMERICA - Lonely People
+3063	THE BEATLES - Yesterday
+3064	FOREIGNER - Cold As Ice
+3065	CROWDED HOUSE - Dont Dream Its Over
+3066	STAIND - Cant Believe
+3067	SIMPLY RED - Holding Back The Years
+3068	MGMT - Kids
+3069	THE ARCHIES - Sugar Sugar
+3070	THE BEACH BOYS - California Girls
+3071	THE CARS - My Best Friends Girl
+3072	ELVIS PRESLEY - A Mess Of Blues
+3073	WILSON PICKETT - In The Midnight Hour
+3074	BRYAN ADAMS - Cant Stop This Thing We Started
+3075	THE CHAINSMOKERS - All We Know
+3076	CHRISTOPHER CROSS - Arthurs Theme Best That You Can Do
+3077	JOHN NEWMAN - Love Me Again
+3078	NINE INCH NAILS - Every Day Is Exactly The Same
+3079	LADY GAGA - Speechless
+3080	BILLY OCEAN - When The Going Gets Tough
+3081	MANFRED MANN - Mighty Quinn
+3082	AQUA - Barbie Girl
+3083	THE BEACH BOYS - Surfer Girl
+3084	ALICE COOPER - Hey Stoopid
+3085	THE KINKS - All Day And All Of The Night
+3086	ERIC CLAPTON - I Shot The Sheriff
+3087	BUSH - Chemicals Between Us
+3088	SEALS & CROFTS - Summer Breeze
+3089	ONEREPUBLIC - Secrets
+3090	KESHA - Take It Off
+3091	BON JOVI - Something For The Pain
+3092	FOO FIGHTERS - Rope
+3093	LIVE - Selling The Drama
+3094	GREEN DAY - Oh Love
+3095	BREAD - Make It With You
+3096	RASCAL FLATTS - Here Comes Goodbye
+3097	LYNYRD SKYNYRD - You Got That Right
+3098	EMINEM - The Way I Am
+3099	CHEVELLE - The Red
+3100	ELLIOTT YAMIN - Wait For You
+3101	BACHMAN TURNER OVERDRIVE - Roll On Down The Highway
+3102	USHER - Yeah
+3103	MICHAEL JACKSON - Stranger In Moscow
+3104	ALANNAH MYLES - Black Velvet
+3105	SIMPLY RED - Stars
+3106	ENYA - Only Time
+3107	ELVIS PRESLEY - You Dont Have To Say You Love Me
+3108	THE SPENCER DAVIS GROUP - Keep On Running
+3109	PETER GABRIEL - Solsbury Hill
+3110	ASIA - Dont Cry
+3111	FOREIGNER - Feels Like The First Time
+3112	KATY PERRY - I Kissed A Girl
+3113	RATT - Way Cool Jr
+3114	PEARL JAM - Spin The Black Circle
+3115	INDIGO GIRLS - Closer To Fine
+3116	ELTON JOHN - Nikita
+3117	NICKI MINAJ - Anaconda
+3118	FILTER - Hey Man Nice Shot
+3119	COREY HART - Sunglasses At Night
+3120	GREAT WHITE - House Of Broken Love
+3121	JACK JOHNSON - Flake
+3122	ALEXANDRA STAN - Mr Saxobeat
+3123	JOJO - Too Little Too Late
+3124	MICHAEL JACKSON - Thriller
+3125	ACE OF BASE - All That She Wants
+3126	WEEZER - Perfect Situation
+3127	STAIND - For You
+3128	JENNIFER LOVE HEWITT - How Do I Deal
+3129	TEARS FOR FEARS - Advice For The Young At Heart
+3130	GODSMACK - Straight Out Of Line
+3131	RUSH - Closer To The Heart
+3132	OUTLAWS - Ghost Riders In The Sky
+3133	ALICE COOPER - Only Women Bleed
+3134	THE BEACH BOYS - Wouldnt It Be Nice
+3135	JACKSON BROWNE - Running On Empty
+3136	BEN E KING - Stand By Me
+3137	FRANKIE GOES TO HOLLYWOOD - Relax
+3138	DEF LEPPARD - Stand Up Kick Love Into Motion
+3139	TATU - All The Things She Said
+3140	GWEN STEFANI - What You Waiting For
+3141	LOS LOBOS - Come On Lets Go
+3142	LONDONBEAT - Ive Been Thinking About You
+3143	SAM SMITH - Stay With Me
+3144	NICK JONAS & THE ADMINISTRATION - Who I Am
+3145	WYCLEF JEAN - Gone Till November
+3146	GOO GOO DOLLS - Big Machine
+3147	BOBBY BARE - Detroit City
+3148	JERRY REED - Amos Moses
+3149	WINGER - Easy Come Easy Go
+3150	KESHA - We R Who We R
+3151	KANSAS - Lonely Wind
+3152	THE ROLLING STONES - Its Only Rock N Roll
+3153	ROBBIE WILLIAMS - Angels
+3154	JAY Z - Jigga What Faint
+3155	BIG PUNISHER - Im Not A Player
+3156	IMAGINE DRAGONS - Whatever It Takes
+3157	FALL OUT BOY - Immortals
+3158	METALLICA - Wherever I May Roam
+3159	CARLY SIMON - Nobody Does It Better
+3160	ELASTICA - Connection
+3161	QUEENS OF THE STONE AGE - Little Sister
+3162	STEVIE WONDER - I Was Made To Love Her
+3163	ERIC HEATHERLY - Flowers On The Wall
+3164	THE KILLERS - Mr Brightside
+3165	DAVID BOWIE - Sound And Vision
+3166	METALLICA - Sad But True
+3167	CREED - With Arms Wide Open
+3168	JOURNEY - Lights
+3169	THE WHO - Summertime Blues
+3170	WHITNEY HOUSTON - Im Every Woman
+3171	TONE LOC - Funky Cold Medina
+3172	THE ROLLING STONES - Aint Too Proud To Beg
+3173	SELENA GOMEZ - Falling Down
+3174	NICKELBACK - Gotta Be Somebody
+3175	STYX - Come Sail Away
+3176	HONEYMOON SUITE - New Girl Now
+3177	ROBERT MILES - Children
+3178	FOREIGNER - Head Games
+3179	THE MOODY BLUES - The Other Side Of Life
+3180	BILLY JOEL - My Life
+3181	BARRY MANN - Who Put The Bomp
+3182	ALPHA REV - New Morning
+3183	TAYLOR SWIFT - Red
+3184	BTS - Idol
+3185	DAVID LEE ROTH - Goin Crazy
+3186	KATE VOEGELE - Hallelujah
+3187	AVENGED SEVENFOLD - Not Ready To Die
+3188	MR BIG - Wild World
+3189	BRUNO MARS - It Will Rain
+3190	NICOLE SCHERZINGER - Right There
+3191	P!NK - Please Dont Leave Me
+3192	ONEREPUBLIC - Apologize
+3193	THE WHO - Who Are You
+3194	PHOENIX - 1901
+3195	1910 FRUITGUM COMPANY - Simon Says
+3196	BB KING - Help The Poor
+3197	PRINCE - 1999
+3198	LADY SOVEREIGN - Love Me Or Hate Me
+3199	DESTINYS CHILD - Survivor
+3200	BARENAKED LADIES - Its All Been Done
+3201	RED HOT CHILI PEPPERS - Tell Me Baby
+3202	HOOTIE & THE BLOWFISH - Let Her Cry
+3203	THE GUESS WHO - No Sugar Tonight New Mother Nature
+3204	BLUE OYSTER CULT - Dont Fear The Reaper
+3205	LITTLE RIVER BAND - Cool Change
+3206	NEXT - Wifey
+3207	MUMFORD & SONS - The Cave
+3208	QUEEN - Need Your Loving Tonight
+3209	THE ROLLING STONES - Honky Tonk Women
+3210	LADY GAGA - Alejandro
+3211	BANANARAMA - Cruel Summer
+3212	BREAD - Aubrey
+3213	3 DOORS DOWN - Loser
+3214	THE GEORGIA SATELLITES - Keep Your Hands To Yourself
+3215	KT TUNSTALL - Black Horse And The Cherry Tree
+3216	CARLY SIMON - Youre So Vain
+3217	THE SCRIPT - Hall Of Fame
+3218	PETE TOWNSHEND - Let My Love Open The Door
+3219	JOHN LENNON - Nobody Told Me
+3220	HENRY MANCINI - Mr Lucky
+3221	ABBA - Waterloo
+3222	BENJAMIN ORR - Stay The Night
+3223	AL STEWART - Time Passages
+3224	SNOW PATROL - Signal Fire
+3225	THE FRAY - How To Save A Life
+3226	THE BEATLES - Ticket To Ride
+3227	LIFEHOUSE - Hanging By A Moment
+3228	BEYONCE - If I Were A Boy
+3229	EAGLES - Theres A Hole In The World Tonight
+3230	HERMANS HERMITS - No Milk Today
+3231	WIZ KHALIFA - See You Again
+3232	AUDIOSLAVE - I Am The Highway
+3233	NICK JONAS - Introducing Me
+3234	HEART - Barracuda
+3235	FRANK SINATRA - Strangers In The Night
+3236	CHUMBAWAMBA - Tubthumping
+3237	ZZ TOP - La Grange
+3238	BILL WITHERS - Use Me
+3239	BB KING - The Thrill Is Gone
+3240	FIREHOUSE - Sleeping With You
+3241	CREEDENCE CLEARWATER REVIVAL - Commotion
+3242	KEITH URBAN - We Were Us
+3243	HOT CHOCOLATE - You Sexy Thing
+3244	TAYLOR SWIFT - All Too Well
+3245	ADELE - Turning Tables
+3246	ELTON JOHN - Goodbye Yellow Brick Road
+3247	ROD STEWART - Tonights The Night
+3248	VAN MORRISON - Moondance
+3249	MICHAEL JACKSON - Dont Stop Til You Get Enough
+3250	PUDDLE OF MUDD - She Hates Me
+3251	MOTLEY CRUE - Kickstart My Heart
+3252	ELTON JOHN - Im Still Standing
+3253	THE PSYCHEDELIC FURS - Heartbreak Beat
+3254	MUSE - Neutron Star Collision
+3255	MUMFORD & SONS - Little Lion Man
+3256	BLONDIE - Maria
+3257	TALKING HEADS - Burning Down The House
+3258	ERIC CLAPTON - Bad Love
+3259	JASON MRAZ - Have It All
+3260	KEITH URBAN - Days Go By
+3261	LIVING COLOUR - Cult Of Personality
+3262	DON JOHNSON - Heartbeat
+3263	LINKIN PARK - Shadow Of The Day
+3264	HONEYMOON SUITE - Love Changes Everything
+3265	CRASH TEST DUMMIES - Mmm Mmm Mmm Mmm
+3266	BRYAN ADAMS - Its Only Love
+3267	DEPECHE MODE - I Feel You
+3268	SMOKEY ROBINSON & THE MIRACLES - The Tears Of A Clown
+3269	EMINEM - Survival
+3270	JUSTIN BIEBER - Die In Your Arms
+3271	EARL SCRUGGS - The Ballad Of Jed Clampett
+3272	NELLY FURTADO - All Good Things Come To An End
+3273	BEYONCE - Deja Vu
+3274	TIM MCGRAW - I Like It I Love It
+3275	GIUFFRIA - I Must Be Dreaming
+3276	THE YARDBIRDS - For Your Love
+3277	KANYE WEST - Flashing Lights
+3278	BRYAN ADAMS - Please Forgive Me
+3279	KATY PERRY - California Gurls
+3280	MIKAILA - So In Love With Two
+3281	FORT MINOR - Remember The Name
+3282	DAVID BOWIE - Rebel Rebel
+3283	DIANA ROSS - Upside Down
+3284	BILL HALEY AND HIS COMETS - Rock Around The Clock
+3285	DEF LEPPARD - Two Steps Behind
+3286	YAKI DA - I Saw You Dancing
+3287	THE BLACK CROWES - Thorn In My Pride
+3288	MADONNA - Cherish
+3289	PLAIN WHITE TS - Hey There Delilah
+3290	BON JOVI - Bed Of Roses
+3291	CASCADA - Everytime We Touch
+3292	THE BEACH BOYS - Surfin Usa
+3293	DEEP BLUE SOMETHING - Breakfast At Tiffanys
+3294	SEAN PAUL - Get Busy
+3295	SWITCHFOOT - Dare You To Move
+3296	KC AND THE SUNSHINE BAND - Thats The Way I Like It
+3297	CHICAGO - What Kind Of Man Would I Be
+3298	PET SHOP BOYS - Suburbia
+3299	LENNY KRAVITZ - American Woman
+3300	ABBA - Sos
+3301	BREAKING BENJAMIN - Failure
+3302	BARRY MCGUIRE - Eve Of Destruction
+3303	ARETHA FRANKLIN - You Make Me Feel Like A Natural Woman
+3304	WEEZER - Pork And Beans
+3305	STEALERS WHEEL - Stuck In The Middle With You
+3306	RAMONES - Do You Wanna Dance
+3307	3OH3 - Dont Trust Me
+3308	CALVIN HARRIS - Sweet Nothing
+3309	THE DOOBIE BROTHERS - Listen To The Music
+3310	DAVID GUETTA - Love Is Gone
+3311	JEFF BECK - People Get Ready
+3312	DAVE MATTHEWS BAND - Crush
+3313	SARAYA - Love Has Taken Its Toll
+3314	JOHNNY CASH - A Boy Named Sue
+3315	THE DOORS - Gloria
+3316	ASHLEE SIMPSON - Boyfriend
+3317	ENYA - Caribbean Blue
+3318	MAROON 5 - Misery
+3319	ED SHEERAN - Shape Of You
+3320	U2 - New Years Day
+3321	LMFAO - Party Rock Anthem
+3322	PEARL JAM - Yellow Ledbetter
+3323	THE BEATLES - Something
+3324	THE SCRIPT - The Man Who Cant Be Moved
+3325	SYSTEM OF A DOWN - Byob
+3326	TRAIN - Meet Virginia
+3327	DAUGHTRY - Life After You
+3328	COLDPLAY - Adventure Of A Lifetime
+3329	WHITESNAKE - The Deeper The Love
+3330	REM - Man On The Moon
+3331	SPACEHOG - In The Meantime
+3332	AUDIOSLAVE - Original Fire
+3333	GOO GOO DOLLS - Slide
+3334	RAY CHARLES - Whatd I Say
+3335	KENNY WAYNE SHEPHERD - Blue On Black
+3336	SURVIVOR - Eye Of The Tiger
+3337	ROD STEWART - Youre In My Heart
+3338	SNOW PATROL - Chasing Cars
+3339	THE TING TINGS - Thats Not My Name
+3340	NEIL DIAMOND - Stones
+3341	QUEEN - Crazy Little Thing Called Love
+3342	U2 - Magnificent
+3343	IGGY AZALEA - Fancy
+3344	THE ROLLING STONES - Paint It Black
+3345	CHICAGO - Colour My World
+3346	MICHAEL BOLTON - Soul Provider
+3347	ELECTRIC LIGHT ORCHESTRA - Roll Over Beethoven
+3348	MIRIAM MAKEBA - Pata Pata
+3349	MIKE OLDFIELD - Tubular Bells
+3350	KELLY CLARKSON - A Moment Like This
+3351	ALANIS MORISSETTE - Hands Clean
+3352	CREAM - White Room
+3353	THE WHO - Eminence Front
+3354	THE CORRS - Breathless
+3355	THE BEATLES - All My Loving
+3356	CREED - One Last Breath
+3357	THE CARS - Just What I Needed
+3358	BUSH - Machinehead
+3359	MATCHBOX TWENTY - Unwell
+3360	AVRIL LAVIGNE - Girlfriend
+3361	JOHN MILES - Music
+3362	TAYLOR SWIFT - Everything Has Changed
+3363	SKRILLEX - Bangarang
+3364	MAGIC - Rude
+3365	JOHN LENNON - Woman
+3366	SISTER HAZEL - All For You
+3367	BON JOVI - Only Lonely
+3368	DEL AMITRI - Roll To Me
+3369	VAN HALEN - Cant Stop Lovin You
+3370	MR PROBZ - Waves
+3371	FALL OUT BOY - Thnks Fr Th Mmrs
+3372	SHWAYZE - Buzzin
+3373	JACK JOHNSON - Upside Down
+3374	GORDON LIGHTFOOT - Sundown
+3375	ALICE COOPER - I Never Cry
+3376	NSYNC - Its Tearin Up My Heart
+3377	REPUBLICA - Ready To Go
+3378	G UNIT - Wanna Get To Know You
+3379	AEROSMITH - The Other Side
+3380	THE LEMONHEADS - Into Your Arms
+3381	ONE DIRECTION - Live While Were Young
+3382	JOURNEY - Dont Stop Believin
+3383	THE BEATLES - Twist And Shout
+3384	KANSAS - Carry On Wayward Son
+3385	COLBIE CAILLAT - Bubbly
+3386	WINGS - Listen To What The Man Said
+3387	KENNY CHESNEY - Who Youd Be Today
+3388	ROXETTE - Listen To Your Heart
+3389	FREDDIE AND THE DREAMERS - Im Telling You Now
+3390	FIREHOUSE - Love Of A Lifetime
+3391	DOBIE GRAY - Drift Away
+3392	GORILLAZ - Feel Good Inc
+3393	T REX - Hot Love
+3394	EDISON LIGHTHOUSE - Love Grows
+3395	DRAGON - Rain
+3396	5 SECONDS OF SUMMER - Shes Kinda Hot
+3397	FRENTE - Bizarre Love Triangle
+3398	OTIS REDDING - Ive Been Loving You Too Long
+3399	STYX - Fooling Yourself The Angry Young Man
+3400	FRANK STALLONE - Far From Over
+3401	BRAD PAISLEY - He Didnt Have To Be
+3402	MIKE & THE MECHANICS - Word Of Mouth
+3403	GLEN CAMPBELL - Southern Nights
+3404	STEPHEN BISHOP - It Might Be You
+3405	VAN HALEN - Feels So Good
+3406	MUNGO JERRY - In The Summertime
+3407	TAL BACHMAN - Shes So High
+3408	THE BEACH BOYS - God Only Knows
+3409	NAT KING COLE - The Christmas Song
+3410	RIHANNA - S And M
+3411	WET WILLIE - Keep On Smilin
+3412	ROY ORBISON - Oh Pretty Woman
+3413	BRUCE SPRINGSTEEN - Glory Days
+3414	HAROLD FALTERMEYER - Axel F
+3415	AEROSMITH - Back In The Saddle
+3416	JOHN WAITE - Missing You
+3417	SHAKIRA - Objection
+3418	THE BLACK EYED PEAS - Lets Get It Started
+3419	THE MAMAS & THE PAPAS - California Dreamin
+3420	JEFFERSON AIRPLANE - Volunteers
+3421	TRIUMPH - Follow Your Heart
+3422	SECONDHAND SERENADE - Fall For You
+3423	CREEDENCE CLEARWATER REVIVAL - Green River
+3424	JONI MITCHELL - Big Yellow Taxi
+3425	JONAS BROTHERS - Lovebug
+3426	EXTREME - Rest In Peace
+3427	LEVEL 42 - Hot Water
+3428	BILLY OCEAN - Get Outta My Dreams Get Into My Car
+3429	VAN HALEN - When Its Love
+3430	TALKING HEADS - Life During Wartime
+3431	DONNA SUMMER - I Feel Love
+3432	EAGLES - Hotel California
+3433	TALK TALK - Its My Life
+3434	EDWIN MCCAIN - Ill Be
+3435	FAITH HILL - Breathe
+3436	THE HOLLIES - Stop Stop Stop
+3437	BOB DYLAN - Knockin On Heavens Door
+3438	CHRIS DE BURGH - Lady In Red
+3439	COLDPLAY - Every Teardrop Is A Waterfall
+3440	BACKSTREET BOYS - I Want It That Way
+3441	SHINEDOWN - I Dare You
+3442	KISS - Hard Luck Woman
+3443	THE CURE - Hot Hot Hot
+3444	JOHN PAUL YOUNG - Love Is In The Air
+3445	THE BLACK KEYS - Fever
+3446	TIMBALAND - If We Ever Meet Again
+3447	PSEUDO ECHO - Funkytown
+3448	CHUCK BERRY - Little Queenie
+3449	STEPPENWOLF - Born To Be Wild
+3450	ALAN WALKER - Faded
+3451	LADY ANTEBELLUM - Need You Now
+3452	DURAN DURAN - Union Of The Snake
+3453	FAITH HILL - This Kiss
+3454	JAY Z - Doa Death Of Auto Tune
+3455	GENE SIMMONS - Radioactive
+3456	GEORGE HARRISON - What Is Life
+3457	EMINEM - Stan
+3458	THE WHO - The Seeker
+3459	POISON - Ride The Wind
+3460	DEF LEPPARD - Foolin
+3461	QUEEN - Its Late
+3462	ELTON JOHN - The One
+3463	THE ANIMALS - Bring It On Home To Me
+3464	TOTO - Pamela
+3465	BREAD - Sweet Surrender
+3466	MADONNA - Dont Cry For Me Argentina
+3467	FLO RIDA - Right Round
+3468	GEORGE BENSON - Breezin
+3469	THE FRAY - Over My Head
+3470	QUEEN - Another One Bites The Dust
+3471	ELTON JOHN - Empty Garden
+3472	THE POLICE - King Of Pain
+3473	WARRANT - I Saw Red
+3474	KENNY ROGERS - Lucille
+3475	RICHARD MARX - Now And Forever
+3476	THE ROLLING STONES - Have You Seen Your Mother Baby Standing In The Shadow
+3477	TINA TURNER - The Best
+3478	BACKSTREET BOYS - Drowning
+3479	PHIL COLLINS - Cant Stop Loving You
+3480	THE BEATLES - Strawberry Fields Forever
+3481	TOTO - 99
+3482	GRATEFUL DEAD - Truckin
+3483	JACK JOHNSON - You And Your Heart
+3484	RAM JAM - Black Betty
+3485	TEN YEARS AFTER - Id Love To Change The World
+3486	BILLY SQUIER - All Night Long
+3487	MAJOR LAZER - Lean On
+3488	TASMIN ARCHER - Sleeping Satellite
+3489	THE ROLLING STONES - Out Of Time
+3490	TOTO - Africa
+3491	JUSTIN BIEBER - Sorry
+3492	ELTON JOHN - Can You Feel The Love Tonight
+3493	PANIC AT THE DISCO - Nine In The Afternoon
+3494	SYSTEM OF A DOWN - Toxicity
+3495	LUSTRA - Scotty Doesnt Know
+3496	BLONDIE - Heart Of Glass
+3497	REDBONE - Come And Get Your Love
+3498	CHICAGO - Youre The Inspiration
+3499	JAY Z - Empire State Of Mind
+3500	GODSMACK - Cryin Like A Bitch
+3501	ELVIS PRESLEY - Its Now Or Never
+3502	JOSHUA RADIN - Id Rather Be With You
+3503	EUROPE - The Final Countdown
+3504	GREAT WHITE - Once Bitten Twice Shy
+3505	DAN HILL - Sometimes When We Touch
+3506	DE LA SOUL - All Good
+3507	TEARS FOR FEARS - Head Over Heels
+3508	BUSTA RHYMES - Fire It Up Turn It Up
+3509	SLAUGHTER - Up All Night
+3510	ROXETTE - Joyride
+3511	CHICAGO - If You Leave Me Now
+3512	THE EVERLY BROTHERS - Let It Be Me
+3513	TOM PETTY AND THE HEARTBREAKERS - Mary Janes Last Dance
+3514	NICKELBACK - If Everyone Cared
+3515	ROBERT PLANT - Big Log
+3516	THE POWER STATION - Get It On Bang A Gong
+3517	JOSE FELICIANO - Light My Fire
+3518	PEARL JAM - Wishlist
+3519	U2 - Pride In The Name Of Love
+3520	NELLY FURTADO - Say It Right
+3521	RICK DERRINGER - Rock And Roll Hoochie Koo
+3522	BOBBY VINTON - Mr Lonely
+3523	JASON MRAZ - If It Kills Me
+3524	NELLY - Grillz
+3525	PAT BENATAR - Heartbreaker
+3526	BADFINGER - Day After Day
+3527	BOBBY MCFERRIN - Dont Worry Be Happy
+3528	MCFADDEN & WHITEHEAD - Aint No Stoppin Us Now
+3529	CHICAGO - 25 Or 6 To 4
+3530	THE MONKEES - Daydream Believer
+3531	TOM PETTY AND THE HEARTBREAKERS - The Waiting
+3532	USHER - U Got It Bad
+3533	TED NUGENT - Dog Eat Dog
+3534	NEON TREES - Everybody Talks
+3535	GOO GOO DOLLS - Before Its Too Late
+3536	RAMONES - Rockaway Beach
+3537	MICHAEL NESMITH - Joanne
+3538	TAYLOR SWIFT - Haunted
+3539	BRUCE SPRINGSTEEN - Badlands
+3540	VANESSA WILLIAMS - Colors Of The Wind
+3541	U2 - Vertigo
+3542	ROBERT TEPPER - No Easy Way Out
+3543	QUEEN - I Want It All
+3544	THE VERVE PIPE - The Freshmen
+3545	FRANKIE VALLI - Cant Take My Eyes Off You
+3546	LOS LOBOS - La Bamba
+3547	LA ROUX - Bulletproof
+3548	TI - What You Know
+3549	DANGER DANGER - Bang Bang
+3550	BERLIN - The Metro
+3551	PANJABI MC - Mundian To Bach Ke
+3552	TOM PETTY AND THE HEARTBREAKERS - Dont Come Around Here No More
+3553	MIRANDA LAMBERT - The House That Built Me
+3554	WET WET WET - Love Is All Around
+3555	CREEDENCE CLEARWATER REVIVAL - Run Through The Jungle
+3556	KANSAS - Point Of Know Return
+3557	GUNS N ROSES - Yesterdays
+3558	AL GREEN - Tired Of Being Alone
+3559	THE FRAY - Heartless
+3560	BRYAN ADAMS - Summer Of 69
+3561	TWENTY ONE PILOTS - Tear In My Heart
+3562	ENRIQUE IGLESIAS - Escape
+3563	BON JOVI - In And Out Of Love
+3564	DEF LEPPARD - Love Bites
+3565	MR BIG - To Be With You
+3566	ROD STEWART - Da Ya Think Im Sexy
+3567	BREAD - Lost Without Your Love
+3568	LISA STANSFIELD - All Around The World
+3569	TWENTY ONE PILOTS - Heathens
+3570	JOHN LENNON - Give Peace A Chance
+3571	U2 - Sweetest Thing
+3572	THE YARDBIRDS - Heart Full Of Soul
+3573	ERASURE - Chains Of Love
+3574	CREEDENCE CLEARWATER REVIVAL - Suzie Q
+3575	S CLUB 7 - Never Had A Dream Come True
+3576	RED HOT CHILI PEPPERS - Dani California
+3577	LENNY KRAVITZ - Believe
+3578	SHAKIRA - Hips Dont Lie
+3579	ELECTRIC LIGHT ORCHESTRA - Evil Woman
+3580	NINE INCH NAILS - Survivalism
+3581	BILLY JOEL - Pressure
+3582	PATRICK SWAYZE - Shes Like The Wind
+3583	CROSBY STILLS NASH & YOUNG - Our House
+3584	MICHAEL JACKSON - Bad
+3585	ELTON JOHN - Honky Cat
+3586	MICHELLE BRANCH - Are You Happy Now
+3587	CHICAGO - Hard To Say Im Sorry
+3588	EARTH WIND & FIRE - Sing A Song
+3589	SALT N PEPA - Push It
+3590	MAROON 5 - She Will Be Loved
+3591	LIONEL RICHIE - All Night Long
+3592	CINDERELLA - Coming Home
+3593	CHET ATKINS - Yakety Axe
+3594	BUSH - Glycerine
+3595	EARTH WIND & FIRE - After The Love Has Gone
+3596	SEETHER - Rise Above This
+3597	ELVIS PRESLEY - I Need Your Love Tonight
+3598	PEARL JAM - Last Kiss
+3599	AUGUSTANA - Boston
+3600	THE BLACK CROWES - She Talks To Angels
+3601	STAN GETZ - The Girl From Ipanema
+3602	CHRISTINA AGUILERA - Beautiful
+3603	10 YEARS - Wasteland
+3604	ALABAMA - Feels So Right
+3605	CROSSFADE - Cold
+3606	FERGIE - Big Girls Dont Cry
+3607	U2 - The Saints Are Coming
+3608	LINKIN PARK - Lying From You
+3609	SIMPLE PLAN - Untitled
+3610	GOTYE - Somebody That I Used To Know
+3611	MEGADETH - Symphony Of Destruction
+3612	DR HOOK - A Little Bit More
+3613	TALKING HEADS - Wild Wild Life
+3614	ROBERT PALMER - Bad Case Of Loving You
+3615	FOREIGNER - Blue Morning Blue Day
+3616	THE BEATLES - Sgt Peppers Lonely Hearts Club Band
+3617	MICHAEL JACKSON - Remember The Time
+3618	BRUNO MARS - Locked Out Of Heaven
+3619	PETER PAUL & MARY - Tell It On The Mountain
+3620	YAEL NAIM - New Soul
+3621	ASIA - Only Time Will Tell
+3622	BOBBY HEBB - Sunny
+3623	WINGER - Headed For A Heartbreak
+3624	JOAN OSBORNE - One Of Us
+3625	DIRE STRAITS - Walk Of Life
+3626	TAYLOR SWIFT - Mine
+3627	QUEEN - Under Pressure
+3628	ACDC - Big Gun
+3629	TEARS FOR FEARS - Everybody Wants To Rule The World
+3630	YES - And You And I
+3631	DEPECHE MODE - Barrel Of A Gun
+3632	SLADE - My Oh My
+3633	TRACY CHAPMAN - Give Me One Reason
+3634	PET SHOP BOYS - Opportunities
+3635	DAVE DUDLEY - Six Days On The Road
+3636	STAIND - Price To Play
+3637	DIXIE CHICKS - Landslide
+3638	NO DOUBT - Just A Girl
+3639	FALL OUT BOY - A Little Less Sixteen Candles A Little More Touch Me
+3640	BTS - Mic Drop
+3641	TAYLOR SWIFT - Our Song
+3642	QUIET RIOT - Cum On Feel The Noize
+3643	FRIDA - I Know Theres Something Going On
+3644	KID ROCK - Picture
+3645	BRAD PAISLEY - Ticks
+3646	THE WHO - Happy Jack
+3647	THE EVERLY BROTHERS - So Sad
+3648	YELLOWCARD - Ocean Avenue
+3649	DAUGHTRY - Over You
+3650	KEVIN RUDOLF - Welcome To The World
+3651	MICHAEL BUBLE - Everything
+3652	DON HENLEY - The Last Worthless Evening
+3653	VILLAGE PEOPLE - Ymca
+3654	THE OFFSPRING - Hit That
+3655	FOSTER THE PEOPLE - Dont Stop Color On The Walls
+3656	BEE GEES - To Love Somebody
+3657	AEROSMITH - Remember Walking In The Sand
+3658	FLOBOTS - Handlebars
+3659	ASHLEE SIMPSON - Lala
+3660	THE ATARIS - The Boys Of Summer
+3661	CINDERELLA - Somebody Save Me
+3662	GARY MOORE - Still Got The Blues
+3663	CARLY RAE JEPSEN - I Really Like You
+3664	ZZ TOP - Doubleback
+3665	KISS - Lick It Up
+3666	MANA - El Verdadero Amor Perdona
+3667	BETTER THAN EZRA - Good
+3668	ABC - The Look Of Love
+3669	BIG COUNTRY - In A Big Country
+3670	THE CALLING - Wherever You Will Go
+3671	RUSH - The Spirit Of Radio
+3672	LOS LONELY BOYS - Heaven
+3673	BILLIE EILISH - I Love You
+3674	EMINEM - Killshot
+3675	COLDPLAY - Major Minus
+3676	THEORY OF A DEADMAN - All Or Nothing
+3677	EMINEM - Mockingbird
+3678	BELINDA CARLISLE - Circle In The Sand
+3679	CAGE THE ELEPHANT - Aint No Rest For The Wicked
+3680	RTZ - Face The Music
+3681	ONE DIRECTION - One Thing
+3682	ALABAMA - Closer You Get
+3683	ARETHA FRANKLIN - I Say A Little Prayer
+3684	ARCTIC MONKEYS - Do I Wanna Know
+3685	EAGLE EYE CHERRY - Save Tonight
+3686	THE HOLLIES - I Cant Let Go
+3687	ADAM LEVINE - Lost Stars
+3688	VAN HALEN - Runnin With The Devil
+3689	CANDLEBOX - You
+3690	OLETA ADAMS - Get Here
+3691	BARRY WHITE - Let The Music Play
+3692	PINK FLOYD - Run Like Hell
+3693	PSY - Gangnam Style
+3694	XXXTENTACION - Jocelyn Flores
+3695	LUIS FONSI - No Me Doy Por Vencido
+3696	MORRIS ALBERT - Feelings
+3697	JOSH TURNER - Would You Go With Me
+3698	THE CURE - The 13th
+3699	BEE GEES - Tragedy
+3700	CHILDISH GAMBINO - Redbonex
+3701	NELSON - After The Rain
+3702	HERB ALPERT & THE TIJUANA BRASS - Spanish Flea
+3703	DEMI LOVATO - This Is Me
+3704	THE BEACH BOYS - Help Me Rhonda
+3705	NICKELBACK - Something In Your Mouth
+3706	PINK FLOYD - Learning To Fly
+3707	GRATEFUL DEAD - Uncle Johns Band
+3708	THE IDES OF MARCH - Vehicle
+3709	EUROPE - Superstitious
+3710	MATCHBOX TWENTY - Disease
+3711	QUEEN - Bohemian Rhapsody
+3712	JOAN JETT - Light Of Day
+3713	BANANARAMA - Venus
+3714	ERIC CLAPTON - Forever Man
+3715	SIMPLE PLAN - Welcome To My Life
+3716	RIHANNA - The Monster
+3717	GREG KIHN BAND - Jeopardy
+3718	SURVIVOR - Caught In The Game
+3719	POISON - Unskinny Bop
+3720	AEROSMITH - Pink
+3721	EVANESCENCE - Call Me When Youre Sober
+3722	THE JACKSONS - Blame It On The Boogie
+3723	THREE DAYS GRACE - Break
+3724	JASON DERULO - Wiggle
+3725	LITTLE MIX - Shout Out To My Ex
+3726	MADONNA - Beautiful Stranger
+3727	ELLIE GOULDING - Love Me Like You Do
+3728	BUSH - Comedown
+3729	GEORGE STRAIT - Youll Be There
+3730	LIFEHOUSE - Broken
+3731	BEE GEES - I Started A Joke
+3732	SHAWN MENDES - A Little Too Much
+3733	PAUL MCCARTNEY - Dance Tonight
+3734	FREE - All Right Now
+3735	BON JOVI - Lie To Me
+3736	ERIC CLAPTON - Tears In Heaven
+3737	MR BIG - Just Take My Heart
+3738	THE PUSSYCAT DOLLS - Wait A Minute
+3739	LINKIN PARK - Crawling
+3740	SADE - Smooth Operator
+3741	PHIL COLLINS - Who Said I Would
+3742	MARVIN GAYE - I Heard It Through The Grapevine
+3743	JASON DERULO - In My Head
+3744	THE COASTERS - Yakety Yak
+3745	THE BEACH BOYS - I Get Around
+3746	BOSTON - More Than A Feeling
+3747	BRAD PAISLEY - Old Alabama
+3748	BOB - Nothin On You
+3749	TIFFANY - All This Time
+3750	BLUE SWEDE - Hooked On A Feeling
+3751	DEEP PURPLE - Knocking At Your Back Door
+3752	HANNAH MONTANA - Best Of Both Worlds
+3753	GUNS N ROSES - Sympathy For The Devil
+3754	COMMODORES - Easy
+3755	EAGLES - Get Over It
+3756	APRIL WINE - Roller
+3757	REO SPEEDWAGON - Riding The Storm Out
+3758	ALICIA KEYS - Unthinkable
+3759	GEORGE HARRISON - My Sweet Lord
+3760	CAMILA CABELLO - Crying In The Club
+3761	RICKY NELSON - Garden Party
+3762	NE YO - So Sick
+3763	HALL & OATES - Maneater
+3764	JIMI HENDRIX - Freedom
+3765	THE BEATLES - Cant Buy Me Love
+3766	VAN HALEN - You Really Got Me
+3767	THE BEACH BOYS - In My Room
+3768	TRINI LOPEZ - If I Had A Hammer
+3769	DEREK & THE DOMINOS - Layla
+3770	WINGER - Miles Away
+3771	ALICE COOPER - Poison
+3772	SEAL - Kiss From A Rose
+3773	JOHN FOGERTY - Rockin All Over The World
+3774	GO WEST - King Of Wishful Thinking
+3775	TAYLOR SWIFT - Shake It Off
+3776	SHERYL CROW - All I Wanna Do
+3777	NAT KING COLE - Love
+3778	SYSTEM OF A DOWN - Chop Suey
+3779	THE MONKEES - Listen To The Band
+3780	USHER - Love In This Club
+3781	THIN LIZZY - Cowboy Song
+3782	STEELHEART - Shes Gone
+3783	STEELY DAN - Rikki Dont Lose That Number
+3784	BEE GEES - Stayin Alive
+3785	CHAKA KHAN - Through The Fire
+3786	DIXIE CHICKS - Cowboy Take Me Away
+3787	CAROLE KING - I Feel The Earth Move
+3788	THE GUESS WHO - American Woman
+3789	PAUL MCCARTNEY - Jet
+3790	NIGHT RANGER - Sister Christian
+3791	GAVIN DEGRAW - I Dont Want To Be
+3792	THE GUESS WHO - No Time
+3793	LINKIN PARK - Bleed It Out
+3794	TORI AMOS - Caught A Lite Sneeze
+3795	HALL & OATES - Family Man
+3796	MELISSA ETHERIDGE - Like The Way I Do
+3797	NIRVANA - Smells Like Teen Spirit
+3798	WESTLIFE - Swear It Again
+3799	CARPENTERS - I Need To Be In Love
+3800	FUN - Some Nights
+3801	LIFEHOUSE - From Where You Are
+3802	THE ROLLING STONES - Lets Spend The Night Together
+3803	PRINCE - Lets Go Crazy
+3804	AMERICA - A Horse With No Name
+3805	ZEDD - Stay The Night
+3806	INXS - The One Thing
+3807	LINKIN PARK - Leave Out All The Rest
+3808	MY CHEMICAL ROMANCE - Helena
+3809	DUFFY - Mercy
+3810	FOUR TOPS - Bernadette
+3811	BEYONCE - Listen
+3812	TOM PETTY AND THE HEARTBREAKERS - Jammin Me
+3813	CROSBY STILLS & NASH - Suite Judy Blue Eyes
+3814	RIHANNA - Disturbia
+3815	THREE DOG NIGHT - One
+3816	EVE 6 - Inside Out
+3817	ANN PEEBLES - I Cant Stand The Rain
+3818	NEW ORDER - Bizarre Love Triangle
+3819	FOUR TOPS - Still Water Peace
+3820	WHAM - Last Christmas
+3821	THE BEACH BOYS - Dance Dance Dance
+3822	THE BEATLES - Come Together
+3823	RED HOT CHILI PEPPERS - Cant Stop
+3824	THE CARS - You Might Think
+3825	WHITESNAKE - Still Of The Night
+3826	HUEY LEWIS & THE NEWS - Couple Days Off
+3827	JUSTIN TIMBERLAKE - Like I Love You
+3828	BACKSTREET BOYS - The One
+3829	ZAC BROWN BAND - Whatever It Is
+3830	REM - Pop Song 89
+3831	COLDPLAY - Atlas
+3832	ERIC CLAPTON - Let It Rain
+3833	AUTOGRAPH - Turn Up The Radio
+3834	AVENGED SEVENFOLD - Nightmare
+3835	KENNY G - Forever In Love
+3836	10CC - Dreadlock Holiday
+3837	THE ROLLING STONES - Heartbreaker
+3838	DONNA SUMMER - Hot Stuff
+3839	GLEN HANSARD - Falling Slowly
+3840	TEARS FOR FEARS - Sowing The Seeds Of Love
+3841	CREEDENCE CLEARWATER REVIVAL - Fortunate Son
+3842	THE BEATLES - Im Happy Just To Dance With You
+3843	ACDC - Back In Black
+3844	REM - Whats The Frequency Kenneth
+3845	STEVE MILLER BAND - Jungle Love
+3846	BARRY MANILOW - I Write The Songs
+3847	SHAWN MENDES - Stitches
+3848	THE SHINS - Phantom Limb
+3849	DIXIE CHICKS - I Can Love You Better
+3850	CASCADA - Evacuate The Dancefloor
+3851	LENNY KRAVITZ - Spinning Around Over You
+3852	MICHAEL BUBLE - Havent Met You Yet
+3853	DIDO - Thank You
+3854	THE PLATTERS - Smoke Gets In Your Eyes
+3855	ELTON JOHN - Rocket Man
+3856	THE ROLLING STONES - Almost Hear You Sigh
+3857	SPIN DOCTORS - Cleopatras Cat
+3858	WHITE LION - Tell Me
+3859	J COLE - Wet Dreamz
+3860	BREAKING BENJAMIN - The Diary Of Jane
+3861	HEART - I Want You So Bad
+3862	MADONNA - Holiday
+3863	CREEDENCE CLEARWATER REVIVAL - Someday Never Comes
+3864	COLDPLAY - Paradise
+3865	MADONNA - Whos That Girl
+3866	JUSTIN BIEBER - Boyfriend
+3867	BOYS LIKE GIRLS - Heroheroine
+3868	THE BANGLES - Walk Like An Egyptian
+3869	GEORGE BENSON - Give Me The Night
+3870	MADONNA - Bedtime Story
+3871	MAROON 5 - Maps
+3872	RATT - Wanted Man
+3873	SIMON & GARFUNKEL - El Condor Pasa
+3874	PARAMORE - Decode
+3875	THE BEATLES - She Loves You
+3876	BRUCE SPRINGSTEEN - Secret Garden
+3877	CREEDENCE CLEARWATER REVIVAL - Have You Ever Seen The Rain
+3878	GORDON LIGHTFOOT - Carefree Highway
+3879	JIMI HENDRIX - Dolly Dagger
+3880	BETTE MIDLER - The Rose
+3881	ROXETTE - Sleeping In My Car
+3882	DAMN YANKEES - Come Again
+3883	THE OUTFIELD - Your Love
+3884	MARTY ROBBINS - Devil Woman
+3885	THE METERS - Cissy Strut
+3886	CALVIN HARRIS - One Kiss
+3887	THE LOVIN SPOONFUL - Summer In The City
+3888	BRICK - Dazz
+3889	EMINEM - Lucky You
+3890	THE DOOBIE BROTHERS - Black Water
+3891	BEE GEES - How Can You Mend A Broken Heart
+3892	HOOTIE & THE BLOWFISH - Time
+3893	CHEAP TRICK - I Want You To Want Me
+3894	BAD COMPANY - Good Lovin Gone Bad
+3895	ALAN JACKSON - Chattahoochee
+3896	ELTON JOHN - Someone Saved My Life Tonight
+3897	AVENGED SEVENFOLD - Bat Country
+3898	BRUNO MARS - Treasure
+3899	AEROSMITH - Sweet Emotion
+3900	RISE AGAINST - Help Is On The Way
+3901	CHER - Believe
+3902	MONTELL JORDAN - This Is How We Do It
+3903	NATALIE IMBRUGLIA - Wrong Impression
+3904	CARPENTERS - Superstar
+3905	MICHAEL JACKSON - Heal The World
+3906	STEVIE WONDER - I Aint Gonna Stand For It
+3907	JAMES TAYLOR - Shower The People
+3908	VAN HALEN - Dance The Night Away
+3909	BACKSTREET BOYS - Weve Got It Going On
+3910	NEW ORDER - True Faith
+3911	JOE JACKSON - Breaking Us In Two
+3912	DANZIG - Mother
+3913	PEARL JAM - Given To Fly
+3914	EARL SCRUGGS - Foggy Mountain Breakdown
+3915	ROD STEWART - Sailing
+3916	NATASHA BEDINGFIELD - Soulmate
+3917	REM - Shiny Happy People
+3918	BRUNO MARS - Young Girls
+3919	METALLICA - The Unforgiven Ii
+3920	PETER PAUL & MARY - Puff The Magic Dragon
+3921	MICHAEL JACKSON - Dirty Diana
+3922	SAM COOKE - Wonderful World
+3923	THE SWELL SEASON - Falling Slowly
+3924	BLINK 182 - Up All Night
+3925	EAGLES - Already Gone
+3926	SHINEDOWN - Sound Of Madness
+3927	FOO FIGHTERS - Wheels
+3928	HARRY NILSSON - Without You
+3929	ELTON JOHN - Believe
+3930	CHRISTOPHER CROSS - Never Be The Same
+3931	NO DOUBT - Simple Kind Of Life
+3932	JOE WALSH - Turn To Stone
+3933	SEETHER - Broken
+3934	STEELY DAN - My Old School
+3935	CELINE DION - My Heart Will Go On
+3936	THE KINKS - Dedicated Follower Of Fashion
+3937	THE YARDBIRDS - Shapes Of Things
+3938	TENACIOUS D - Pick Of Destiny
+3939	AEROSMITH - Amazing
+3940	STEELY DAN - Do It Again
+3941	702 - Where My Girls At
+3942	HENRY MANCINI - Moon River
+3943	MICHAEL JACKSON - Black Or White
+3944	RASCAL FLATTS - Life Is A Highway
+3945	TWENTY ONE PILOTS - Fairly Local
+3946	SHAKIRA - Whenever Wherever
+3947	ENUFF ZNUFF - Fly High Michelle
+3948	REM - Its The End Of The World As We Know It
+3949	AEROSMITH - Falling In Love
+3950	MEN WITHOUT HATS - Safety Dance
+3951	JONAS BROTHERS - Paranoid
+3952	HERMANS HERMITS - Silhouettes
+3953	NICKELBACK - Rockstar
+3954	LED ZEPPELIN - Whole Lotta Love
+3955	DAMN YANKEES - High Enough
+3956	BRUNO MARS - When I Was Your Man
+3957	CREEDENCE CLEARWATER REVIVAL - Long As I Can See The Light
+3958	FLEETWOOD MAC - Go Your Own Way
+3959	KREWELLA - Live For The Night
+3960	GREEN DAY - Working Class Hero
+3961	MUSIQ SOULCHILD - Halfcrazy
+3962	STEVIE WONDER - Sir Duke
+3963	ALICE IN CHAINS - Check My Brain
+3964	3 DOORS DOWN - When Im Gone
+3965	TOOL - Schism
+3966	DISTURBED - Prayer
+3967	PANIC AT THE DISCO - Miss Jackson
+3968	THE ROLLING STONES - Wild Horses
+3969	DAVID GUETTA - Titanium
+3970	ELECTRIC LIGHT ORCHESTRA - Strange Magic
+3971	FOREIGNER - I Want To Know What Love Is
+3972	NANCY SINATRA - You Only Live Twice
+3973	JIM CROCE - Time In A Bottle
+3974	FALL OUT BOY - My Songs Know What You Did In The Dark Light Em Up
+3975	THE ROLLING STONES - Lady Jane
+3976	BUFFALO SPRINGFIELD - Bluebird
+3977	NSYNC - This I Promise You
+3978	MELISSA ETHERIDGE - Im The Only One
+3979	LADY GAGA - Poker Face
+3980	CARPENTERS - Top Of The World
+3981	ROMEO SANTOS - Propuesta Indecente
+3982	BRITNEY SPEARS - Stronger
+3983	SIXPENCE NONE THE RICHER - Kiss Me
+3984	REM - The One I Love
+3985	MUSE - Uprising
+3986	MILEY CYRUS - Breakout
+3987	JET - Look What Youve Done
+3988	COLDPLAY - Christmas Lights
+3989	VIXEN - Edge Of A Broken Heart
+3990	STING - Russians
+3991	GLEN CAMPBELL - Gentle On My Mind
+3992	BILLIE EILISH - All The Good Girls Go To Hell
+3993	METALLICA - My Apocalypse
+3994	LED ZEPPELIN - Rock And Roll
+3995	PRINCE - When Doves Cry
+3996	AL STEWART - On The Border
+3997	NIK KERSHAW - Wouldnt It Be Good
+3998	NINE INCH NAILS - Closer
+3999	BIG MOUNTAIN - Baby I Love Your Way
+4000	OZZY OSBOURNE - I Dont Wanna Stop
+4001	CHARLES & EDDIE - Would I Lie To You
+4002	NINE INCH NAILS - The Hand That Feeds
+4003	BRYAN ADAMS - All For Love
+4004	KING HARVEST - Dancing In The Moonlight
+4005	WINGER - Seventeen
+4006	NEIL DIAMOND - Sweet Caroline
+4007	LED ZEPPELIN - Over The Hills And Far Away
+4008	FAITH HILL - Where Are You Christmas
+4009	MICHAEL JACKSON - Blood On The Dance Floor
+4010	SANTANA - Into The Night
+4011	LADY ANTEBELLUM - Just A Kiss
+4012	MAROON 5 - Daylight
+4013	BAD COMPANY - Movin On
+4014	FALL OUT BOY - Centuries
+4015	METALLICA - No Leaf Clover
+4016	MARTINA MCBRIDE - I Love You
+4017	NINE DAYS - Absolutely Story Of A Girl
+4018	BACKSTREET BOYS - Quit Playing Games
+4019	ADELE - Hello
+4020	SUPERTRAMP - Bloody Well Right
+4021	U2 - Stuck In A Moment You Cant Get Out Of
+4022	KATY PERRY - The One That Got Away
+4023	DIDO - White Flag
+4024	OZZY OSBOURNE - No More Tears
+4025	5 SECONDS OF SUMMER - Jet Black Heart
+4026	HERBIE HANCOCK - Chameleon
+4027	STEVIE WONDER - Living For The City
+4028	DHT - Listen To Your Heart
+4029	CHET ATKINS - One Mint Julep
+4030	BON JOVI - Wanted Dead Or Alive
+4031	ALIVE N KICKIN - Tighter Tighter
+4032	BOBBY PICKETT AND THE CRYPT KICKERS - Monster Mash
+4033	SMITHEREENS - Girl Like You
+4034	METALLICA - The Memory Remains
+4035	CHIC - Good Times
+4036	THE POLICE - De Do Do Do De Da Da Da
+4037	BOSTON - Dont Look Back
+4038	JOHN MAYER - Your Body Is A Wonderland
+4039	ALY & AJ - Chemicals React
+4040	BILLIE EILISH - Bad Guy
+4041	CHAKA KHAN - I Feel For You
+4042	GARY NUMAN - Cars
+4043	MOTLEY CRUE - Youre All I Need
+4044	BRAD PAISLEY - Whiskey Lullaby
+4045	BUCKCHERRY - Sorry
+4046	LIL WAYNE - Right Above It
+4047	MR MISTER - Broken Wings
+4048	QUEEN - Dont Stop Me Now
+4049	BLUE OYSTER CULT - Burnin For You
+4050	THE BANGLES - Manic Monday
+4051	THIRTY SECONDS TO MARS - This Is War
+4052	PLAIN WHITE TS - Hate I Really Dont Like You
+4053	TIMBALAND - Apologize
+4054	LITTLE BIG TOWN - Girl Crush
+4055	MATCHBOX TWENTY - If Youre Gone
+4056	FAR EAST MOVEMENT - Like A G6
+4057	BEYONCE - Halo
+4058	CHRISTINA AGUILERA - Hurt
+4059	PANIC AT THE DISCO - The Ballad Of Mona Lisa
+4060	DEEP PURPLE - Smoke On The Water
+4061	PHARRELL WILLIAMS - Happy
+4062	KELLY CLARKSON - I Do Not Hook Up
+4063	NICKELBACK - Animals
+4064	NATASHA BEDINGFIELD - Pocketful Of Sunshine
+4065	TRAIN - Shake Up Christmas
+4066	RELIENT K - Who I Am Hates Who Ive Been
+4067	THE BEATLES - What Goes On
+4068	BILLIE EILISH - Bury A Friend
+4069	PAUL MCCARTNEY - Wonderful Christmastime
+4070	SAVAGE GARDEN - Crash And Burn
+4071	DAVID LEE ROTH - Just A Gigolo I Aint Got Nobody
+4072	GEORGE BENSON - Turn Your Love Around
+4073	AVRIL LAVIGNE - Head Above Water
+4074	DAUGHTRY - No Surprise
+4075	EMERSON LAKE & PALMER - Lucky Man
+4076	KIM WILDE - Kids In America
+4077	JAMIROQUAI - Alright
+4078	SILVERSUN PICKUPS - Panic Switch
+4079	METALLICA - I Disappear
+4080	THE PROCLAIMERS - Im Gonna Be 500 Miles
+4081	HENRY MANCINI - The Days Of Wine And Roses
+4082	LIVING COLOUR - Glamour Boys
+4083	WHITE LION - Wait
+4084	THE FRAY - Look After You
+4085	THE BEATLES - We Can Work It Out
+4086	THE BLACK CROWES - Hard To Handle
+4087	THE RIGHTEOUS BROTHERS - Unchained Melody
+4088	INNER CIRCLE - Sweat
+4089	AVRIL LAVIGNE - My Happy Ending
+4090	THE SPENCER DAVIS GROUP - Gimme Some Lovin
+4091	ENYA - Only If
+4092	BING CROSBY - White Christmas
+4093	JON BON JOVI - Blaze Of Glory
+4094	GEORGE BENSON - This Masquerade
+4095	THE POLICE - Every Breath You Take
+4096	VIXEN - Love Is A Killer
+4097	JOHN LENNON - Whatever Gets You Thru The Night
+4098	BONNIE TYLER - Holding Out For A Hero
+4099	THE MOODY BLUES - Your Wildest Dreams
+4100	CROSBY STILLS NASH & YOUNG - Ohio
+4101	WALK THE MOON - Shut Up And Dance
+4102	RUN DMC - Walk This Way
+4103	MARSHMELLO - Alone
+4104	RUN DMC - Its Tricky
+4105	GEORGE HARRISON - Got My Mind Set On You
+4106	EVERCLEAR - Father Of Mine
+4107	CHUCK BERRY - Promised Land
+4108	EVERCLEAR - Wonderful
+4109	SANTANA - Everybodys Everything
+4110	FALL OUT BOY - What A Catch Donnie
+4111	LITTLE BIG TOWN - Pontoon
+4112	SKID ROW - I Remember You
+4113	RAY PARKER JR - Ghostbusters
+4114	AUDIOSLAVE - Doesnt Remind Me
+4115	DURAN DURAN - Notorious
+4116	LOVERBOY - Working For The Weekend
+4117	GOO GOO DOLLS - Name
+4118	THE CLICK FIVE - Just The Girl
+4119	DEF LEPPARD - Miss You In A Heartbeat
+4120	ELVIS PRESLEY - Little Sister
+4121	QUEEN - Its A Hard Life
+4122	KENNY CHESNEY - Better As A Memory
+4123	THE KILLERS - All These Things That Ive Done
+4124	THE VERONICAS - Untouched
+4125	SAM & DAVE - Hold On Im Coming
+4126	MOTLEY CRUE - Girls Girls Girls
+4127	RICHARD MARX - Angelia
+4128	SKID ROW - Wasted Time
+4129	RAY CHARLES SINGERS - Love Me With All Your Heart
+4130	THE OFFSPRING - Youre Gonna Go Far Kid
+4131	LINDSEY BUCKINGHAM - Go Insane
+4132	REO SPEEDWAGON - Cant Fight This Feeling
+4133	HANK WILLIAMS JR - A Country Boy Can Survive
+4134	ERIC CLAPTON - Tulsa Time
+4135	TAYLOR SWIFT - We Are Never Ever Getting Back Together
+4136	THE TING TINGS - Shut Up And Let Me Go
+4137	SLADE - Cum On Feel The Noize
+4138	AIR SUPPLY - The One That You Love
+4139	CHUCK BERRY - No Particular Place To Go
+4140	QUEEN - Tie Your Mother Down
+4141	MICHELLE BRANCH - All You Wanted
+4142	CINDERELLA - The Last Mile
+4143	BOOKER T & THE MGS - Green Onions
+4144	TRACY CHAPMAN - Baby Can I Hold You
+4145	MICHAEL BOLTON - How Am I Supposed To Live Without You
+4146	MICHAEL SEMBELLO - Maniac
+4147	P!NK - Just Give Me A Reason
+4148	JOHN MAYER - Bigger Than My Body
+4149	ELTON JOHN - Circle Of Life
+4150	THE MONKEES - Im A Believer
+4151	CAGE THE ELEPHANT - Shake Me Down
+4152	SUGAR RAY - Falls Apart
+4153	ED SHEERAN - Galway Girl
+4154	BON JOVI - You Want To Make A Memory
+4155	GAVIN DEGRAW - In Love With A Girl
+4156	SHAKIRA - La Tortura
+4157	THE FRATELLIS - Flathead
+4158	KEITH URBAN - Somewhere In My Car
+4159	BILLY JOEL - Only The Good Die Young
+4160	FLEETWOOD MAC - Everywhere
+4161	FIREHOUSE - Dont Treat Me Bad
+4162	BILLY JOEL - Matter Of Trust
+4163	BEE GEES - Night Fever
+4164	KAJAGOOGOO - Too Shy
+4165	FIREHOUSE - I Live My Life For You
