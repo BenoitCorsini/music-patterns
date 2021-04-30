@@ -13,7 +13,6 @@ dataset/clusters/
 dataset/neighbours/
 dataset/statistics/
 
-precomputed/results/
 precomputed/clusters/
 precomputed/neighbours/
 precomputed/statistics/
