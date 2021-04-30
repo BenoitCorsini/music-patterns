@@ -51,11 +51,11 @@ This repo contains a newly created dataset made of 4166 songs. Theese songs were
 
 ### Reproducing the results of the article
 
-The file `dataset/run.py` contains all the parameters used for the experiments in the article. To reproduce the these experiments, simply run:
+The file `dataset/run.py` contains all the parameters used for the experiments in the article. To reproduce these experiments, simply run:
 ```sh
 python dataset/run.py
 ```
-__Careful__, it will take about (40min + ) hours for the whole algorithm to be done.
+__Careful__, it will take about 5 hours for the whole algorithm to be done (1 hour for the images and 4 hours for the distance matrix).
 
 ### Playing with the dataset
 
