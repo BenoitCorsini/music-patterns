@@ -35,11 +35,11 @@ On top of `main.py` which combines all algorithms together, each file ending wit
 ```sh
 python patterns.py --tab_dir my_tablatures --im_dir my_images --colour green
 ```
-This will transforms the songs in `my_tablatures/` into images and save these images in `my_images/`. The parameter `--colour` can be used to choose the colour of the images and the set of choices can be found in `patterns.py`.
+This will transform the songs in `my_tablatures/` into images and save these images in `my_images/`. The parameter `--colour` can be used to choose the colour of the images and the set of choices can be found in `patterns.py`.
 
 ### Website scroller
 
-The code in `scroller.py` is used to scroll through [Ultimate Guitar](https://www.ultimate-guitar.com/) and to download the corresponding files. This code requires you to set up a web driver for Chrome. To download the Chrome driver, go to [this webpage](https://chromedriver.chromium.org/downloads) and follow the instructions. Once you have downloaded the chromedriver, you can either put it in the main directory, or specify its path by using the argument `--chromedriver` in `scroller.py`.
+The code in `scroller.py` is used to scroll through [Ultimate Guitar](https://www.ultimate-guitar.com/) and to download the corresponding files. This code requires you to set up a web driver for Chrome. To download the Chrome driver, go to [this webpage](https://chromedriver.chromium.org/downloads) and follow the instructions. Once you have downloaded the right Chrome driver, you can either put it in the main directory, or specify its path by using the argument `--chromedriver` in `scroller.py`.
 
 __Disclaimer__: the code in `scroller.py` is very dependent on the architecture of the website it scrolls through. It might not be up-to-date with the current organization of the website and might need to be slightly modified. If it does not work, you can always manually download the tablatures from the website and put them into the tablature folder.
 
@@ -47,7 +47,7 @@ __Disclaimer__: the code in `scroller.py` is very dependent on the architecture 
 
 ### Background
 
-This repo contains a newly created dataset made of 4166 songs. Theese songs were downloaded using [this dataset](https://data.world/kcmillersean/billboard-hot-100-1958-2017) which contains the list of all songs that reached the _Billboard hot chart_. Each song is characterized by a _GuitarPro_ file and a set of 6 features: __artist__, __title__, __year__, __decade__, __genre__, and __types__. This dataset is useful to study music properties of a large set of popular songs.
+This repo contains a newly created dataset made of 4166 songs. These songs were downloaded using [this dataset](https://data.world/kcmillersean/billboard-hot-100-1958-2017) which contains the list of all songs that reached the [Billboard hot chart](https://www.billboard.com/charts/hot-100). Each song is characterized by a _GuitarPro_ file and a set of 6 features: __artist__, __title__, __year__, __decade__, __genre__, and __types__. This dataset is useful to study music properties of a large set of popular songs.
 
 ### Reproducing the results of the article
 
@@ -85,7 +85,7 @@ By using these images and comparing them between each other, it becomes possible
     <img width="100%" src="figures/figure.png"/>
 </p>
 
-All figures created by this algorithm look like the one above: the horizontal axis corresponds to groups of songs (here the 5 closest neighbours) and the vertical axis corresponds to some metric on these groups (here the year of release). The blue dots and blue bars represent the distribution of the main subject of interest (here the year of release of the songs). The red bars usually give extra information on these groups (here the average distance between songs). Finally, the yellow stars represent a special element of this group of songs (here the center of the neighbourhood). More information on these figures and various types of results can be find in the [article](https://www.math.mcgill.ca/bcorsini/math/articles/similarity_of_structures_in_popular_music.pdf).
+All figures created by this algorithm look like the one above: the horizontal axis corresponds to groups of songs (here the neighbourhoods of songs) and the vertical axis corresponds to some metric on these groups (here the year of release). The blue dots and blue bars represent the distribution of the main subject of interest (here the year of release of the songs). The red bars usually give extra information on these groups (here the average distance between songs). Finally, the yellow stars represent a special element of this group of songs (here the center of the neighbourhood). More information on these figures and the different types of results can be found in the [article](https://www.math.mcgill.ca/bcorsini/math/articles/similarity_of_structures_in_popular_music.pdf).
 
 ## Contact and information
 
