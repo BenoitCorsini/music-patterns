@@ -47,7 +47,7 @@ __Disclaimer__: the code in `scroller.py` is very dependent on the architecture 
 
 ### Background
 
-This repo contains a newly created dataset made of 4166 songs. These songs were downloaded using [this dataset](https://data.world/kcmillersean/billboard-hot-100-1958-2017) which contains the list of all songs that reached the [Billboard hot chart](https://www.billboard.com/charts/hot-100). Each song is characterized by a _GuitarPro_ file and a set of 6 features: __artist__, __title__, __year__, __decade__, __genre__, and __types__. This dataset is useful to study music properties of a large set of popular songs.
+This project contains a newly created dataset made of 4166 songs, available in `dataset/`. These songs were downloaded using [this dataset](https://data.world/kcmillersean/billboard-hot-100-1958-2017) which contains the list of all songs that reached the [Billboard hot chart](https://www.billboard.com/charts/hot-100). Each song is characterized by a _GuitarPro_ file and a set of 6 features: __artist__, __title__, __year__, __decade__, __genre__, and __types__. This dataset is useful to study music properties of a large set of popular songs.
 
 ### Reproducing the results of the article
 
@@ -59,7 +59,7 @@ __Careful__, it will take about 5 hours for the whole algorithm to be done (1 ho
 
 ### Playing with the dataset
 
-If not interested in running the whole algorithm, the distance matrix and the images are already precomputed in `precomputed/`. Since the distance file was too big to be included, it got split into 9 files that you can find in `precomputed/dists/`. To combine them back together, simply run
+If not interested in running the whole algorithm, the distance matrix and the images are already precomputed in `precomputed/`. Since the distance file was too big to be included, it was split into 9 files that you can find in `precomputed/dists/`. To combine them back together, simply run
 ```sh
 python precomputed/process_dists.py
 ```
@@ -96,4 +96,10 @@ All figures created by this algorithm look like the one above: the horizontal ax
 If you have any questions regarding the code, feel free to contact me at <benoitcorsini@gmail.com>.
 
 If you found this code useful or used it for your own study, please cite the following paper:
-...
+```sh
+@article{corsini2021similarity,
+    title={Similarity of structures in popular music},
+    author={Corsini, Beno{\^\i}t},
+    journal={preprint},
+    year={2021},
+}```
