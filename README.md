@@ -96,11 +96,11 @@ All figures created by this algorithm look like the one above: the horizontal ax
 If you have any questions regarding the code, feel free to contact me at <benoitcorsini@gmail.com>.
 
 If you found this code useful or used it for your own study, please cite the following paper:
-```sh
+```
 @article{corsini2021similarity,
-    title={Similarity of structures in popular music},
-    author={Corsini, Beno{\^\i}t},
-    journal={preprint},
-    year={2021},
+         title={Similarity of structures in popular music},
+         author={Corsini, Beno{\^\i}t},
+         journal={preprint},
+         year={2021},
 }
 ```
