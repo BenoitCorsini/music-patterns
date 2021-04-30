@@ -5,3 +5,15 @@ __pycache__/
 data/matrices/
 data/images/
 results/
+
+dataset/matrices/
+dataset/images/
+dataset/results/
+dataset/clusters/
+dataset/neighbours/
+dataset/statistics/
+
+precomputed/results/
+precomputed/clusters/
+precomputed/neighbours/
+precomputed/statistics/
