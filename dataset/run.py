@@ -3,7 +3,7 @@ import os
 
 if __name__ == '__main__':
 
-    run_cmd = 'python3 main.py'
+    run_cmd = 'python main.py'
 
     run_cmd += ' --run_tab_scroller 0'
     run_cmd += ' --run_pattern_matrix 1'
