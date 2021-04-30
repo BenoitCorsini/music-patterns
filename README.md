@@ -59,7 +59,11 @@ __Careful__, it will take about 5 hours for the whole algorithm to be done (1 ho
 
 ### Playing with the dataset
 
-If not interested in running the whole algorithm, the distance matrix and the images are already precomputed in `precomputed/`. To experiment with statistical properties of this dataset, use the file `precomputed/playing.py` by running:
+If not interested in running the whole algorithm, the distance matrix and the images are already precomputed in `precomputed/`. Since the distance file was too big to be included, it got split into 9 files that you can find in `precomputed/dists/`. To combine them back together, simply run
+```sh
+python precomputed/process_dists.py
+```
+When this is done, you can experiment with statistical properties of this dataset using the file `precomputed/playing.py`, by running:
 ```sh
 python precomputed/playing.py
 ```
